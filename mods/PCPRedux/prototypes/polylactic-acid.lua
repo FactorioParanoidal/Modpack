@@ -26,7 +26,7 @@ if data.raw.item["temperate-garden"] then
       name = "Bacterial-Anerobic-Fermentation",
       category = "chemistry",
       subgroup = "bio-processor-fermentation",
-      enabled = "false",
+      enabled = false,
       energy_required = 4,
       ingredients ={
         {type="fluid", name="liquid-fermentation-raw", amount=100},
@@ -46,7 +46,7 @@ if data.raw.item["temperate-garden"] then
       name = "lactic-acid-esterification",
       category = "chemistry",
       subgroup = "bio-plastic",
-      enabled = "false",
+      enabled = false,
       energy_required = 3,
       ingredients ={
         {type="fluid", name="liquid-lactic-acid", amount=200},
@@ -70,7 +70,7 @@ if data.raw.item["temperate-garden"] then
       name="bacterial-growth-seed-cultivation",
       category="chemistry",
       subgroup="bio-processor-fermentation",
-      enabled="false",
+      enabled=false,
       emergy_required=100,
       ingredients={
         {type="fluid", name="liquid-fermentation-raw", amount=5000},
@@ -94,7 +94,7 @@ if data.raw.item["temperate-garden"] then
       name="bacterial-growth-seed-cultivation-2",
       category="chemistry",
       subgroup="bio-processor-fermentation",
-      enabled="false",
+      enabled=false,
       emergy_required=20,
       ingredients={
         {type="fluid", name="liquid-fermentation-raw", amount=100},

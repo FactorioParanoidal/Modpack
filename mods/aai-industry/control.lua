@@ -279,9 +279,9 @@ local function init_crash_sequence()
     end
 
     local create_list = {
-      {names = {"rock-small"}, count = 30, radius = 10},
-      {names = {"rock-small"}, count = 30, radius = 20},
-      {names = {"rock-small"}, count = 30, radius = 40},
+      {names = {"small-rock"}, count = 30, radius = 10},
+      {names = {"small-rock"}, count = 30, radius = 20},
+      {names = {"small-rock"}, count = 30, radius = 40},
       {names = {"big-remnants"}, count = 5, radius = 15},
       {names = {"medium-remnants"}, count = 10, radius = 25},
       {names = {"small-remnants"}, count = 15, radius = 50},
@@ -302,7 +302,7 @@ local function init_crash_sequence()
         local safe_position = surface.find_non_colliding_position("aai-big-ship-wreck-1", try_position, fx_search_range, 1)
         safe_position = safe_position or try_position
         for _, name in pairs(settings.names) do
-          if name == "rock-small" then
+          if name == "small-rock" then
             surface.create_decoratives{check_collision = false, decoratives={{name=name, position = safe_position, amount = math.ceil(math.random() * 7)}}}
           else
             local entity = surface.create_entity{name=name, position=safe_position, force = game.forces["player"]}

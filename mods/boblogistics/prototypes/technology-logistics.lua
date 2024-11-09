@@ -1,4 +1,4 @@
-data.raw.technology["toolbelt"].upgrade = "true"
+data.raw.technology["toolbelt"].upgrade = true
 
 data:extend({
   {
@@ -25,7 +25,7 @@ data:extend({
       },
       time = 30,
     },
-    upgrade = "true",
+    upgrade = true,
     order = "c-k-m-a",
   },
 
@@ -54,7 +54,7 @@ data:extend({
       },
       time = 30,
     },
-    upgrade = "true",
+    upgrade = true,
     order = "c-k-m-b",
   },
   {
@@ -83,7 +83,7 @@ data:extend({
       },
       time = 30,
     },
-    upgrade = "true",
+    upgrade = true,
     order = "c-k-m-c",
   },
   {
@@ -114,7 +114,7 @@ data:extend({
       },
       time = 30,
     },
-    upgrade = "true",
+    upgrade = true,
     max_level = "13",
     order = "c-k-m-d",
   },

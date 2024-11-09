@@ -4,6 +4,6 @@
   "title": "Expanded Rocket Payloads",
   "author": "Musical Tanks",
   "description": "Adds several new tiers of functional satellites and other payloads to expand gameplay into the space age.",
-  "factorio_version": "1.1",
+  "factorio_version": "2.0",
   "dependencies": ["base >= 1.1"]
 }

@@ -28,16 +28,16 @@ require("prototypes.Wood_Products.tint_rails_remnants_function")
 ---- Update Standard Rails to use and look like concrete
 set_tint_to_rails(
   {
-    data.raw["straight-rail"]["straight-rail"],
-    data.raw["curved-rail"]["curved-rail"]
+    data.raw["legacy-straight-rail"]["legacy-straight-rail"],
+    data.raw["legacy-curved-rail"]["legacy-curved-rail"]
   },
   {r = 183/255, g = 183/255, b = 183/255, a = 1}
 ) -- concrete
 
 set_tint_to_remnants(
   {
-    data.raw["rail-remnants"]["straight-rail-remnants"],
-    data.raw["rail-remnants"]["curved-rail-remnants"]
+    data.raw["rail-remnants"]["legacy-straight-rail-remnants"],
+    data.raw["rail-remnants"]["legacy-curved-rail-remnants"]
   },
   {r = 183/255, g = 183/255, b = 183/255, a = 1}
 ) -- concrete
@@ -396,7 +396,7 @@ end
 ------------------------------------------------------------------------------------
 -- Omnifluid will be confused by our bi-solar-boiler (the compound boiler + solar
 -- plant entity). Let's blacklist it if the mod is active!
-BioInd.show("Omnifluid is active", mods["omnimatter_fluid"] or "false")
+BioInd.show("Omnifluid is active", mods["omnimatter_fluid"] or false)
 BioInd.show("forbidden_boilers", forbidden_boilers)
 
 if mods["omnimatter_fluid"]  then

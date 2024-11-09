@@ -30,7 +30,7 @@ function bobmods.lib.item.get_type(name) --returns actual item type
       "spidertron-remote",
     }
     for i, type_name in pairs(item_types) do
-      if data.raw[type_name][name] then
+      if data.raw[type_name] and data.raw[type_name][name] then
         item_type = type_name
       end
     end

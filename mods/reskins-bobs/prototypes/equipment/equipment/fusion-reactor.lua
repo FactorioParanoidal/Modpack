@@ -17,7 +17,7 @@ local inputs = {
 reskins.lib.parse_inputs(inputs)
 
 local fusion_reactors = {
-    ["fusion-reactor-equipment"] = {tier = 1, prog_tier = 2},
+    ["fission-reactor-equipment"] = {tier = 1, prog_tier = 2},
     ["fusion-reactor-equipment-2"] = {tier = 2, prog_tier = 3},
     ["fusion-reactor-equipment-3"] = {tier = 3, prog_tier = 4},
     ["fusion-reactor-equipment-4"] = {tier = 4, prog_tier = 5},

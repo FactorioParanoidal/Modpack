@@ -1,11 +1,11 @@
-local intake_connector_def = circuit_connector_definitions.create(universal_connector_template, {
+local intake_connector_def = circuit_connector_definitions.create_vector(universal_connector_template, {
   { variation = 26, main_offset = util.by_pixel(0, -3), shadow_offset = util.by_pixel(2, -3), show_shadow = true },
   { variation = 26, main_offset = util.by_pixel(0, 0), shadow_offset = util.by_pixel(2, 0), show_shadow = true },
   { variation = 2, main_offset = util.by_pixel(0, 3), shadow_offset = util.by_pixel(2, 3), show_shadow = true },
   { variation = 26, main_offset = util.by_pixel(0, 0), shadow_offset = util.by_pixel(2, 0), show_shadow = true },
 })
 
-local outtake_connector_def = circuit_connector_definitions.create(universal_connector_template, {
+local outtake_connector_def = circuit_connector_definitions.create_vector(universal_connector_template, {
   { variation = 2, main_offset = util.by_pixel(0, 3), shadow_offset = util.by_pixel(2, 3), show_shadow = true },
   { variation = 26, main_offset = util.by_pixel(0, 0), shadow_offset = util.by_pixel(2, 0), show_shadow = true },
   { variation = 26, main_offset = util.by_pixel(0, -3), shadow_offset = util.by_pixel(2, -3), show_shadow = true },

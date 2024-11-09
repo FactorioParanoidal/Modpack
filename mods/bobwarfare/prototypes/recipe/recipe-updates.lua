@@ -296,7 +296,7 @@ if data.raw.item["diamond-5"] then
 end
 
 if data.raw.module["effectivity-module-4"] then
-  bobmods.lib.recipe.replace_ingredient("bob-power-armor-mk3", "effectivity-module-3", "effectivity-module-4")
+  bobmods.lib.recipe.replace_ingredient("bob-power-armor-mk3", "efficiency-module-3", "effectivity-module-4")
 end
 
 if data.raw.module["speed-module-4"] then
@@ -304,7 +304,7 @@ if data.raw.module["speed-module-4"] then
 end
 
 if data.raw.module["effectivity-module-6"] then
-  bobmods.lib.recipe.replace_ingredient("bob-power-armor-mk4", "effectivity-module-3", "effectivity-module-6")
+  bobmods.lib.recipe.replace_ingredient("bob-power-armor-mk4", "efficiency-module-3", "effectivity-module-6")
 end
 
 if data.raw.module["speed-module-6"] then
@@ -312,7 +312,7 @@ if data.raw.module["speed-module-6"] then
 end
 
 if data.raw.module["effectivity-module-8"] then
-  bobmods.lib.recipe.replace_ingredient("bob-power-armor-mk5", "effectivity-module-3", "effectivity-module-8")
+  bobmods.lib.recipe.replace_ingredient("bob-power-armor-mk5", "efficiency-module-3", "effectivity-module-8")
 end
 
 if data.raw.module["speed-module-8"] then

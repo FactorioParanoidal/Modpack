@@ -14,7 +14,7 @@ layout.defaults = {}
 layout.defaults.miner = "electric-mining-drill"
 layout.defaults.belt = "transport-belt"
 layout.defaults.pole = "medium-electric-pole"
-layout.defaults.logistics = "logistic-chest-passive-provider"
+layout.defaults.logistics = "passive-provider-chest"
 layout.defaults.pipe = "pipe"
 
 ---@diagnostic disable-next-line: missing-fields

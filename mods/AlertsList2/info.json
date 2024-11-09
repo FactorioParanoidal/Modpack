@@ -5,7 +5,7 @@
     "author": "Thebri",
     "contact": "",
     "homepage": "https://github.com/NoUserToSeeMoveAlong/factorio-alerts/",
-    "factorio_version": "1.1",
+    "factorio_version": "2.0",
     "dependencies": [
         "base >= 0.17"
     ],

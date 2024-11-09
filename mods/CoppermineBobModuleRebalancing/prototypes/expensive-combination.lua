@@ -64,7 +64,7 @@ end
 
 if data.raw.item["advanced-circuit"] then
   bobmods.lib.recipe.replace_ingredient("speed-module-3", "processing-unit", "advanced-circuit")
-  bobmods.lib.recipe.replace_ingredient("effectivity-module-3", "processing-unit", "advanced-circuit")
+  bobmods.lib.recipe.replace_ingredient("efficiency-module-3", "processing-unit", "advanced-circuit")
   bobmods.lib.recipe.replace_ingredient("productivity-module-3", "processing-unit", "advanced-circuit")
   bobmods.lib.recipe.replace_ingredient("pollution-clean-module-3", "processing-unit", "advanced-circuit")
   bobmods.lib.recipe.replace_ingredient("pollution-create-module-3", "processing-unit", "advanced-circuit")

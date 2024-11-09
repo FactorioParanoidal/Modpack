@@ -11,7 +11,7 @@ script.on_init(function()
     add(created_items, { 
         --["iron-plate"] = 200,
 		--["iron-gear-wheel"] =158,
-		--player.insert{name="filter-inserter", count=25}
+		--player.insert{name="fast-inserter", count=25}
 		--player.insert{name="transport-belt", count=200}
 		--player.insert{name="electric-mining-drill", count=3}
 		--["stone-furnace"] =1,

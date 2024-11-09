@@ -10,14 +10,14 @@ data:extend(
 		subgroup = "angels-silicon-casting",
 		normal =
 		{
-			enabled = "false",
+			enabled = false,
 			energy_required = 6,
 			ingredients ={{type="item", name="angels-mono-silicon", amount=4}},
 			results={{type="fluid",name="liquid-molten-silicon", amount=15}},
 		},
 		expensive =
 		{
-			enabled = "false",
+			enabled = false,
 			energy_required = 6,
 			ingredients ={{type="item", name="angels-mono-silicon", amount=5 * intermediatemulti}},
 			results={{type="fluid",name="liquid-molten-silicon", amount=20}},

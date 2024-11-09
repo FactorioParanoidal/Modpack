@@ -250,7 +250,7 @@ styles.ltnm_main_warning_frame = {
 }
 
 -- LABEL STYLES
-
+local default_orange_color = { r = 0.98, g = 0.66, b = 0.22 }
 local hovered_label_color = {
   r = 0.5 * (1 + default_orange_color.r),
   g = 0.5 * (1 + default_orange_color.g),

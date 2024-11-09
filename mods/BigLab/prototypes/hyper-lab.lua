@@ -16,7 +16,7 @@ data:extend({
 		type = "recipe",
 		name = "hyper-lab",
 		energy_required = 1000,
-		enabled = "false",
+		enabled = false,
 		ingredients =
 		{
 		  {"refined-concrete", 10000},

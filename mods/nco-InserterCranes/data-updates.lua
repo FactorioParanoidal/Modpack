@@ -20,26 +20,26 @@ if mods["bobinserters"] then
 	speed_limit_wide = nil
 end
 
-register_crane("stack-inserter", "nco-wide-crane", true, speed_limit_wide)
-register_crane("stack-filter-inserter", "nco-wide-filter-crane", true, speed_limit_wide)
-register_crane("stack-inserter", "nco-crane", false, speed_limit)
-register_crane("stack-filter-inserter", "nco-filter-crane", false, speed_limit)
+register_crane("bulk-inserter", "nco-wide-crane", true, speed_limit_wide)
+register_crane("bulk-inserter", "nco-wide-filter-crane", true, speed_limit_wide)
+register_crane("bulk-inserter", "nco-crane", false, speed_limit)
+register_crane("bulk-inserter", "nco-filter-crane", false, speed_limit)
 
 -- bob's logistics
 if mods["boblogistics"] then
-	register_crane("red-stack-inserter", "nco-red-wide-crane", true, nil)
+	register_crane("red-bulk-inserter", "nco-red-wide-crane", true, nil)
 	register_crane("red-stack-filter-inserter", "nco-red-wide-filter-crane", true, nil)
-	register_crane("red-stack-inserter", "nco-red-crane", false, nil)
+	register_crane("red-bulk-inserter", "nco-red-crane", false, nil)
 	register_crane("red-stack-filter-inserter", "nco-red-filter-crane", false, nil)
 
-	register_crane("turbo-stack-inserter", "nco-wide-turbo-crane", true, nil)
+	register_crane("turbo-bulk-inserter", "nco-wide-turbo-crane", true, nil)
 	register_crane("turbo-stack-filter-inserter", "nco-wide-turbo-filter-crane", true, nil)
-	register_crane("turbo-stack-inserter", "nco-turbo-crane", false, nil)
+	register_crane("turbo-bulk-inserter", "nco-turbo-crane", false, nil)
 	register_crane("turbo-stack-filter-inserter", "nco-turbo-filter-crane", false, nil)
 
-	register_crane("express-stack-inserter", "nco-wide-express-crane", true, nil)
+	register_crane("express-bulk-inserter", "nco-wide-express-crane", true, nil)
 	register_crane("express-stack-filter-inserter", "nco-wide-express-filter-crane", true, nil)
-	register_crane("express-stack-inserter", "nco-express-crane", true, nil)
+	register_crane("express-bulk-inserter", "nco-express-crane", true, nil)
 	register_crane("express-stack-filter-inserter", "nco-express-filter-crane", true, nil)
 end
 

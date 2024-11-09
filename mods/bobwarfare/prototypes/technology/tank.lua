@@ -8,7 +8,7 @@ data:extend({
     prerequisites = {
       "tank",
       "artillery",
-      "advanced-electronics-2",
+      "processing-unit",
     },
     effects = {
       {

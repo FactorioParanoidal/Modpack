@@ -78,7 +78,7 @@ data:extend({{
     },{
         type			= "recipe",
         name			= "ued-large-db",
-        enabled			= "false",
+        enabled			= false,
         ingredients		= {
             {"substation", 1},
             {"copper-plate", 20},

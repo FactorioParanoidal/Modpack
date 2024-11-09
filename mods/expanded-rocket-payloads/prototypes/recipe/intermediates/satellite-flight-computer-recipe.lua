@@ -4,7 +4,7 @@ data:extend({
         name = "satellite-flight-computer",
         category = "satellite-crafting",
         energy_required = 100,
-        enabled = "false",
+        enabled = false,
         ingredients = 
         {
             {"arithmetic-combinator", 100},

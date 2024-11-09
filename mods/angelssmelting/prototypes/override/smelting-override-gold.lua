@@ -114,7 +114,7 @@ if angelsmods.trigger.smelting_products["gold"].wire then
         },
       },
     })
-    OV.add_prereq("advanced-electronics-2", "angels-gold-smelting-1")
+    OV.add_prereq("processing-unit", "angels-gold-smelting-1")
   end
 
   if mods["bobassembly"] and mods["bobelectronics"] then

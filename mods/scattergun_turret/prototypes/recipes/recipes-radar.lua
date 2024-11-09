@@ -24,7 +24,7 @@ data:extend({
 		name = "w93-modular-gun-radar",
 		enabled = false,
 		energy_required = 10,
-		ingredients = {{"copper-plate", 10},{"effectivity-module-2", 1},{"iron-gear-wheel", 10}},
+		ingredients = {{"copper-plate", 10},{"efficiency-module-2", 1},{"iron-gear-wheel", 10}},
 		result = "w93-modular-gun-radar",
 		icon = "__scattergun_turret__/graphics/icons/modular-gun-radar.png",
     		icon_size = 64,

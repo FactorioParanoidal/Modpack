@@ -5,6 +5,6 @@
     "author": "_CodeGreen",
     "contact": "Discord: _CodeGreen#0836",
     "description": "Highlight a belt line with the press of a button! (H)\nCycle between different lanes by highlighting the same belt again.\nPressing again while not selecting a belt will stop highlighting.\n\nSee mod portal for more information.",
-    "factorio_version": "1.1",
+    "factorio_version": "2.0",
     "dependencies": []
 }

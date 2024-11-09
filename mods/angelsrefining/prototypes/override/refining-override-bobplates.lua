@@ -237,7 +237,7 @@ if mods["bobplates"] then
   OV.add_prereq("solar-panel-equipment-2", "lead-processing")
   OV.add_prereq("vehicle-solar-panel-equipment-2", "lead-processing")
   if mods["bobmodules"] then
-    OV.add_prereq("advanced-electronics-2", "lead-processing")
+    OV.add_prereq("processing-unit", "lead-processing")
   end
   OV.patch_recipes({
     {

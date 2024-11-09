@@ -5,6 +5,6 @@
   "author": "GotLag",
   "homepage": "https://forums.factorio.com/viewtopic.php?f=94&t=20645",
   "description": "Adds pipes with restricted connections, and several useful valves.",
-  "factorio_version": "1.1",
+  "factorio_version": "2.0",
   "dependencies": [ "base >= 1.1.67" ]
 }

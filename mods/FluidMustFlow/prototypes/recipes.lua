@@ -3,7 +3,7 @@ data:extend({
     type = "recipe",
     name = "duct-small",
     energy_required = 2.0,
-    enabled = "false",
+    enabled = false,
     ingredients = {
       { type = "item", name = "iron-plate", amount = 4 },
     },
@@ -15,7 +15,7 @@ data:extend({
     type = "recipe",
     name = "duct-t-junction",
     energy_required = 2.0,
-    enabled = "false",
+    enabled = false,
     ingredients = {
       { type = "item", name = "iron-plate", amount = 8 },
     },
@@ -27,7 +27,7 @@ data:extend({
     type = "recipe",
     name = "duct-curve",
     energy_required = 2.0,
-    enabled = "false",
+    enabled = false,
     ingredients = {
       { type = "item", name = "iron-plate", amount = 8 },
     },
@@ -39,7 +39,7 @@ data:extend({
     type = "recipe",
     name = "duct-cross",
     energy_required = 2.0,
-    enabled = "false",
+    enabled = false,
     ingredients = {
       { type = "item", name = "iron-plate", amount = 8 },
     },
@@ -51,7 +51,7 @@ data:extend({
     type = "recipe",
     name = "duct-underground",
     energy_required = 6.0,
-    enabled = "false",
+    enabled = false,
     ingredients = {
       { type = "item", name = "iron-plate", amount = 60 },
     },
@@ -63,7 +63,7 @@ data:extend({
     type = "recipe",
     name = "non-return-duct",
     energy_required = 2.0,
-    enabled = "false",
+    enabled = false,
     ingredients = {
       { type = "item", name = "iron-plate", amount = 8 },
       { type = "item", name = "iron-gear-wheel", amount = 4 },
@@ -76,7 +76,7 @@ data:extend({
     type = "recipe",
     name = "duct-end-point-intake",
     energy_required = 2.0,
-    enabled = "false",
+    enabled = false,
     ingredients = {
       { type = "item", name = "engine-unit", amount = 6 },
       { type = "item", name = "pipe", amount = 6 },
@@ -90,7 +90,7 @@ data:extend({
     type = "recipe",
     name = "duct-end-point-outtake",
     energy_required = 2.0,
-    enabled = "false",
+    enabled = false,
     ingredients = {
       { type = "item", name = "engine-unit", amount = 6 },
       { type = "item", name = "pipe", amount = 6 },
@@ -108,7 +108,7 @@ if not settings.startup["fmf-enable-duct-auto-join"].value then
       type = "recipe",
       name = "duct",
       energy_required = 2.0,
-      enabled = "false",
+      enabled = false,
       ingredients = {
         { type = "item", name = "iron-plate", amount = 8 },
       },
@@ -120,7 +120,7 @@ if not settings.startup["fmf-enable-duct-auto-join"].value then
       type = "recipe",
       name = "duct-long",
       energy_required = 2.0,
-      enabled = "false",
+      enabled = false,
       ingredients = {
         { type = "item", name = "iron-plate", amount = 16 },
       },

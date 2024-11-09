@@ -21,7 +21,7 @@ if enabled then
     end
     bobmods.lib.recipe.remove_ingredient(product, "productivity-module-3")
     bobmods.lib.recipe.remove_ingredient(product, "productivity-module-8")
-    bobmods.lib.recipe.remove_ingredient(product, "effectivity-module-3")
+    bobmods.lib.recipe.remove_ingredient(product, "efficiency-module-3")
     bobmods.lib.recipe.remove_ingredient(product, "effectivity-module-8")
     bobmods.lib.recipe.remove_ingredient(product, "speed-module-3")
     bobmods.lib.recipe.remove_ingredient(product, "speed-module-8")

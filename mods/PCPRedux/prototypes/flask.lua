@@ -19,7 +19,7 @@ not data.raw.item["flask"] then
     {
       type = "recipe",
       name = "flask",
-      enabled = "false",
+      enabled = false,
       energy_required = 1,
       ingredients = {{type = "item", name = "solid-sodium-hydroxide", amount = 1}},
       results = {{type = "item", name = "flask", amount = 1}},

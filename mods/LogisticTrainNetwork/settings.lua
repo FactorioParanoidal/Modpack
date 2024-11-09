@@ -95,7 +95,7 @@ data:extend({
   },
   {
     type = "int-setting",
-    name = "ltn-dispatcher-depot-inactivity(s)",
+    name = "ltn-dispatcher-depot-inactivity",
     order = "cb",
     setting_type = "runtime-global",
     default_value = 5, --5s
@@ -104,7 +104,7 @@ data:extend({
   },
   {
     type = "int-setting",
-    name = "ltn-dispatcher-stop-timeout(s)",
+    name = "ltn-dispatcher-stop-timeout",
     order = "cc",
     setting_type = "runtime-global",
     default_value = 120, --2min
@@ -113,7 +113,7 @@ data:extend({
   },
   {
     type = "int-setting",
-    name = "ltn-dispatcher-delivery-timeout(s)",
+    name = "ltn-dispatcher-delivery-timeout",
     order = "cd",
     setting_type = "runtime-global",
     default_value = 600, --10min

@@ -132,7 +132,7 @@ data:extend({
         category = "chemistry",
         subgroup = "petrochem-sodium",
         energy_required = 2,
-        enabled = "false",
+        enabled = false,
         ingredients = {
             {type = "item", name = "solid-sodium-hydroxide", amount = 5},
             {type = "fluid", name = "liquid-hydrofluoric-acid", amount = 50},
@@ -153,7 +153,7 @@ data:extend({
         category = "chemistry",
         subgroup = "petrochem-sodium",
         energy_required = 2,
-        enabled = "false",
+        enabled = false,
         ingredients = {
             {type = "item", name = "solid-sodium-carbonate", amount = 5},
             {type = "fluid", name = "liquid-hexafluorosilicic-acid", amount = 25},
@@ -174,7 +174,7 @@ data:extend({
         category = "chemistry",
         subgroup = "petrochem-argon",
         energy_required = 2,
-        enabled = "false",
+        enabled = false,
         ingredients = {
             {type = "fluid", name = "gas-compressed-air",   amount=100}
         },
@@ -197,7 +197,7 @@ if mods["Clowns-Processing"] then
             category = "chemistry",
             subgroup = "petrochem-sodium",
             energy_required = 2,
-            enabled = "false",
+            enabled = false,
             ingredients = {
                 {type = "item", name = "solid-sodium-carbonate", amount = 5},
                 {type = "fluid", name = "liquid-phosphoric-acid", amount = 50},

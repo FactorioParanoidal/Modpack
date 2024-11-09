@@ -9,17 +9,17 @@ data:extend(
 		category = "induction-smelting",
 		subgroup = "angels-solder-casting",
 		energy_required = 6,
-		enabled = "false",
+		enabled = false,
 		normal =
 		{
-			enabled = "false",
+			enabled = false,
 			energy_required = 6,
 			ingredients ={{type="item", name="angels-solder", amount=4}},
 			results={{type="fluid",name="liquid-molten-solder", amount=15}},
 		},
 		expensive =
 		{
-			enabled = "false",
+			enabled = false,
 			energy_required = 6,
 			ingredients ={{type="item", name="angels-solder", amount=5 * intermediatemulti}},
 			results={{type="fluid",name="liquid-molten-solder", amount=20}},
@@ -45,7 +45,7 @@ data:extend(
 		name = "molten-solder-alloy-mixing-1",
 		category = "molten-alloy-mixing",
 		subgroup = "aragas-solder-alloy-mixing",
-		enabled = "false",
+		enabled = false,
 		energy_required = 4,
 		ingredients ={
 			{type="fluid", name="liquid-molten-tin", amount=120},
@@ -71,7 +71,7 @@ data:extend(
 		name = "molten-solder-alloy-mixing-2",
 		category = "molten-alloy-mixing",
 		subgroup = "aragas-solder-alloy-mixing",
-		enabled = "false",
+		enabled = false,
 		energy_required = 4,
 		ingredients ={
 			{type="fluid", name="liquid-molten-tin", amount=120},
@@ -97,7 +97,7 @@ data:extend(
 		name = "molten-solder-alloy-mixing-3",
 		category = "molten-alloy-mixing",
 		subgroup = "aragas-solder-alloy-mixing",
-		enabled = "false",
+		enabled = false,
 		energy_required = 4,
 		ingredients ={
 			{type="fluid", name="liquid-molten-tin", amount=120},

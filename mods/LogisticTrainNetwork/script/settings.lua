@@ -12,10 +12,10 @@ debug_log = settings.global["ltn-interface-debug-logfile"].value
 min_requested = settings.global["ltn-dispatcher-requester-threshold"].value
 min_provided = settings.global["ltn-dispatcher-provider-threshold"].value
 schedule_cc = settings.global["ltn-dispatcher-schedule-circuit-control"].value
-depot_inactivity = settings.global["ltn-dispatcher-depot-inactivity(s)"].value * 60
-stop_timeout = settings.global["ltn-dispatcher-stop-timeout(s)"].value * 60
+depot_inactivity = settings.global["ltn-dispatcher-depot-inactivity"].value * 60
+stop_timeout = settings.global["ltn-dispatcher-stop-timeout"].value * 60
 condition_stop_timeout = {type = "time", compare_type = "or", ticks = stop_timeout }
-delivery_timeout = settings.global["ltn-dispatcher-delivery-timeout(s)"].value * 60
+delivery_timeout = settings.global["ltn-dispatcher-delivery-timeout"].value * 60
 finish_loading = settings.global["ltn-dispatcher-finish-loading"].value
 requester_delivery_reset = settings.global["ltn-dispatcher-requester-delivery-reset"].value
 dispatcher_enabled = settings.global["ltn-dispatcher-enabled"].value
@@ -53,15 +53,15 @@ script.on_event(defines.events.on_runtime_mod_setting_changed, function(event)
   if event.setting == "ltn-dispatcher-schedule-circuit-control" then
     schedule_cc = settings.global["ltn-dispatcher-schedule-circuit-control"].value
   end
-  if event.setting == "ltn-dispatcher-depot-inactivity(s)" then
-    depot_inactivity = settings.global["ltn-dispatcher-depot-inactivity(s)"].value * 60
+  if event.setting == "ltn-dispatcher-depot-inactivity" then
+    depot_inactivity = settings.global["ltn-dispatcher-depot-inactivity"].value * 60
   end
-  if event.setting == "ltn-dispatcher-stop-timeout(s)" then
-    stop_timeout = settings.global["ltn-dispatcher-stop-timeout(s)"].value * 60
+  if event.setting == "ltn-dispatcher-stop-timeout" then
+    stop_timeout = settings.global["ltn-dispatcher-stop-timeout"].value * 60
     condition_stop_timeout = {type = "time", compare_type = "or", ticks = stop_timeout }
   end
-  if event.setting == "ltn-dispatcher-delivery-timeout(s)" then
-    delivery_timeout = settings.global["ltn-dispatcher-delivery-timeout(s)"].value * 60
+  if event.setting == "ltn-dispatcher-delivery-timeout" then
+    delivery_timeout = settings.global["ltn-dispatcher-delivery-timeout"].value * 60
   end
   if event.setting == "ltn-dispatcher-finish-loading" then
     finish_loading = settings.global["ltn-dispatcher-finish-loading"].value

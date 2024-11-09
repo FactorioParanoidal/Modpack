@@ -87,17 +87,17 @@ data:extend({
 
 --[[Effectivity Modules]]
 --
-data.raw["recipe"]["effectivity-module"].ingredients =
+data.raw["recipe"]["efficiency-module"].ingredients =
   { { "effectivity-processor", 1 }, { "module-case", 1 }, { "module-circuit-board", 1 }, { "module-contact", 4 } }
-data.raw["recipe"]["effectivity-module"].energy_required = 10
+data.raw["recipe"]["efficiency-module"].energy_required = 10
 
-data.raw["recipe"]["effectivity-module-2"].ingredients =
-  { { "effectivity-module", 1 }, { "effectivity-processor", 2 }, { "module-contact", 5 } }
-data.raw["recipe"]["effectivity-module-2"].energy_required = 20
+data.raw["recipe"]["efficiency-module-2"].ingredients =
+  { { "efficiency-module", 1 }, { "effectivity-processor", 2 }, { "module-contact", 5 } }
+data.raw["recipe"]["efficiency-module-2"].energy_required = 20
 
-data.raw["recipe"]["effectivity-module-3"].ingredients =
-  { { "effectivity-module-2", 1 }, { "effectivity-processor-2", 3 }, { "advanced-circuit", 5 } }
-data.raw["recipe"]["effectivity-module-3"].energy_required = 30
+data.raw["recipe"]["efficiency-module-3"].ingredients =
+  { { "efficiency-module-2", 1 }, { "effectivity-processor-2", 3 }, { "advanced-circuit", 5 } }
+data.raw["recipe"]["efficiency-module-3"].energy_required = 30
 
 data:extend({
   {
@@ -105,7 +105,7 @@ data:extend({
     name = "effectivity-module-4",
     enabled = false,
     ingredients = {
-      { "effectivity-module-3", 1 },
+      { "efficiency-module-3", 1 },
       { "effectivity-processor-2", 4 },
       { "module-contact", 5 },
       { "processing-unit", 5 },

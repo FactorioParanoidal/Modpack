@@ -95,7 +95,7 @@ data:extend({
 			{type = "unlock-recipe", recipe = name_fuel2.."-empty"},
 			{type = "unlock-recipe", recipe = name_fuel2.."-full"},
 		},
-		prerequisites = {name_tech_bet, "advanced-electronics-2"},
+		prerequisites = {name_tech_bet, "processing-unit"},
 		unit = {
 			count = 300,
 			ingredients = {
@@ -139,7 +139,7 @@ data:extend({
 			{type = "unlock-recipe", recipe = name_fuel4.."-empty"},
 			{type = "unlock-recipe", recipe = name_fuel4.."-full"},
 		},
-		prerequisites = {name_tech_fuel3, "effectivity-module-3"},
+		prerequisites = {name_tech_fuel3, "efficiency-module-3"},
 		unit = {
 			count = 300,
 			ingredients = {

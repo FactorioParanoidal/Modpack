@@ -20,8 +20,8 @@ local technologies = {
     -- ["electronics"] = {}, -- solder, solder plate, insulated wire, basic circuit, filter inserter, resistor, tin wire
 
     -- Advanced electronics
-    -- ["advanced-electronics"] = {},
-    ["advanced-electronics-3"] = {technology_icon_filename = "__base__/graphics/technology/advanced-electronics-2.png"}, -- Use "advanced-electronics-2" from base
+    -- ["advanced-circuit"] = {},
+    ["advanced-electronics-3"] = {technology_icon_filename = "__base__/graphics/technology/advanced-electronics-2.png"}, -- Use "processing-unit" from base
 }
 
 reskins.lib.create_icons_from_list(technologies, inputs)

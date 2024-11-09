@@ -5,7 +5,7 @@
   "author": "kajacx",
   "contact": "kajacx@gmail.com",
   "homepage": "https://mods.factorio.com/mod/CopyPasteModules",
-  "factorio_version": "1.1",
+  "factorio_version": "2.0",
   "dependencies": ["base >= 1.1"],
   "description": "Copy and paste modules together with machine settings. Now also works with blueprints!"
 }

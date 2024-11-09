@@ -767,11 +767,11 @@ ov_functions.barrel_overrides =
           }
           F_Fill.ingredients = {
             { type = "fluid", name = fluid_s.name, amount = 50 },
-            { type = "item", name = "empty-barrel", amount = 1 },
+            { type = "item", name = "barrel", amount = 1 },
           }
           F_Empty.results = {
             { type = "fluid", name = fluid_s.name, amount = 50 },
-            { type = "item", name = "empty-barrel", amount = 1 },
+            { type = "item", name = "barrel", amount = 1 },
           }
           F_Empty.localised_name = {
             "recipe-name.empty-filled-barrel",

@@ -1,17 +1,17 @@
 if data.raw.item["brass-chest"] then
   bobmods.lib.recipe.replace_ingredient(
     "logistic-chest-passive-provider-2",
-    "logistic-chest-passive-provider",
+    "passive-provider-chest",
     "brass-chest"
   )
   bobmods.lib.recipe.replace_ingredient(
     "logistic-chest-active-provider-2",
-    "logistic-chest-active-provider",
+    "active-provider-chest",
     "brass-chest"
   )
-  bobmods.lib.recipe.replace_ingredient("logistic-chest-storage-2", "logistic-chest-storage", "brass-chest")
-  bobmods.lib.recipe.replace_ingredient("logistic-chest-buffer-2", "logistic-chest-buffer", "brass-chest")
-  bobmods.lib.recipe.replace_ingredient("logistic-chest-requester-2", "logistic-chest-requester", "brass-chest")
+  bobmods.lib.recipe.replace_ingredient("logistic-chest-storage-2", "storage-chest", "brass-chest")
+  bobmods.lib.recipe.replace_ingredient("logistic-chest-buffer-2", "buffer-chest", "brass-chest")
+  bobmods.lib.recipe.replace_ingredient("logistic-chest-requester-2", "requester-chest", "brass-chest")
 
   bobmods.lib.recipe.add_ingredient("logistic-chest-passive-provider-2", { "advanced-circuit", 3 })
   bobmods.lib.recipe.add_ingredient("logistic-chest-active-provider-2", { "advanced-circuit", 3 })

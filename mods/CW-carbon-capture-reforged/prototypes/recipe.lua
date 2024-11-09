@@ -10,7 +10,7 @@ data:extend({
 		icon_size = 64,
 		category = "crafting",
 		energy_required = 5,
-		enabled = "false",
+		enabled = false,
 		ingredients =
 		{
 			{"assembling-machine-2", 1},
@@ -27,7 +27,7 @@ data:extend({
 		icon_size = 64,
 		category = "crafting",
 		energy_required = 10,
-		enabled = "false",
+		enabled = false,
 		ingredients =
 		{
 			{"CW-air-filter-machine-1", 2},
@@ -43,7 +43,7 @@ data:extend({
 		icon_size = 64,
 		category = "crafting",
 		energy_required = 10,
-		enabled = "false",
+		enabled = false,
 		ingredients =
 		{
 			{"CW-air-filter-machine-2", 2},
@@ -60,7 +60,7 @@ data:extend({
 		icon_size = 64,
 		category = "crafting",
 		energy_required = 10,
-		enabled = "false",
+		enabled = false,
 		ingredients =
 		{
 			{"CW-air-filter-machine-3", 2},
@@ -76,7 +76,7 @@ data:extend({
 		icon_size = 64,
 		category = "crafting",
 		energy_required = 10,
-		enabled = "false",
+		enabled = false,
 		ingredients =
 		{
 			{"CW-air-filter-machine-4", 2},
@@ -93,7 +93,7 @@ data:extend({
 		icon_size = 64,
 		category = "crafting",
 		energy_required = 15,
-		enabled = "false",
+		enabled = false,
 		ingredients =
 		{
 			{"CW-air-filter-machine-5", 2},
@@ -111,7 +111,7 @@ data:extend({
 		icon_mipmaps = 4,
 		category = "crafting",
 		energy_required = 2,
-		enabled = "false",
+		enabled = false,
 		ingredients =
 		{
 			{"steel-plate", 5}
@@ -127,7 +127,7 @@ data:extend({
 		icon_mipmaps = 4,
 		category = "crafting",
 		energy_required = 3,
-		enabled = "false",
+		enabled = false,
 		ingredients =
 		{
 			{"coal", 10},
@@ -142,8 +142,8 @@ data:extend({
 		icon_size = 64,
 		category = "CW-air-filter",
 		energy_required = 100,
-		enabled = "true",
-		hidden = "true",
+		enabled = true,
+		hidden = true,
 		ingredients =
 		{
 			{"CW-air-filter", 1},
@@ -157,7 +157,7 @@ data:extend({
 		icon_size = 32,
 		category = "crafting",
 		energy_required = 5,
-		enabled = "false",
+		enabled = false,
 		--requester_paste_multiplier = 10,
 		--overload_multiplier = 10,
 		main_product = "CW-air-filter",
@@ -181,7 +181,7 @@ data:extend({
 		icon_size = 32,
 		category = "crafting",
 		energy_required = 20,
-		enabled = "false",
+		enabled = false,
 		--requester_paste_multiplier = 10,
 		--overload_multiplier = 10,
 		main_product = "CW-air-filter",
@@ -204,7 +204,7 @@ data:extend({
 		icon_size = 32,
 		category = "chemistry",
 		energy_required = 15,
-		enabled = "false",
+		enabled = false,
 		--requester_paste_multiplier = 10,
 		--overload_multiplier = 10,
 		main_product = "CW-air-filter",
@@ -229,7 +229,7 @@ data:extend({
 		icon_size = 32,
 		category = "chemistry",
 		energy_required = 12,
-		enabled = "false",
+		enabled = false,
 		--requester_paste_multiplier = 10,
 		--overload_multiplier = 10,
 		main_product = "CW-air-filter",

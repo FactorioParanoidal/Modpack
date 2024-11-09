@@ -5,7 +5,7 @@
     "author": "Blank",
     "contact": "",
     "homepage": "",
-    "factorio_version": "1.1",
+    "factorio_version": "2.0",
     "dependencies": ["base >= 0.16"],
     "description": "A mod that removes fish!"
 }

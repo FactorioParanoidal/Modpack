@@ -101,8 +101,8 @@ end  --Brown+/Resistor
 if data.raw.technology["automation-3"] then
   bobmods.lib.tech.add_prerequisite("air-filtering-mk3", "automation-3")
 end  --Assembling-3
-if data.raw.technology["advanced-electronics"] then
-  bobmods.lib.tech.add_prerequisite("air-filtering-mk3", "advanced-electronics")
+if data.raw.technology["advanced-circuit"] then
+  bobmods.lib.tech.add_prerequisite("air-filtering-mk3", "advanced-circuit")
 end  --White+/Transistor
 --[[
 if data.raw.technology["steel-processing"] then
@@ -113,8 +113,8 @@ end  --Steel
 if data.raw.technology["automation-4"] then
   bobmods.lib.tech.add_prerequisite("air-filtering-mk4", "automation-4")
 end  --Assembling-4
-if data.raw.technology["advanced-electronics"] then
-  bobmods.lib.tech.add_prerequisite("air-filtering-mk4", "advanced-electronics")
+if data.raw.technology["advanced-circuit"] then
+  bobmods.lib.tech.add_prerequisite("air-filtering-mk4", "advanced-circuit")
 end  --White+/Transistor
 if data.raw.technology["aluminium-processing"] then
   bobmods.lib.tech.add_prerequisite("air-filtering-mk4", "aluminium-processing")
@@ -127,8 +127,8 @@ end  --Zinc
 if data.raw.technology["automation-5"] then
   bobmods.lib.tech.add_prerequisite("air-filtering-mk5", "automation-5")
 end  --Assembling-5
-if data.raw.technology["advanced-electronics-2"] then
-  bobmods.lib.tech.add_prerequisite("air-filtering-mk5", "advanced-electronics-2")
+if data.raw.technology["processing-unit"] then
+  bobmods.lib.tech.add_prerequisite("air-filtering-mk5", "processing-unit")
 end  --Green+/IC
 if data.raw.technology["titanium-processing"] then
   bobmods.lib.tech.add_prerequisite("air-filtering-mk5", "titanium-processing")

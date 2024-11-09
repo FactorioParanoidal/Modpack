@@ -377,7 +377,7 @@ data:extend({
   },
 })
 
-data.raw["generator-equipment"]["fusion-reactor-equipment"].sprite = {
+data.raw["generator-equipment"]["fission-reactor-equipment"].sprite = {
   filename = "__bobequipment__/graphics/icons/technology/fusion-reactor-equipment-1.png",
   width = 128,
   height = 128,

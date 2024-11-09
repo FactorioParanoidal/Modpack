@@ -5,7 +5,7 @@
     "author": "M.Cocko",
     "contact": "https://forums.factorio.com/memberlist.php?mode=viewprofile&u=32617",
     "homepage": "",
-    "factorio_version": "1.1",
+    "factorio_version": "2.0",
     "dependencies": ["base >= 1.1"],
     "description": "This is a project to rework some of the weapon sounds. Currently changed are: Pistol, Submachine-Gun, Shotgun, Combat-Shotgun and the Turret. More sounds might be added. Visit mods.factorio.com for a preview!"
 }

@@ -141,7 +141,7 @@ default_gui["helmod_table-odd"] = {
     opacity = 0.7
   }
 }
-
+local default_orange_color = { r = 0.98, g = 0.66, b = 0.22 }
 default_gui["helmod_table-rule-odd"] = {
   type = "table_style",
   -- default orange with alfa

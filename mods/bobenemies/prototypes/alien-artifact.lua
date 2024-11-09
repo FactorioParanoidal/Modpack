@@ -34,7 +34,7 @@ if settings.startup["bobmods-enemies-enableartifacts"].value == true then
           { "small-alien-artifact", 25 },
         },
         energy_required = 1,
-        enabled = "true",
+        enabled = true,
         category = "crafting",
       },
     })
@@ -62,7 +62,7 @@ if settings.startup["bobmods-enemies-enableartifacts"].value == true then
           { "alien-artifact", 5 },
         },
         energy_required = 1,
-        enabled = "true",
+        enabled = true,
         category = "crafting",
       },
 
@@ -86,7 +86,7 @@ if settings.startup["bobmods-enemies-enableartifacts"].value == true then
           { "alien-artifact", 5 },
         },
         energy_required = 1,
-        enabled = "true",
+        enabled = true,
         category = "crafting",
       },
 
@@ -110,7 +110,7 @@ if settings.startup["bobmods-enemies-enableartifacts"].value == true then
           { "alien-artifact", 5 },
         },
         energy_required = 1,
-        enabled = "true",
+        enabled = true,
         category = "crafting",
       },
 
@@ -134,7 +134,7 @@ if settings.startup["bobmods-enemies-enableartifacts"].value == true then
           { "alien-artifact", 5 },
         },
         energy_required = 1,
-        enabled = "true",
+        enabled = true,
         category = "crafting",
       },
 
@@ -158,7 +158,7 @@ if settings.startup["bobmods-enemies-enableartifacts"].value == true then
           { "alien-artifact", 5 },
         },
         energy_required = 1,
-        enabled = "true",
+        enabled = true,
         category = "crafting",
       },
 
@@ -182,7 +182,7 @@ if settings.startup["bobmods-enemies-enableartifacts"].value == true then
           { "alien-artifact", 5 },
         },
         energy_required = 1,
-        enabled = "true",
+        enabled = true,
         category = "crafting",
       },
     })
@@ -207,7 +207,7 @@ if settings.startup["bobmods-enemies-enableartifacts"].value == true then
             { "small-alien-artifact-red", 25 },
           },
           energy_required = 1,
-          enabled = "true",
+          enabled = true,
           category = "crafting",
         },
       })
@@ -231,7 +231,7 @@ if settings.startup["bobmods-enemies-enableartifacts"].value == true then
             { "small-alien-artifact-orange", 25 },
           },
           energy_required = 1,
-          enabled = "true",
+          enabled = true,
           category = "crafting",
         },
       })
@@ -255,7 +255,7 @@ if settings.startup["bobmods-enemies-enableartifacts"].value == true then
             { "small-alien-artifact-yellow", 25 },
           },
           energy_required = 1,
-          enabled = "true",
+          enabled = true,
           category = "crafting",
         },
       })
@@ -279,7 +279,7 @@ if settings.startup["bobmods-enemies-enableartifacts"].value == true then
             { "small-alien-artifact-green", 25 },
           },
           energy_required = 1,
-          enabled = "true",
+          enabled = true,
           category = "crafting",
         },
       })
@@ -303,7 +303,7 @@ if settings.startup["bobmods-enemies-enableartifacts"].value == true then
             { "small-alien-artifact-blue", 25 },
           },
           energy_required = 1,
-          enabled = "true",
+          enabled = true,
           category = "crafting",
         },
       })
@@ -327,7 +327,7 @@ if settings.startup["bobmods-enemies-enableartifacts"].value == true then
             { "small-alien-artifact-purple", 25 },
           },
           energy_required = 1,
-          enabled = "true",
+          enabled = true,
           category = "crafting",
         },
       })

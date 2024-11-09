@@ -5,7 +5,7 @@ data:extend({
     enabled = false,
     energy_required = 21,
     ingredients = {
-      { "filter-inserter", 1 },
+      { "fast-inserter", 1 },
       { "express-transport-belt", 1 },
       { "flying-robot-frame", 1 },
       { "steel-chest", 2 },
@@ -22,7 +22,7 @@ data:extend({
     ingredients = {
       { "lab", 1 },
       { "advanced-circuit", 10 },
-      { "filter-inserter", 4 },
+      { "fast-inserter", 4 },
       { "express-transport-belt", 4 },
     },
     result = "lab-2",

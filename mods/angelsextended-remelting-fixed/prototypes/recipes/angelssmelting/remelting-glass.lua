@@ -10,14 +10,14 @@ data:extend(
 		subgroup = "angels-glass-casting",
 		normal =
 		{
-			enabled = "false",
+			enabled = false,
 			energy_required = 6,
 			ingredients ={{type="item", name="angels-plate-glass", amount=4}},
 			results={{type="fluid",name="liquid-molten-glass", amount=10}},
 		},
 		expensive =
 		{
-			enabled = "false",
+			enabled = false,
 			energy_required = 6,
 			ingredients ={{type="item", name="angels-plate-glass", amount=5 * intermediatemulti}},
 			results={{type="fluid",name="liquid-molten-glass", amount=20}},

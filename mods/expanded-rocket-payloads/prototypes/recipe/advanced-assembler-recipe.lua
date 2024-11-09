@@ -8,7 +8,7 @@ data:extend({
        {
          {"assembling-machine-3", 20},
          {"concrete", 400},
-         {"stack-inserter", 10},
+         {"bulk-inserter", 10},
          {"steel-plate", 400},
          {"processing-unit", 200},
        },

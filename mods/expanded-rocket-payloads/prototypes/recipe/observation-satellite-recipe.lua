@@ -4,7 +4,7 @@ data:extend({
         name = "observation-satellite",
         category = "satellite-crafting",
         energy_required = 100,
-        enabled = "false",
+        enabled = false,
         ingredients = 
         {
             {"satellite-battery", 4},

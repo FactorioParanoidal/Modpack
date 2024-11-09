@@ -46,6 +46,6 @@ data:extend({
     order = "bd",
     setting_type = "startup",
     allow_blank = false,
-    default_value = "optics",
+    default_value =  "lamp",
   },
 })

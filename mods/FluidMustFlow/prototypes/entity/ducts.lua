@@ -1,25 +1,25 @@
-local connector_def = circuit_connector_definitions.create(universal_connector_template, {
+local connector_def = circuit_connector_definitions.create_vector(universal_connector_template, {
   { variation = 0, main_offset = util.by_pixel(5, -18), shadow_offset = util.by_pixel(2, 0), draw_shadow = true },
   { variation = 0, main_offset = util.by_pixel(5, -14), shadow_offset = util.by_pixel(2, 0), draw_shadow = true },
   { variation = 0, main_offset = util.by_pixel(5, -18), shadow_offset = util.by_pixel(2, 0), draw_shadow = true },
   { variation = 0, main_offset = util.by_pixel(5, -14), shadow_offset = util.by_pixel(2, 0), draw_shadow = true },
 })
 
-local curve_connector_def = circuit_connector_definitions.create(universal_connector_template, {
+local curve_connector_def = circuit_connector_definitions.create_vector(universal_connector_template, {
   { variation = 0, main_offset = util.by_pixel(5, -32), shadow_offset = util.by_pixel(2, 0), draw_shadow = true },
   { variation = 0, main_offset = util.by_pixel(5, -32), shadow_offset = util.by_pixel(2, 0), draw_shadow = true },
   { variation = 0, main_offset = util.by_pixel(5, 2), shadow_offset = util.by_pixel(2, 0), draw_shadow = true },
   { variation = 0, main_offset = util.by_pixel(5, 2), shadow_offset = util.by_pixel(2, 0), draw_shadow = true },
 })
 
-local t_connector_def = circuit_connector_definitions.create(universal_connector_template, {
+local t_connector_def = circuit_connector_definitions.create_vector(universal_connector_template, {
   { variation = 0, main_offset = util.by_pixel(5, -18), shadow_offset = util.by_pixel(2, 0), draw_shadow = true },
   { variation = 0, main_offset = util.by_pixel(5, -14), shadow_offset = util.by_pixel(2, 0), draw_shadow = true },
   { variation = 0, main_offset = util.by_pixel(5, -10), shadow_offset = util.by_pixel(2, 0), draw_shadow = true },
   { variation = 0, main_offset = util.by_pixel(5, -14), shadow_offset = util.by_pixel(2, 0), draw_shadow = true },
 })
 
-local cross_connector_def = circuit_connector_definitions.create(universal_connector_template, {
+local cross_connector_def = circuit_connector_definitions.create_vector(universal_connector_template, {
   { variation = 0, main_offset = util.by_pixel(5, -14), shadow_offset = util.by_pixel(2, 0), draw_shadow = true },
   { variation = 0, main_offset = util.by_pixel(5, -14), shadow_offset = util.by_pixel(2, 0), draw_shadow = true },
   { variation = 0, main_offset = util.by_pixel(5, -14), shadow_offset = util.by_pixel(2, 0), draw_shadow = true },

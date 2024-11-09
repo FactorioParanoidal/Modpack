@@ -151,7 +151,7 @@ data:extend(
   {
     type = "recipe",
     name = "electronics-machine-4",
-    enabled = "false",
+    enabled = false,
     ingredients =
     {
       {"electronics-machine-3", 4},
@@ -176,7 +176,7 @@ data:extend(
     prerequisites =
     {
       "electronics-machine-3",
-      "advanced-electronics-2"
+      "processing-unit"
     },
     unit =
     {
@@ -196,7 +196,7 @@ data:extend(
     {
     type = "recipe",
     name = "electronics-machine-5",
-    enabled = "false",
+    enabled = false,
     ingredients =
     {
       {"electronics-machine-4", 4},
@@ -221,7 +221,7 @@ data:extend(
     prerequisites =
     {
       "electronics-machine-4",
-      "advanced-electronics-2"
+      "processing-unit"
     },
     unit =
     {
@@ -385,7 +385,7 @@ data:extend(
   {
     type = "recipe",
     name = "electronics-machine-5",
-    enabled = "false",
+    enabled = false,
     ingredients =
     {
       {"electronics-machine-4", 4},
@@ -410,7 +410,7 @@ data:extend(
     prerequisites =
     {
       "electronics-machine-4",
-      "advanced-electronics-2"
+      "processing-unit"
     },
     unit =
     {
@@ -430,7 +430,7 @@ data:extend(
     {
     type = "recipe",
     name = "electronics-machine-5",
-    enabled = "false",
+    enabled = false,
     ingredients =
     {
       {"electronics-machine-4", 4},
@@ -455,7 +455,7 @@ data:extend(
     prerequisites =
     {
       "electronics-machine-4",
-      "advanced-electronics-2"
+      "processing-unit"
     },
     unit =
     {

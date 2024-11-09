@@ -2,8 +2,8 @@
 local technologies_icons = { 
 
 
-	{"advanced-electronics",  				"advanced-electronics.png",  				}, 		
-	{"advanced-electronics-2",   				"advanced-electronics-2.png",   			}, 		
+	{"advanced-circuit",  				"advanced-electronics.png",  				}, 		
+	{"processing-unit",   				"advanced-electronics-2.png",   			}, 		
 	{"advanced-electronics-3",   				"advanced-electronics-3.png",   			},
 	
 	{"advanced-material-processing",   		"advanced-material-processing.png",   		}, 		
@@ -533,9 +533,9 @@ local technologies_icons = {
    	{"modules",   							"modules-1.png",   						}, 		
    	{"module-merging",   					"modules-2.png",   					}, 		
 
---   	{"effectivity-module",   				"effectivity-module.png",   				}, 		
---   	{"effectivity-module-2",   				"effectivity-module-2.png",   			}, 		
---   	{"effectivity-module-3",   				"effectivity-module-3.png",   			}, 		
+--   	{"efficiency-module",   				"effectivity-module.png",   				}, 		
+--   	{"efficiency-module-2",   				"effectivity-module-2.png",   			}, 		
+--   	{"efficiency-module-3",   				"effectivity-module-3.png",   			}, 		
 --   	{"effectivity-module-4",   				"effectivity-module-4.png",   			}, 		
 --   	{"effectivity-module-5",   				"effectivity-module-5.png",   			}, 		
 --   	{"effectivity-module-6",   				"effectivity-module-6.png",   			}, 		
@@ -641,8 +641,8 @@ local technologies_icons = {
    	{"near-inserters",   					"near-inserters.png",   					}, 		
    	{"express-inserters",   					"express-inserters.png",   				}, 		
 
-   	{"stack-inserter",   					"stack-inserters.png",   					}, 		
-   	{"stack-inserter-2",   					"stack-inserters-2.png",   				}, 		
+   	{"bulk-inserter",   					"bulk-inserters.png",   					}, 		
+   	{"bulk-inserter-2",   					"bulk-inserters-2.png",   				}, 		
 
    	{"inserter-capacity-bonus-1",   			"inserter-capacity-bonus.png",   		}, 		
    	{"inserter-capacity-bonus-2",   			"inserter-capacity-bonus.png",   		}, 		
@@ -653,10 +653,10 @@ local technologies_icons = {
    	{"inserter-capacity-bonus-7",   			"inserter-capacity-bonus.png",   		}, 		
    	{"inserter-capacity-bonus-8",   			"inserter-capacity-bonus.png",   		},
    	
-   	{"inserter-stack-size-bonus-1",   			"stack-inserter-capacity-bonus.png",   		}, 		
-   	{"inserter-stack-size-bonus-2",   			"stack-inserter-capacity-bonus.png",   		}, 		
-   	{"inserter-stack-size-bonus-3",   			"stack-inserter-capacity-bonus.png",   		}, 		
-   	{"inserter-stack-size-bonus-4",   			"stack-inserter-capacity-bonus.png",   		}, 		
+   	{"inserter-stack-size-bonus-1",   			"bulk-inserter-capacity-bonus.png",   		}, 		
+   	{"inserter-stack-size-bonus-2",   			"bulk-inserter-capacity-bonus.png",   		}, 		
+   	{"inserter-stack-size-bonus-3",   			"bulk-inserter-capacity-bonus.png",   		}, 		
+   	{"inserter-stack-size-bonus-4",   			"bulk-inserter-capacity-bonus.png",   		}, 		
 
 
    	{"loader",   							"loader-1.png"			,nil,"a-f-a1"   					}, 		
@@ -685,7 +685,7 @@ local technologies_icons = {
 --   	{"follower-robot-count-6",   				"follower-robot-count-6.png",   			}, 		
 --   	{"follower-robot-count-7",   				"follower-robot-count-7.png",   			}, 		
 
-   	{"fusion-reactor-equipment",   			"fusion-reactor-equipment-1.png",   			}, 		
+   	{"fission-reactor-equipment",   			"fusion-reactor-equipment-1.png",   			}, 		
    	{"fusion-reactor-equipment-2",   			"fusion-reactor-equipment-2.png",   		}, 		
    	{"fusion-reactor-equipment-3",   			"fusion-reactor-equipment-3.png",   		}, 		
    	{"fusion-reactor-equipment-4",   			"fusion-reactor-equipment-4.png",   		}, 		
@@ -746,7 +746,7 @@ local technologies_icons = {
 --   	{"nuclear-power",   					"nuclear-power.png",   					}, 		
 --   	{"uranium-ammo",   						"uranium-ammo.png",   					}, 		
 
---   	{"optics",   							"optics.png",   						}, 		
+--   	{ "lamp",   							"optics.png",   						}, 		
 --   	{"plastics",   						"plastics.png",   						}, 		
 --   	{"polishing",   						"polishing.png",   						}, 
 

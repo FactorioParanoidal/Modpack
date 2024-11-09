@@ -208,7 +208,7 @@ data:extend({
 
 	{
 
-		filename = "__base__/graphics/entity/stack-inserter/stack-inserter-hand-closed-shadow.png",
+		filename = "__base__/graphics/entity/bulk-inserter/bulk-inserter-hand-closed-shadow.png",
 
 		priority = "extra-high",
 		width = 24,
@@ -216,7 +216,7 @@ data:extend({
 		hr_version =
 		{
 
-			filename = "__base__/graphics/entity/stack-inserter/hr-stack-inserter-hand-closed-shadow.png",
+			filename = "__base__/graphics/entity/bulk-inserter/hr-bulk-inserter-hand-closed-shadow.png",
 			priority = "extra-high",
 			width = 100,
 
@@ -230,7 +230,7 @@ data:extend({
 
 	{
 
-		filename = "__base__/graphics/entity/stack-inserter/stack-inserter-hand-open-shadow.png",
+		filename = "__base__/graphics/entity/bulk-inserter/bulk-inserter-hand-open-shadow.png",
 		priority = "extra-high",
 		width = 32,
 		height = 41,
@@ -238,7 +238,7 @@ data:extend({
 
 		{
 
-			filename = "__base__/graphics/entity/stack-inserter/hr-stack-inserter-hand-open-shadow.png",
+			filename = "__base__/graphics/entity/bulk-inserter/hr-bulk-inserter-hand-open-shadow.png",
 			priority = "extra-high",
 			width = 130,
 
@@ -267,7 +267,7 @@ data:extend({
 			hr_version =
 			{
 
-				filename = "__base__/graphics/entity/stack-inserter/hr-stack-inserter-platform.png",
+				filename = "__base__/graphics/entity/bulk-inserter/hr-bulk-inserter-platform.png",
 
 				priority = "extra-high",
  

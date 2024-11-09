@@ -4,7 +4,7 @@ data:extend({
         name = "mining-shuttle",
         category = "satellite-crafting",
         energy_required = 480,
-        enabled = "false",
+        enabled = false,
         subgroup = "Space-Shuttles",
         ingredients = 
         {

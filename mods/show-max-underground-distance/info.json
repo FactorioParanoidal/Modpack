@@ -3,7 +3,7 @@
     "title": "Show Max Underground Distance",
 	"author": "ltab",
 	"version": "0.0.9",
-	"factorio_version": "1.1",
+	"factorio_version": "2.0",
 	"description": "Shows maximum range indicators to help you place underground belts and pipes.",
 	"dependencies": ["base", "(?) longer-belts-redux", "(?) propertyrandomizer"]
 }

@@ -78,7 +78,7 @@ data:extend({{
 	},{
 		type			= "recipe",
 		name			= "ued-long-distance-db",
-		enabled			= "false",
+		enabled			= false,
 		ingredients		= {
 			{"big-electric-pole", 1},
 			{"electronic-circuit", 5},

@@ -9,7 +9,7 @@ data:extend(
     category = "casting",
     subgroup = "angels-iron-casting",
     energy_required = 4,
-    enabled = "false",
+    enabled = false,
     ingredients = {
       { type = "fluid", name = "liquid-molten-iron", amount = 40},
     },
@@ -25,7 +25,7 @@ data:extend(
     category = "casting",
     subgroup = "angels-iron-casting",
     energy_required = 2,
-    enabled = "false",
+    enabled = false,
     ingredients = {
       { type = "fluid", name = "liquid-molten-iron", amount = 150},
     },
@@ -113,7 +113,7 @@ data:extend({
     category = "sintering",
     subgroup = "angels-mold-casting",
     energy_required = 8,
-    enabled = "false",
+    enabled = false,
     icons = {
       {
         icon = "__angelssmelting__/graphics/icons/expendable-mold.png",
@@ -170,7 +170,7 @@ data:extend({
         },
       }, 1, angelsmods.smelting.number_tint),
     energy_required = 8,
-    enabled = "false",
+    enabled = false,
     ingredients = {
       { type = "item", name = "solid-zinc-oxide", amount = 40},
       { type = "item", name = "powder-steel", amount = 10}
@@ -188,7 +188,7 @@ data:extend({
     category = "crafting-with-fluid",
     subgroup = "angels-mold-casting",
     energy_required = 8,
-    enabled ="false",
+    enabled =false,
     icons = angelsmods.functions.add_number_icon_layer(
       angelsmods.functions.get_object_icons("ASE-spent-metal-die"),
       2, angelsmods.smelting.number_tint),
@@ -214,7 +214,7 @@ data:extend(
     subgroup = "angels-iron-casting",
     localised_name = {"recipe-name.reg-casting", { "lookup.iron"}, {"string.gear"}},
     energy_required = 2,
-    enabled = "false",
+    enabled = false,
     ingredients = {
       { type = "fluid", name = "liquid-molten-iron", amount = 80},
     },
@@ -231,7 +231,7 @@ data:extend(
     subgroup = "angels-iron-casting",
     localised_name = { "recipe-name.sand-casting", { "lookup.iron"}, {"string.gear"}},
     energy_required = 0.5,
-    enabled = "false",
+    enabled = false,
     icons = {
       { icon = "__base__/graphics/icons/iron-gear-wheel.png", icon_size = 64,},
       { 
@@ -266,7 +266,7 @@ data:extend(
     subgroup = "angels-iron-casting",
     localised_name = { "recipe-name.die-casting", { "lookup.iron"}, {"string.gear"}},
     energy_required = 0.5,
-    enabled = "false",
+    enabled = false,
     icons = {
       { icon = "__base__/graphics/icons/iron-gear-wheel.png", icon_size = 64,},
       {

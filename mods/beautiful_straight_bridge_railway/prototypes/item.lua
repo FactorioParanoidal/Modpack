@@ -101,8 +101,8 @@ local bbr_rail_pictures = function(id)
 end
 
 -- add fast_replaceable_group to vanilla rail
--- data.raw["straight-rail"]["straight-rail"].fast_replaceable_group = "straight-rail"
--- data.raw["curved-rail"]["curved-rail"].fast_replaceable_group = "curved-rail"
+-- data.raw["legacy-straight-rail"]["legacy-straight-rail"].fast_replaceable_group = "legacy-straight-rail"
+-- data.raw["legacy-curved-rail"]["legacy-curved-rail"].fast_replaceable_group = "legacy-curved-rail"
 
 local ptype
 local holder = {}
@@ -145,7 +145,7 @@ for id, param in pairs(bridges) do
 	table.insert(holder, ptype)
 
 -- straight-rail
-	ptype = table.deepcopy(data.raw["straight-rail"]["straight-rail"])
+	ptype = table.deepcopy(data.raw["legacy-straight-rail"]["legacy-straight-rail"])
 	ptype.name = "bbr-straight-rail-"..id
 	ptype.collision_mask = { "object-layer" }
 	ptype.minable.result = "bbr-rail-"..id
@@ -162,7 +162,7 @@ for id, param in pairs(bridges) do
 	table.insert(holder, ptype)
 
 -- curved-rail
-	ptype = table.deepcopy(data.raw["curved-rail"]["curved-rail"])
+	ptype = table.deepcopy(data.raw["legacy-curved-rail"]["legacy-curved-rail"])
 	ptype.name = "bbr-curved-rail-"..id
 	ptype.collision_mask = { "object-layer" }
 	ptype.minable.result = "bbr-rail-"..id

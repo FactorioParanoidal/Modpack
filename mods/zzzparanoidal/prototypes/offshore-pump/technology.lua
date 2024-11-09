@@ -6,7 +6,7 @@ data:extend(
 	icon_size = 256,
 	icon_mipmaps = 4,
 	icon = "__zzzparanoidal__/graphics/technology/offshore-pump-2.png",
-	prerequisites = {"fluid-handling", "advanced-electronics"},
+	prerequisites = {"fluid-handling", "advanced-circuit"},
 	effects ={{type = "unlock-recipe", recipe = "offshore-mk2-pump"}},
 	unit =
 	{
@@ -26,7 +26,7 @@ data:extend(
 		icon_size = 256,
 		icon_mipmaps = 4,
 		icon = "__zzzparanoidal__/graphics/technology/offshore-pump-3.png",
-		prerequisites = {"offshore-pump-2", "advanced-electronics"},
+		prerequisites = {"offshore-pump-2", "advanced-circuit"},
 		effects ={{type = "unlock-recipe", recipe = "offshore-mk3-pump"}},
 		unit =
 		{
@@ -47,7 +47,7 @@ data:extend(
 	icon_size = 256,
 	icon_mipmaps = 4,
 	icon = "__zzzparanoidal__/graphics/technology/offshore-pump-4.png",
-	prerequisites = {"offshore-pump-3", "advanced-electronics"},
+	prerequisites = {"offshore-pump-3", "advanced-circuit"},
 	effects ={{type = "unlock-recipe", recipe = "offshore-mk4-pump"}},
 	unit =
 	{

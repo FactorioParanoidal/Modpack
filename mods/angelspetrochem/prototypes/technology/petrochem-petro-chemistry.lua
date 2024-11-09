@@ -270,7 +270,7 @@ data:extend({
     icon_size = 128,
     prerequisites = {
       "angels-advanced-chemistry-1",
-      "advanced-electronics",
+      "advanced-circuit",
       "gas-steam-cracking-1",
       "oil-steam-cracking-1",
       "chemical-science-pack",
@@ -377,7 +377,7 @@ data:extend({
     icon_size = 128,
     prerequisites = {
       "angels-advanced-chemistry-3",
-      "advanced-electronics-2",
+      "processing-unit",
       "production-science-pack",
     },
     effects = {

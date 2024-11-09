@@ -10,7 +10,9 @@
     <NukeTelemetryVersion>1</NukeTelemetryVersion>
     <IsPackable>false</IsPackable>
     <Nullable>enable</Nullable>
+  </PropertyGroup>
 
+  <PropertyGroup Condition="'$(Configuration)' != 'Debug'">
     <PublishSingleFile>true</PublishSingleFile>
     <SelfContained>true</SelfContained>
     <JsonSerializerIsReflectionEnabledByDefault>true</JsonSerializerIsReflectionEnabledByDefault>
@@ -19,7 +21,7 @@
   </PropertyGroup>
   
   <PropertyGroup>
-    <FactorioParanoidalLibsVersion>0.1.0</FactorioParanoidalLibsVersion>
+    <FactorioParanoidalLibsVersion>0.1.1</FactorioParanoidalLibsVersion>
   </PropertyGroup>
 
   <ItemGroup>

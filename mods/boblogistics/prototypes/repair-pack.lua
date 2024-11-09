@@ -128,7 +128,7 @@ data:extend({
     icon_size = 32,
     prerequisites = {
       "bob-repair-pack-2",
-      "advanced-electronics",
+      "advanced-circuit",
     },
     effects = {
       {
@@ -153,7 +153,7 @@ data:extend({
     icon_size = 32,
     prerequisites = {
       "bob-repair-pack-3",
-      "advanced-electronics-2",
+      "processing-unit",
     },
     effects = {
       {

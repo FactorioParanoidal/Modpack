@@ -10,14 +10,14 @@ data:extend(
 		subgroup = "angels-silver-casting",
 		normal =
 		{
-			enabled = "false",
+			enabled = false,
 			energy_required = 6,
 			ingredients ={{type="item", name="angels-plate-silver", amount=4}},
 			results={{type="fluid",name="liquid-molten-silver", amount=15}},
 		},
 		expensive =
 		{
-			enabled = "false",
+			enabled = false,
 			energy_required = 6,
 			ingredients ={{type="item", name="angels-plate-silver", amount=5 * intermediatemulti}},
 			results={{type="fluid",name="liquid-molten-silver", amount=20}},

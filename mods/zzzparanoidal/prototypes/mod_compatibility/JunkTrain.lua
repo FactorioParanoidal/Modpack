@@ -427,27 +427,27 @@ data.raw.technology.JunkTrain_tech.icon = "__zzzparanoidal__/graphics/train/t0/u
 data.raw.technology.JunkTrain_tech.icon_size = 64
 -------------------------------------------------------------------------------------------------
 --поправляем рельсы
-data.raw["straight-rail"]["straight-scrap-rail"].max_health = 50
-data.raw["straight-rail"]["straight-scrap-rail"].resistances = nil
+data.raw["legacy-straight-rail"]["straight-scrap-rail"].max_health = 50
+data.raw["legacy-straight-rail"]["straight-scrap-rail"].resistances = nil
 
-data.raw["curved-rail"]["curved-scrap-rail"].max_health = 100
-data.raw["curved-rail"]["curved-scrap-rail"].resistances = nil
+data.raw["legacy-curved-rail"]["curved-scrap-rail"].max_health = 100
+data.raw["legacy-curved-rail"]["curved-scrap-rail"].resistances = nil
 -------------------------------------------------------------------------------------------------
 --делаем возможность обновления рельс и светофоров штатным путем
-data.raw["straight-rail"]["straight-scrap-rail"].next_upgrade = "straight-rail"
-data.raw["curved-rail"]["curved-scrap-rail"].next_upgrade = "curved-rail"
+data.raw["legacy-straight-rail"]["straight-scrap-rail"].next_upgrade = "legacy-straight-rail"
+data.raw["legacy-curved-rail"]["curved-scrap-rail"].next_upgrade = "legacy-curved-rail"
 
-data.raw["straight-rail"]["straight-scrap-rail"].fast_replaceable_group = "rail"
-data.raw["curved-rail"]["curved-scrap-rail"].fast_replaceable_group = "rail"
+data.raw["legacy-straight-rail"]["straight-scrap-rail"].fast_replaceable_group = "rail"
+data.raw["legacy-curved-rail"]["curved-scrap-rail"].fast_replaceable_group = "rail"
 
-data.raw["straight-rail"]["straight-rail"].fast_replaceable_group = "rail"
-data.raw["curved-rail"]["curved-rail"].fast_replaceable_group = "rail"
+data.raw["legacy-straight-rail"]["legacy-straight-rail"].fast_replaceable_group = "rail"
+data.raw["legacy-curved-rail"]["legacy-curved-rail"].fast_replaceable_group = "rail"
 
-data.raw["straight-rail"]["straight-scrap-rail"].collision_mask = {"item-layer", "object-layer", "rail-layer", "floor-layer", "water-tile"}
-data.raw["curved-rail"]["curved-scrap-rail"].collision_mask = {"item-layer", "object-layer", "rail-layer", "floor-layer", "water-tile"}
+data.raw["legacy-straight-rail"]["straight-scrap-rail"].collision_mask = {"item-layer", "object-layer", "rail-layer", "floor-layer", "water-tile"}
+data.raw["legacy-curved-rail"]["curved-scrap-rail"].collision_mask = {"item-layer", "object-layer", "rail-layer", "floor-layer", "water-tile"}
 
-data.raw["straight-rail"]["straight-rail"].collision_mask = {"item-layer", "object-layer", "rail-layer", "floor-layer", "water-tile"}
-data.raw["curved-rail"]["curved-rail"].collision_mask = {"item-layer", "object-layer", "rail-layer", "floor-layer", "water-tile"}
+data.raw["legacy-straight-rail"]["legacy-straight-rail"].collision_mask = {"item-layer", "object-layer", "rail-layer", "floor-layer", "water-tile"}
+data.raw["legacy-curved-rail"]["legacy-curved-rail"].collision_mask = {"item-layer", "object-layer", "rail-layer", "floor-layer", "water-tile"}
 
 data.raw["rail-signal"]["rail-signal-scrap"].next_upgrade = "rail-signal"
 data.raw["rail-chain-signal"]["rail-chain-signal-scrap"].next_upgrade = "rail-chain-signal"
@@ -479,8 +479,8 @@ bobmods.lib.tech.remove_recipe_unlock("bob-railway-2", "rail")
 -------------------------------------------------------------------------------------------------
 --добавляем рецепты обновления примитивов в технологию
 bobmods.lib.tech.add_recipe_unlock("railway", "scrap-rail-to-rail")
-bobmods.lib.tech.add_recipe_unlock("rail-signals", "rail-signal-scrap-to-rail-signal")
-bobmods.lib.tech.add_recipe_unlock("rail-signals", "rail-chain-signal-scrap-to-rail-chain-signal")
+bobmods.lib.tech.add_recipe_unlock("automated-rail-transportation", "rail-signal-scrap-to-rail-signal")
+bobmods.lib.tech.add_recipe_unlock("automated-rail-transportation", "rail-chain-signal-scrap-to-rail-chain-signal")
 bobmods.lib.tech.add_recipe_unlock("automated-rail-transportation", "train-stop-scrap-to-train-stop")
 -------------------------------------------------------------------------------------------------
 --подкрашиваем примитивы

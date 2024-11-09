@@ -4,7 +4,7 @@ data:extend({
     name = "logistic-chest-passive-provider-2",
     enabled = false,
     ingredients = {
-      { "logistic-chest-passive-provider", 1 },
+      { "passive-provider-chest", 1 },
       { "processing-unit", 1 },
     },
     result = "logistic-chest-passive-provider-2",
@@ -14,7 +14,7 @@ data:extend({
     name = "logistic-chest-active-provider-2",
     enabled = false,
     ingredients = {
-      { "logistic-chest-active-provider", 1 },
+      { "active-provider-chest", 1 },
       { "processing-unit", 1 },
     },
     result = "logistic-chest-active-provider-2",
@@ -24,7 +24,7 @@ data:extend({
     name = "logistic-chest-storage-2",
     enabled = false,
     ingredients = {
-      { "logistic-chest-storage", 1 },
+      { "storage-chest", 1 },
       { "processing-unit", 1 },
     },
     result = "logistic-chest-storage-2",
@@ -34,7 +34,7 @@ data:extend({
     name = "logistic-chest-buffer-2",
     enabled = false,
     ingredients = {
-      { "logistic-chest-buffer", 1 },
+      { "buffer-chest", 1 },
       { "processing-unit", 1 },
     },
     result = "logistic-chest-buffer-2",
@@ -44,7 +44,7 @@ data:extend({
     name = "logistic-chest-requester-2",
     enabled = false,
     ingredients = {
-      { "logistic-chest-requester", 1 },
+      { "requester-chest", 1 },
       { "processing-unit", 1 },
     },
     result = "logistic-chest-requester-2",

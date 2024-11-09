@@ -57,7 +57,7 @@ add chlorobutadiene polymerisation chlorobutadiene-->liquid rubber]]
       category = "steam-cracking",
       subgroup = "petrochem-cracking",
       energy_required = 4,
-      enabled = "false",
+      enabled = false,
       ingredients ={
         {type="fluid", name="gas-butane", amount=60},
         {type="fluid", name="steam", amount=120},
@@ -79,7 +79,7 @@ add chlorobutadiene polymerisation chlorobutadiene-->liquid rubber]]
       category = "chemistry",
       subgroup = "petrochem-chlorine-2",
       energy_required = 4,
-      enabled = "false",
+      enabled = false,
       ingredients ={
         {type="fluid", name="gas-butadiene", amount=60},
         {type="fluid", name="gas-chlorine", amount=60},
@@ -98,7 +98,7 @@ add chlorobutadiene polymerisation chlorobutadiene-->liquid rubber]]
       category = "chemistry",
       subgroup = "petrochem-chlorine-2",
       energy_required = 4,
-      enabled = "false",
+      enabled = false,
       ingredients ={
         {type="fluid", name="liquid-dichlorobutene", amount=100},
         {type="item", name="solid-sodium-hydroxide", amount=1},
@@ -118,7 +118,7 @@ add chlorobutadiene polymerisation chlorobutadiene-->liquid rubber]]
       category = "chemistry",
       subgroup = "petrochem-solids-2",
       energy_required = 2,
-      enabled = "false",
+      enabled = false,
       ingredients ={
         {type="fluid", name="liquid-chlorobutadiene", amount=100},
       },
@@ -148,7 +148,7 @@ add chlorobutadiene polymerisation chlorobutadiene-->liquid rubber]]
       category = "steam-cracking",
       subgroup = "petrochem-cracking",
       energy_required = 4,
-      enabled = "false",
+      enabled = false,
       ingredients ={
         {type="fluid", name="gas-ethylene", amount=60},
         {type="fluid", name="steam", amount=120},
@@ -170,7 +170,7 @@ add chlorobutadiene polymerisation chlorobutadiene-->liquid rubber]]
       category = "chemistry",
       subgroup = "petrochem-chemistry",
       energy_required = 4,
-      enabled = "false",
+      enabled = false,
       ingredients ={
         {type="fluid", name="gas-acetylene", amount=60},
       },
@@ -188,7 +188,7 @@ add chlorobutadiene polymerisation chlorobutadiene-->liquid rubber]]
       category = "chemistry",
       subgroup = "petrochem-chlorine-2",
       energy_required = 4,
-      enabled = "false",
+      enabled = false,
       ingredients ={
         {type="fluid", name="gas-vinyl-acetylene", amount=30},
         {type="fluid", name="gas-hydrogen-chloride", amount=40},
@@ -223,7 +223,7 @@ add chlorobutadiene polymerisation chlorobutadiene-->liquid rubber]]
       category = "chemistry",
       subgroup = "petrochem-solids",
       energy_required = 0.5,
-      enabled = "false",
+      enabled = false,
       ingredients ={
         {type="item", name="solid-carbon", amount=5},
       },
@@ -251,7 +251,7 @@ add chlorobutadiene polymerisation chlorobutadiene-->liquid rubber]]
       category = "chemistry",
       subgroup = "petrochem-solids",
       energy_required = 0.5,
-      enabled = "false",
+      enabled = false,
       ingredients ={
         {type="item", name="solid-carbon", amount=2},
         {type="item", name="solid-rubber-waste", amount=4}
@@ -279,7 +279,7 @@ add chlorobutadiene polymerisation chlorobutadiene-->liquid rubber]]
       category = "crafting",
       subgroup = "petrochem-solids",
       energy_required = 0.5,
-      enabled = "false",
+      enabled = false,
       ingredients ={
         {type="item", name="angels-roll-rubber", amount=1},
       },
@@ -308,7 +308,7 @@ add chlorobutadiene polymerisation chlorobutadiene-->liquid rubber]]
       category = "advanced-crafting",
       subgroup = "petrochem-solids",
       energy_required = 0.5,
-      enabled = "false",
+      enabled = false,
       ingredients ={
         {type="item", name="solid-rubber-vulcanised", amount=4},
         {type="fluid",name="water",amount=100}
@@ -326,7 +326,7 @@ add chlorobutadiene polymerisation chlorobutadiene-->liquid rubber]]
       category = "steam-cracking",
       subgroup = "petrochem-feedstock",
       energy_required = 0.5,
-      enabled = "false",
+      enabled = false,
       ingredients ={
         {type="item", name="solid-rubber-powder", amount=72},
         {type="fluid",name="gas-compressed-air",amount=100}
@@ -344,7 +344,7 @@ add chlorobutadiene polymerisation chlorobutadiene-->liquid rubber]]
       category = "crafting",
       subgroup = "petrochem-solids",
       energy_required = 1,
-      enabled = "false",
+      enabled = false,
       ingredients ={
         {type="item", name="solid-rubber-pellet", amount=32},
       },
@@ -361,7 +361,7 @@ add chlorobutadiene polymerisation chlorobutadiene-->liquid rubber]]
       category = "crafting",
       subgroup = "petrochem-solids",
       energy_required = 0.25,
-      enabled = "false",
+      enabled = false,
       ingredients ={
         {type="item", name="solid-rubber-slab", amount=6},
       },
@@ -380,7 +380,7 @@ add chlorobutadiene polymerisation chlorobutadiene-->liquid rubber]]
       category = "crafting",
       subgroup = "petrochem-solids",
       energy_required = 0.5,
-      enabled = "false",
+      enabled = false,
       ingredients ={
         {type="item", name="solid-rubber-block", amount=11},
       },
@@ -398,7 +398,7 @@ add chlorobutadiene polymerisation chlorobutadiene-->liquid rubber]]
       category = "chemistry",
       subgroup = "petrochem-solids",
       energy_required = 1,
-      enabled = "false",
+      enabled = false,
       ingredients ={
         {type="fluid", name="liquid-rubber-pre", amount=45},
         {type="fluid", name="water", amount=160}
@@ -417,7 +417,7 @@ add chlorobutadiene polymerisation chlorobutadiene-->liquid rubber]]
       category = "chemistry",
       subgroup = "petrochem-solids",
       energy_required = 1,
-      enabled = "false",
+      enabled = false,
       ingredients ={
         {type="fluid", name="liquid-rubber", amount=25},
         {type="item", name="solid-rubber-additive", amount=2}
@@ -436,7 +436,7 @@ add chlorobutadiene polymerisation chlorobutadiene-->liquid rubber]]
       category = "chemistry",
       subgroup = "petrochem-solids",
       energy_required = 1,
-      enabled = "false",
+      enabled = false,
       ingredients ={
         {type="fluid", name="liquid-rubber-masterbatch", amount=70},
         {type="item", name="sulfur", amount=4}

@@ -4,6 +4,6 @@
 	"title": "Memory Storage",
 	"author": "notnotmelon",
 	"description": "An alternative to warehouses. The Memory Unit can store an infinite amount of a single item type. The more items you store, the more power it will require!",
-	"factorio_version": "1.1",
+	"factorio_version": "2.0",
 	"dependencies": ["base", "(?) Krastorio2", "(?) PickerDollies", "! logistic-memory-units"]
 }

@@ -4,7 +4,7 @@ data:extend({
         name = "satellite-communications",
         category = "satellite-crafting",
         energy_required = 100,
-        enabled = "false",
+        enabled = false,
         ingredients = 
         {
             {"beacon", 5},

@@ -145,7 +145,7 @@ data:extend({
             "warehouses-3",
             "angels-titanium-smelting-1",
             "ceramics",
-            "advanced-electronics-2",
+            "processing-unit",
         },
         effects = {
             {

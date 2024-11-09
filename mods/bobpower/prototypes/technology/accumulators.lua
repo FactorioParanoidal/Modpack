@@ -24,7 +24,7 @@ if settings.startup["bobmods-power-accumulators"].value == true then
       },
       prerequisites = {
         "electric-energy-accumulators",
-        "advanced-electronics",
+        "advanced-circuit",
         "chemical-science-pack",
       },
       unit = {
@@ -63,7 +63,7 @@ if settings.startup["bobmods-power-accumulators"].value == true then
       },
       prerequisites = {
         "bob-electric-energy-accumulators-2",
-        "advanced-electronics-2",
+        "processing-unit",
         "production-science-pack",
       },
       unit = {

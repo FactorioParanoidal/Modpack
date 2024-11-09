@@ -4,6 +4,6 @@
   "title": "More Minimap Autohide",
   "author": "kubiix, ReubenAaron",
   "dependencies": ["base >= 1.1"],
-  "factorio_version" : "1.1",
+  "factorio_version" : "2.0",
   "description": "Hides the minimap when hovering over certain entities so that the side-panel doesn't disappear off the edge of the screen. "
 }

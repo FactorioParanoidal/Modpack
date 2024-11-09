@@ -5,7 +5,7 @@ local fh = {}
 --------------------------------------------------------------------
 ---- curved-rail (Vanilla) ----
 
-fv["curved-rail"] = function(ent)
+fv["legacy-curved-rail"] = function(ent)
 	local dir = ent.direction or 0
 	ent.direction = (5 - dir +8)%8
 end
@@ -19,7 +19,7 @@ end
 6	7
 7	6
 ]]--
-fh["curved-rail"] = function(ent)
+fh["legacy-curved-rail"] = function(ent)
 	local dir = ent.direction or 0
 	ent.direction = (1 - dir +8)%8
 end

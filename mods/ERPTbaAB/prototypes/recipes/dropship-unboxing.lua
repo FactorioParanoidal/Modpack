@@ -12,7 +12,7 @@ data:extend(
       icon_size = 32,
       category = mods["angelssmelting"] and "ore-sorting" or "satellite-crafting",
       energy_required = 10,
-      enabled = "false",
+      enabled = false,
       ingredients = {
         {"random-dropship", 1}
       },

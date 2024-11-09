@@ -9,7 +9,7 @@ function config.get_me(name)
 end
 
 function config.stop_timeout()
-    return config.get_ltn("stop-timeout(s)") * 60
+    return config.get_ltn("stop-timeout") * 60
 end
 
 function config.failed_trains()

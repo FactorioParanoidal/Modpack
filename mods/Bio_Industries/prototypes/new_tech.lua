@@ -616,7 +616,7 @@ unit = {
   icon_size = 256, icon_mipmaps = 4,
   effects = {{type = "unlock-recipe", recipe = "bi-wooden-pole-big"}},
   order = "[wooden-pole]-a-[wooden-pole-1]",
-  prerequisites = {"optics"},
+  prerequisites = { "lamp"},
   unit = 
   {
     count = 10,

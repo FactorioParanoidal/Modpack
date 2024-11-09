@@ -22,7 +22,7 @@ data:extend({
     ingredients = {
       { "energy-shield-mk3-equipment", 2 },
       { "processing-unit", 5 },
-      { "effectivity-module-3", 1 },
+      { "efficiency-module-3", 1 },
       { "productivity-module-3", 1 },
     },
     result = "energy-shield-mk4-equipment",
@@ -35,7 +35,7 @@ data:extend({
     ingredients = {
       { "energy-shield-mk4-equipment", 2 },
       { "processing-unit", 5 },
-      { "effectivity-module-3", 1 },
+      { "efficiency-module-3", 1 },
       { "productivity-module-3", 1 },
     },
     result = "energy-shield-mk5-equipment",
@@ -48,7 +48,7 @@ data:extend({
     ingredients = {
       { "energy-shield-mk5-equipment", 2 },
       { "processing-unit", 5 },
-      { "effectivity-module-3", 1 },
+      { "efficiency-module-3", 1 },
       { "productivity-module-3", 1 },
     },
     result = "energy-shield-mk6-equipment",
@@ -111,9 +111,9 @@ data:extend({
     enabled = false,
     energy_required = 10,
     ingredients = {
-      { "fusion-reactor-equipment", 1 },
+      { "fission-reactor-equipment", 1 },
       { "processing-unit", 50 },
-      { "effectivity-module-3", 2 },
+      { "efficiency-module-3", 2 },
       { "speed-module-3", 2 },
       { "productivity-module-3", 2 },
     },
@@ -127,7 +127,7 @@ data:extend({
     ingredients = {
       { "fusion-reactor-equipment-2", 1 },
       { "processing-unit", 50 },
-      { "effectivity-module-3", 2 },
+      { "efficiency-module-3", 2 },
       { "speed-module-3", 2 },
       { "productivity-module-3", 2 },
     },
@@ -141,7 +141,7 @@ data:extend({
     ingredients = {
       { "fusion-reactor-equipment-3", 1 },
       { "processing-unit", 50 },
-      { "effectivity-module-3", 2 },
+      { "efficiency-module-3", 2 },
       { "speed-module-3", 2 },
       { "productivity-module-3", 2 },
     },

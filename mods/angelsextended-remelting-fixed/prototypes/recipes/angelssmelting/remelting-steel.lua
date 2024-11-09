@@ -10,14 +10,14 @@ data:extend(
 		subgroup = "angels-steel-casting",
 		normal =
 		{
-			enabled = "false",
+			enabled = false,
 			energy_required = 6,
 			ingredients ={{type="item", name="angels-plate-steel", amount=4}},
 			results={{type="fluid",name="liquid-molten-steel", amount=15}},
 		},
 		expensive =
 		{
-			enabled = "false",
+			enabled = false,
 			energy_required = 6,
 			ingredients ={{type="item", name="angels-plate-steel", amount=5 * intermediatemulti}},
 			results={{type="fluid",name="liquid-molten-steel", amount=20}},
@@ -43,7 +43,7 @@ data:extend(
 		name = "molten-steel-alloy-mixing",
 		category = "molten-alloy-mixing",
 		subgroup = "aragas-steel-alloy-mixing",
-		enabled = "false",
+		enabled = false,
 		energy_required = 4,
 		ingredients ={
 			{type="fluid", name="liquid-molten-iron", amount=240},
@@ -69,7 +69,7 @@ data:extend(
 		name = "molten-steel-alloy-mixing-2",
 		category = "molten-alloy-mixing",
 		subgroup = "aragas-steel-alloy-mixing",
-		enabled = "false",
+		enabled = false,
 		energy_required = 4,
 		ingredients ={
 			{type="fluid", name="liquid-molten-iron", amount=480},
@@ -96,7 +96,7 @@ data:extend(
 		name = "molten-steel-alloy-mixing-3",
 		category = "molten-alloy-mixing",
 		subgroup = "aragas-steel-alloy-mixing",
-		enabled = "false",
+		enabled = false,
 		energy_required = 4,
 		ingredients ={
 			{type="fluid", name="liquid-molten-iron", amount=480},
@@ -123,7 +123,7 @@ data:extend(
 		name = "molten-steel-alloy-mixing-4",
 		category = "molten-alloy-mixing",
 		subgroup = "aragas-steel-alloy-mixing",
-		enabled = "false",
+		enabled = false,
 		energy_required = 4,
 		ingredients ={
 			{type="fluid", name="liquid-molten-iron", amount=240},

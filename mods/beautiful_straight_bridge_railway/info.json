@@ -5,7 +5,7 @@
     "author": "smallfly",
     "contact": "smallflyATgmxDE",
     "homepage": "",
-    "factorio_version": "1.1",
+    "factorio_version": "2.0",
     "dependencies": ["base >= 0.15"],
     "description": "This mod is a copy of the mod Beautiful Bridge Railway by author kapaer. The only difference is that here curved rails can't be placed on water."
 }

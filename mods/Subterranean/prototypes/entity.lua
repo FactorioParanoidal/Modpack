@@ -8,8 +8,8 @@ sub_belt_1.max_distance = 250
 sub_belt_1.max_health = 100
 sub_belt_1.structure.direction_in.sheet.tint = {r=1,g=0.3,b=0.1,a=1}
 sub_belt_1.structure.direction_out.sheet.tint = {r=1,g=0.3,b=0.1,a=1}
-sub_belt_1.structure.direction_in.sheet.hr_version.tint = {r=1,g=0.3,b=0.1,a=1}
-sub_belt_1.structure.direction_out.sheet.hr_version.tint = {r=1,g=0.3,b=0.1,a=1}
+--sub_belt_1.structure.direction_in.sheet.hr_version.tint = {r=1,g=0.3,b=0.1,a=1}
+--sub_belt_1.structure.direction_out.sheet.hr_version.tint = {r=1,g=0.3,b=0.1,a=1}
 sub_belt_1.speed = 1/32
 
 data:extend{sub_belt_1}
@@ -22,8 +22,8 @@ sub_belt_2.max_distance = 250
 sub_belt_2.max_health = 150
 sub_belt_2.structure.direction_in.sheet.tint = {r=1,g=0.1,b=1,a=1}
 sub_belt_2.structure.direction_out.sheet.tint = {r=1,g=0.1,b=1,a=1}
-sub_belt_2.structure.direction_in.sheet.hr_version.tint = {r=1,g=0.1,b=1,a=1}
-sub_belt_2.structure.direction_out.sheet.hr_version.tint = {r=1,g=0.1,b=1,a=1}
+--sub_belt_2.structure.direction_in.sheet.hr_version.tint = {r=1,g=0.1,b=1,a=1}
+--sub_belt_2.structure.direction_out.sheet.hr_version.tint = {r=1,g=0.1,b=1,a=1}
 sub_belt_2.speed = 2/32
 
 data:extend{sub_belt_2}
@@ -36,8 +36,8 @@ sub_belt_3.max_distance = 250
 sub_belt_3.max_health = 200
 sub_belt_3.structure.direction_in.sheet.tint = {r=0,g=1,b=1,a=1}
 sub_belt_3.structure.direction_out.sheet.tint = {r=0,g=1,b=1,a=1}
-sub_belt_3.structure.direction_in.sheet.hr_version.tint = {r=0,g=1,b=1,a=1}
-sub_belt_3.structure.direction_out.sheet.hr_version.tint = {r=0,g=1,b=1,a=1}
+--sub_belt_3.structure.direction_in.sheet.hr_version.tint = {r=0,g=1,b=1,a=1}
+--sub_belt_3.structure.direction_out.sheet.hr_version.tint = {r=0,g=1,b=1,a=1}
 sub_belt_3.speed = 4/32
 
 data:extend{sub_belt_3}

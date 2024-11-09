@@ -38,9 +38,9 @@ if angelsmods.refining then
 
   --MOVE EMPTY BARREL
   data.raw["item-subgroup"]["fill-barrel"].group = "angels-fluid-control"
-  data.raw["item-subgroup"]["empty-barrel"].group = "angels-fluid-control"
-  angelsmods.functions.move_item("empty-barrel", "angels-fluid-control", "h")
-  angelsmods.functions.move_item("empty-barrel", "angels-fluid-control", "h", "recipe")
+  data.raw["item-subgroup"]["barrel"].group = "angels-fluid-control"
+  angelsmods.functions.move_item("barrel", "angels-fluid-control", "h")
+  angelsmods.functions.move_item("barrel", "angels-fluid-control", "h", "recipe")
 
   --MOVE STORAGE TANK
   angelsmods.functions.move_item("storage-tank", "angels-fluid-tanks", "b[medium-tank]-a[mk1]-a[regular]")

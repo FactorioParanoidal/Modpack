@@ -4,6 +4,6 @@
   "title": "More accurate player size compared to vehicles",
   "author": "DellAquila; Pi-C; gungorenu",
   "description": "Temporary attempt of updating to 1.1 until original mod updates the mod",
-  "factorio_version": "1.1",
+  "factorio_version": "2.0",
   "dependencies": [ "? IRobot >= 0.0.6", "! minime"  ]
 }

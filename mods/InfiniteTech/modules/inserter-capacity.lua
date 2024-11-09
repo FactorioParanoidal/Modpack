@@ -13,7 +13,7 @@ data:extend
     modifier = 0.5
     },
     {
-    type = "stack-inserter-capacity-bonus",
+    type = "bulk-inserter-capacity-bonus",
     modifier = 2
     }
   },

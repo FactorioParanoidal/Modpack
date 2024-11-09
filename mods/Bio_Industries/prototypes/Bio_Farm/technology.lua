@@ -18,7 +18,7 @@ data:extend({
       {type = "unlock-recipe", recipe = "bi-resin-pulp"},
       {type = "unlock-recipe", recipe = "bi-wood-from-pulp"},
     },
-    prerequisites = {"optics"},
+    prerequisites = { "lamp"},
     unit = 
     {
       count = 25,
@@ -40,7 +40,7 @@ data:extend({
     {type = "unlock-recipe", recipe = "bi-seedling-1"},
   },
   order = "[bio-farming]-a-[bio-farming-1]",
-  prerequisites = {"automation", "optics"},
+  prerequisites = {"automation",  "lamp"},
   unit = 
   {
     count = 10,

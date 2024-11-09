@@ -42,7 +42,7 @@ data:extend({
     ingredients = {
       {"battery", 5},
       {"advanced-circuit", 5},
-      {"filter-inserter", 5},
+      {"fast-inserter", 5},
       {"steel-plate", 5},
     },
     result = "chemical-science-pack",

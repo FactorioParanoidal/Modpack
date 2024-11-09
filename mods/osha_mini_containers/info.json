@@ -5,7 +5,7 @@
     "author": "OSHA-Jackson",
     "contact": "",
     "homepage": "",
-    "factorio_version": "1.1",
+    "factorio_version": "2.0",
     "dependencies": ["base >= 1.1", "(?) space-exploration", "(?) aai-containers"],
     "description": "Single slot containers, designed for mods that consider storage size (Like space exploration)"
 }

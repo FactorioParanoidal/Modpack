@@ -3,7 +3,7 @@ data:extend({
         type = "recipe",
         name = "satellite-battery",
         energy_required = 100,
-        enabled = "false",
+        enabled = false,
         ingredients = 
         {
             {"accumulator", 150},

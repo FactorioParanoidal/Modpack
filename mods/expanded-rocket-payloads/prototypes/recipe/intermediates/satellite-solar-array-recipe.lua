@@ -4,7 +4,7 @@ data:extend({
         name = "satellite-solar-array",
         category = "satellite-crafting",
         energy_required = 100,
-        enabled = "false",
+        enabled = false,
         ingredients = 
         {
             {"copper-cable", 400},

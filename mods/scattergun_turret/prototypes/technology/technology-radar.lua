@@ -28,7 +28,7 @@ data:extend({
 		prerequisites =
 		{
 			"w93-modular-turrets2",
-			"effectivity-module-2",
+			"efficiency-module-2",
 			"speed-module-2",
 			"utility-science-pack",
 		},

@@ -8,5 +8,5 @@
     "homepage": "https://discord.gg/PnQwT8W",
     "dependencies": ["base", "?space-exploration", "?bobmining"],
     "description": "Can filter resource with any mining drill",
-    "factorio_version": "1.1"
+    "factorio_version": "2.0"
 }

@@ -1,7 +1,7 @@
 {
   "name": "extended-descriptions",
   "version": "1.2.1",
-  "factorio_version": "1.1",
+  "factorio_version": "2.0",
   "title": "Extended Descriptions",
   "author": "notnotmelon",
   "description": "Adds critical information onto the tooltip of items, recipes, and entites",

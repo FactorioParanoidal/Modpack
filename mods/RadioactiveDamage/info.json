@@ -1,7 +1,7 @@
 {
   "name": "RadioactiveDamage",
   "version": "0.0.4",
-  "factorio_version": "1.1",
+  "factorio_version": "2.0",
   "title": "Radioactive Damage",
   "author": "DellAquila",
   "description": "Handling uranium is radioactive and can kill you. You can use a Hazmat Suit to deal with the radioactivity."

@@ -47,7 +47,7 @@ end
 -- localize_entity:     Pointer to an entity name -- e.g. {"entity-name.NAME"} -- that
 --                      will be used to localize this entity. This is needed when the
 --                      same string is used for differently named entity names, such
---                      as "straight-rail"/"curved-rail"/"rail-planner".
+--                      as "legacy-straight-rail"/"legacy-curved-rail"/"rail-planner".
 -- new_base_name:       If the placed entity is used as overlay, it will be replaced
 --                      with this entity.
 -- add_global_tables    table of names of other tables in global that are needed by

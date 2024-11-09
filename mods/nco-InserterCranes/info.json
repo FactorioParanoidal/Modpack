@@ -6,7 +6,7 @@
 	"contact": "",
 	"homepage": "https://github.com/nicolas-lang/factorio.InserterCranes",
 	"description": "Faster, larger inserters to reduce UPS/FPS issues",
-	"factorio_version": "1.1",
+	"factorio_version": "2.0",
 	"dependencies": [
 		"base >= 1.0",
 		"?Krastorio2",

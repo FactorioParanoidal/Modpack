@@ -38,8 +38,8 @@ data.raw["cargo-wagon"]["cargo-wagon"].working_sound = train_wagon_working_sound
 
 	-- RAILS
 
-data.raw["curved-rail"]["curved-rail"].walking_sound = rail_walk_over_sound
-data.raw["straight-rail"]["straight-rail"].walking_sound = rail_walk_over_sound
+data.raw["legacy-curved-rail"]["legacy-curved-rail"].walking_sound = rail_walk_over_sound
+data.raw["legacy-straight-rail"]["legacy-straight-rail"].walking_sound = rail_walk_over_sound
 
 	-- UI
 	
@@ -105,9 +105,9 @@ data.raw["tree"]["tree-09-red"].vehicle_impact_sound = car_impact_wood_sound
 
 data.raw.cliff.cliff.vehicle_impact_sound = car_impact_stone_sound
 
-data.raw["simple-entity"]["rock-big"].vehicle_impact_sound = car_impact_stone_sound
-data.raw["simple-entity"]["rock-huge"].vehicle_impact_sound = car_impact_stone_sound
-data.raw["simple-entity"]["sand-rock-big"].vehicle_impact_sound = car_impact_stone_sound
+data.raw["simple-entity"]["big-rock"].vehicle_impact_sound = car_impact_stone_sound
+data.raw["simple-entity"]["huge-rock"].vehicle_impact_sound = car_impact_stone_sound
+data.raw["simple-entity"]["big-sand-rock"].vehicle_impact_sound = car_impact_stone_sound
 
 
 	-- PICKAXE STUFF	
@@ -222,7 +222,6 @@ data.raw["explosion"]["fast-inserter-explosion"].sound.variations = small_explos
 data.raw["explosion"]["fast-splitter-explosion"].sound.variations = small_explosion_sound
 data.raw["explosion"]["fast-transport-belt-explosion"].sound.variations = small_explosion_sound
 data.raw["explosion"]["fast-underground-belt-explosion"].sound.variations = small_explosion_sound
-data.raw["explosion"]["filter-inserter-explosion"].sound.variations = small_explosion_sound
 data.raw["explosion"]["flamethrower-turret-explosion"].sound.variations = small_explosion_sound
 data.raw["explosion"]["fluid-wagon-explosion"].sound.variations = large_explosion_sound
 data.raw["explosion"]["gate-explosion"].sound.variations = small_explosion_sound
@@ -265,8 +264,7 @@ data.raw["explosion"]["slowdown-capsule-explosion"].sound.variations =  small_ex
 data.raw["explosion"]["solar-panel-explosion"].sound.variations =  medium_explosion_sound
 data.raw["explosion"]["spidertron-explosion"].sound.variations =  large_explosion_sound
 data.raw["explosion"]["splitter-explosion"].sound.variations =  small_explosion_sound
-data.raw["explosion"]["stack-filter-inserter-explosion"].sound.variations =  small_explosion_sound
-data.raw["explosion"]["stack-inserter-explosion"].sound.variations =  small_explosion_sound
+data.raw["explosion"]["bulk-inserter-explosion"].sound.variations =  small_explosion_sound
 data.raw["explosion"]["steam-engine-explosion"].sound.variations =  large_explosion_sound
 data.raw["explosion"]["steam-turbine-explosion"].sound.variations =  large_explosion_sound
 data.raw["explosion"]["steel-chest-explosion"].sound.variations =  small_explosion_sound

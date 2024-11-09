@@ -28,7 +28,7 @@ data:extend({
 		category = "chemistry",
 		subgroup = "petrochem-chlorine",
 		energy_required = 4,
-		enabled = "false",
+		enabled = false,
 		ingredients ={
 			{type="fluid", name="gas-ethylene", amount=50},
 			{type="fluid", name="liquid-hydrochloric-acid", amount=50},
@@ -47,7 +47,7 @@ data:extend({
 		category = "chemical-smelting",
 		subgroup = "angels-lead",
 		energy_required = 6,
-		enabled = "false",
+		enabled = false,
 		ingredients ={
 			{type="fluid", name="gas-chloroethane", amount=50},
 			{type="item", name="ingot-sodium-lead-alloy", amount=5},
@@ -68,7 +68,7 @@ data:extend({
 		category = "chemistry",
 		subgroup = "petrochem-fuel", --drd petrochem-solids
 		energy_required = 4,
-		enabled = "false",
+		enabled = false,
 		ingredients ={
 			{type="fluid", name="fluid-tetraethyllead", amount=5},
 			{type="fluid", name="liquid-toluene", amount=10},

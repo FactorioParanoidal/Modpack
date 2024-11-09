@@ -439,8 +439,8 @@ if data.raw.item["gilded-copper-cable"] then
 end
 
 if data.raw.module["effectivity-module-4"] then
-  bobmods.lib.recipe.replace_ingredient("energy-shield-mk4-equipment", "effectivity-module-3", "effectivity-module-4")
-  bobmods.lib.recipe.replace_ingredient("fusion-reactor-equipment-2", "effectivity-module-3", "effectivity-module-4")
+  bobmods.lib.recipe.replace_ingredient("energy-shield-mk4-equipment", "efficiency-module-3", "effectivity-module-4")
+  bobmods.lib.recipe.replace_ingredient("fusion-reactor-equipment-2", "efficiency-module-3", "effectivity-module-4")
 end
 
 if data.raw.module["speed-module-4"] then
@@ -453,8 +453,8 @@ if data.raw.module["productivity-module-4"] then
 end
 
 if data.raw.module["effectivity-module-6"] then
-  bobmods.lib.recipe.replace_ingredient("energy-shield-mk5-equipment", "effectivity-module-3", "effectivity-module-6")
-  bobmods.lib.recipe.replace_ingredient("fusion-reactor-equipment-3", "effectivity-module-3", "effectivity-module-6")
+  bobmods.lib.recipe.replace_ingredient("energy-shield-mk5-equipment", "efficiency-module-3", "effectivity-module-6")
+  bobmods.lib.recipe.replace_ingredient("fusion-reactor-equipment-3", "efficiency-module-3", "effectivity-module-6")
 end
 
 if data.raw.module["speed-module-6"] then
@@ -467,8 +467,8 @@ if data.raw.module["productivity-module-6"] then
 end
 
 if data.raw.module["effectivity-module-8"] then
-  bobmods.lib.recipe.replace_ingredient("energy-shield-mk6-equipment", "effectivity-module-3", "effectivity-module-8")
-  bobmods.lib.recipe.replace_ingredient("fusion-reactor-equipment-4", "effectivity-module-3", "effectivity-module-8")
+  bobmods.lib.recipe.replace_ingredient("energy-shield-mk6-equipment", "efficiency-module-3", "effectivity-module-8")
+  bobmods.lib.recipe.replace_ingredient("fusion-reactor-equipment-4", "efficiency-module-3", "effectivity-module-8")
 end
 
 if data.raw.module["speed-module-8"] then

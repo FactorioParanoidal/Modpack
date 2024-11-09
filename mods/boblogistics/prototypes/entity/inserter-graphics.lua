@@ -48,12 +48,12 @@ end
 graphics.stack = {}
 function graphics.stack.hand_closed_shadow()
   return {
-    filename = "__boblogistics__/graphics/entity/inserter/stack-inserter-hand-closed-shadow.png",
+    filename = "__boblogistics__/graphics/entity/inserter/bulk-inserter-hand-closed-shadow.png",
     priority = "extra-high",
     width = 24,
     height = 41,
     hr_version = {
-      filename = "__boblogistics__/graphics/entity/inserter/hr-stack-inserter-hand-closed-shadow.png",
+      filename = "__boblogistics__/graphics/entity/inserter/hr-bulk-inserter-hand-closed-shadow.png",
       priority = "extra-high",
       width = 100,
       height = 164,
@@ -63,12 +63,12 @@ function graphics.stack.hand_closed_shadow()
 end
 function graphics.stack.hand_open_shadow()
   return {
-    filename = "__boblogistics__/graphics/entity/inserter/stack-inserter-hand-open-shadow.png",
+    filename = "__boblogistics__/graphics/entity/inserter/bulk-inserter-hand-open-shadow.png",
     priority = "extra-high",
     width = 32,
     height = 41,
     hr_version = {
-      filename = "__boblogistics__/graphics/entity/inserter/hr-stack-inserter-hand-open-shadow.png",
+      filename = "__boblogistics__/graphics/entity/inserter/hr-bulk-inserter-hand-open-shadow.png",
       priority = "extra-high",
       width = 130,
       height = 164,
@@ -281,12 +281,12 @@ end
 graphics.red.stack = {}
 function graphics.red.stack.hand_closed_picture()
   return {
-    filename = "__boblogistics__/graphics/entity/inserter/red-stack-inserter-hand-closed.png",
+    filename = "__boblogistics__/graphics/entity/inserter/red-bulk-inserter-hand-closed.png",
     priority = "extra-high",
     width = 24,
     height = 41,
     hr_version = {
-      filename = "__boblogistics__/graphics/entity/inserter/hr-red-stack-inserter-hand-closed.png",
+      filename = "__boblogistics__/graphics/entity/inserter/hr-red-bulk-inserter-hand-closed.png",
       priority = "extra-high",
       width = 100,
       height = 164,
@@ -296,12 +296,12 @@ function graphics.red.stack.hand_closed_picture()
 end
 function graphics.red.stack.hand_open_picture()
   return {
-    filename = "__boblogistics__/graphics/entity/inserter/red-stack-inserter-hand-open.png",
+    filename = "__boblogistics__/graphics/entity/inserter/red-bulk-inserter-hand-open.png",
     priority = "extra-high",
     width = 32,
     height = 41,
     hr_version = {
-      filename = "__boblogistics__/graphics/entity/inserter/hr-red-stack-inserter-hand-open.png",
+      filename = "__boblogistics__/graphics/entity/inserter/hr-red-bulk-inserter-hand-open.png",
       priority = "extra-high",
       width = 130,
       height = 164,
@@ -379,12 +379,12 @@ end
 graphics.blue.stack = {}
 function graphics.blue.stack.hand_closed_picture()
   return {
-    filename = "__boblogistics__/graphics/entity/inserter/blue-stack-inserter-hand-closed.png",
+    filename = "__boblogistics__/graphics/entity/inserter/blue-bulk-inserter-hand-closed.png",
     priority = "extra-high",
     width = 24,
     height = 41,
     hr_version = {
-      filename = "__boblogistics__/graphics/entity/inserter/hr-blue-stack-inserter-hand-closed.png",
+      filename = "__boblogistics__/graphics/entity/inserter/hr-blue-bulk-inserter-hand-closed.png",
       priority = "extra-high",
       width = 100,
       height = 164,
@@ -394,12 +394,12 @@ function graphics.blue.stack.hand_closed_picture()
 end
 function graphics.blue.stack.hand_open_picture()
   return {
-    filename = "__boblogistics__/graphics/entity/inserter/blue-stack-inserter-hand-open.png",
+    filename = "__boblogistics__/graphics/entity/inserter/blue-bulk-inserter-hand-open.png",
     priority = "extra-high",
     width = 32,
     height = 41,
     hr_version = {
-      filename = "__boblogistics__/graphics/entity/inserter/hr-blue-stack-inserter-hand-open.png",
+      filename = "__boblogistics__/graphics/entity/inserter/hr-blue-bulk-inserter-hand-open.png",
       priority = "extra-high",
       width = 130,
       height = 164,
@@ -477,12 +477,12 @@ end
 graphics.purple.stack = {}
 function graphics.purple.stack.hand_closed_picture()
   return {
-    filename = "__boblogistics__/graphics/entity/inserter/purple-stack-inserter-hand-closed.png",
+    filename = "__boblogistics__/graphics/entity/inserter/purple-bulk-inserter-hand-closed.png",
     priority = "extra-high",
     width = 24,
     height = 41,
     hr_version = {
-      filename = "__boblogistics__/graphics/entity/inserter/hr-purple-stack-inserter-hand-closed.png",
+      filename = "__boblogistics__/graphics/entity/inserter/hr-purple-bulk-inserter-hand-closed.png",
       priority = "extra-high",
       width = 100,
       height = 164,
@@ -492,12 +492,12 @@ function graphics.purple.stack.hand_closed_picture()
 end
 function graphics.purple.stack.hand_open_picture()
   return {
-    filename = "__boblogistics__/graphics/entity/inserter/purple-stack-inserter-hand-open.png",
+    filename = "__boblogistics__/graphics/entity/inserter/purple-bulk-inserter-hand-open.png",
     priority = "extra-high",
     width = 32,
     height = 41,
     hr_version = {
-      filename = "__boblogistics__/graphics/entity/inserter/hr-purple-stack-inserter-hand-open.png",
+      filename = "__boblogistics__/graphics/entity/inserter/hr-purple-bulk-inserter-hand-open.png",
       priority = "extra-high",
       width = 130,
       height = 164,
@@ -575,12 +575,12 @@ end
 graphics.green.stack = {}
 function graphics.green.stack.hand_closed_picture()
   return {
-    filename = "__boblogistics__/graphics/entity/inserter/green-stack-inserter-hand-closed.png",
+    filename = "__boblogistics__/graphics/entity/inserter/green-bulk-inserter-hand-closed.png",
     priority = "extra-high",
     width = 24,
     height = 41,
     hr_version = {
-      filename = "__boblogistics__/graphics/entity/inserter/hr-green-stack-inserter-hand-closed.png",
+      filename = "__boblogistics__/graphics/entity/inserter/hr-green-bulk-inserter-hand-closed.png",
       priority = "extra-high",
       width = 100,
       height = 164,
@@ -590,12 +590,12 @@ function graphics.green.stack.hand_closed_picture()
 end
 function graphics.green.stack.hand_open_picture()
   return {
-    filename = "__boblogistics__/graphics/entity/inserter/green-stack-inserter-hand-open.png",
+    filename = "__boblogistics__/graphics/entity/inserter/green-bulk-inserter-hand-open.png",
     priority = "extra-high",
     width = 32,
     height = 41,
     hr_version = {
-      filename = "__boblogistics__/graphics/entity/inserter/hr-green-stack-inserter-hand-open.png",
+      filename = "__boblogistics__/graphics/entity/inserter/hr-green-bulk-inserter-hand-open.png",
       priority = "extra-high",
       width = 130,
       height = 164,

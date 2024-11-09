@@ -1,9 +1,10 @@
 local DLL = require("prototypes.globals")
 local DLLFUNC = require("prototypes.functions")
+require("__core__/lualib/circuit-connector-sprites")
 
 -- electric large lamp
 
-local circuits = circuit_connector_definitions.create (
+local circuits = circuit_connector_definitions.create_vector(
     universal_connector_template,
     {{ variation = 26, main_offset = util.by_pixel(0, 10), shadow_offset = util.by_pixel(0, 10), show_shadow = true }}
 )

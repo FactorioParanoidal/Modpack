@@ -110,11 +110,11 @@ function bobmods.logistics.logistic_container_3_picture(tint)
   }
 end
 
-data.raw["logistic-container"]["logistic-chest-passive-provider"].next_upgrade = "logistic-chest-passive-provider-2"
-data.raw["logistic-container"]["logistic-chest-active-provider"].next_upgrade = "logistic-chest-active-provider-2"
-data.raw["logistic-container"]["logistic-chest-storage"].next_upgrade = "logistic-chest-storage-2"
-data.raw["logistic-container"]["logistic-chest-buffer"].next_upgrade = "logistic-chest-buffer-2"
-data.raw["logistic-container"]["logistic-chest-requester"].next_upgrade = "logistic-chest-requester-2"
+data.raw["logistic-container"]["passive-provider-chest"].next_upgrade = "logistic-chest-passive-provider-2"
+data.raw["logistic-container"]["active-provider-chest"].next_upgrade = "logistic-chest-active-provider-2"
+data.raw["logistic-container"]["storage-chest"].next_upgrade = "logistic-chest-storage-2"
+data.raw["logistic-container"]["buffer-chest"].next_upgrade = "logistic-chest-buffer-2"
+data.raw["logistic-container"]["requester-chest"].next_upgrade = "logistic-chest-requester-2"
 
 data:extend({
   bobmods.logistics.logistic_container({

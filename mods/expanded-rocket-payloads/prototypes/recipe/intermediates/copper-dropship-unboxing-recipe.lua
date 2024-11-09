@@ -4,7 +4,7 @@ data:extend({
         name = "copper-dropship-unboxing",
         category = "satellite-crafting",
         energy_required = 5,
-        enabled = "false",
+        enabled = false,
         ingredients = 
         {
             {"copper-dropship", 1},

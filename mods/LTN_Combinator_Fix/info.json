@@ -5,7 +5,7 @@
     "author": "dockmeister, MissCatTrap",
     "contact": "https://misscattrap.uk#contact",
     "homepage": "https://forums.factorio.com/68314",
-    "factorio_version": "1.1",
+    "factorio_version": "2.0",
     "dependencies": ["base >= 0.18.27", "LogisticTrainNetwork >= 1.12.0", "?LTN_Tracker >= 0.9.4", "!LTN_Combinator"],
     "description": "DO NOT have LTN Combinator installed. Fixed for Factorio version 0.18.27 and above. Adds a new type of Constant Combinators to the game. They come with a custom GUI to ease the control of LTN signals. Original by Dockmeister."
 }  

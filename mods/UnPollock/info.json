@@ -8,5 +8,5 @@
   "homepage": "",
   "description": "Allows customization of decorative density, for a less cluttered map without barren monotony.",
   "dependencies": ["base"],
-  "factorio_version": "1.1"
+  "factorio_version": "2.0"
 }

@@ -5,7 +5,7 @@
  "contact": "https://mods.factorio.com/mod/fire_department",
  "homepage": "https://mods.factorio.com/mod/Flammable_Oils/",
  "description": "Pipes and storage tanks and stuff will catch fire and explode",
- "factorio_version": "1.1",
+ "factorio_version": "2.0",
 "dependencies": ["base",
   "? KS_Power",
   "? bobassembly",

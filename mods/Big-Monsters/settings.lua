@@ -4,23 +4,14 @@ data:extend({
     type = "int-setting",
     name = "bm-event-days",
     setting_type = "runtime-global",
-	default_value = 100, --drd
+	default_value = 6,
 	minimum_value = 0,
-	maximum_value = 365, --drd
+	maximum_value = 20,
 	order = "a"
-  },
-
-   -- skp, drd
-   {
-	   type = "bool-setting",
-	   name = "bm-events-when-peaceful",
-	   setting_type = "runtime-global",
-	   default_value = false,
-	   order = "a"
-   },
-   -- skp, drd
+  },  
 
 
+  
 {
 	type = "double-setting",
 	name = "bm-invasion-min_evo",
@@ -39,7 +30,7 @@ data:extend({
 	maximum_value = 0.9,
 	order = "b3"
 },
-{
+--[[{
 	type = "double-setting",
 	name = "bm-brutals-min_evo",
 	setting_type = "runtime-global",
@@ -47,7 +38,7 @@ data:extend({
 	minimum_value = 0,
 	maximum_value = 0.9,
 	order = "b4"
-},
+},]]
 {
 	type = "double-setting",
 	name = "bm-worms-min_evo",
@@ -79,7 +70,7 @@ data:extend({
 	type = "double-setting",
 	name = "bm-volcano-min_evo",
 	setting_type = "runtime-global",
-	default_value = 0.5,
+	default_value = 0.6,
 	minimum_value = 0,
 	maximum_value = 0.9,
 	order = "b8"
@@ -94,6 +85,16 @@ data:extend({
 	minimum_value = 0,
 	maximum_value = 1,
 	order = "b8b"
+},
+
+{
+	type = "double-setting",
+	name = "bm-flying-saucer-min_evo",
+	setting_type = "runtime-global",
+	default_value = 0.8,
+	minimum_value = 0,
+	maximum_value = 0.95,
+	order = "b9"
 },
 
 
@@ -137,7 +138,7 @@ data:extend({
 	maximum_value = 80,
 	order = "c3"
   }, 
-  
+--[[  
    {
     type = "int-setting",
     name = "bm-brutals-chance",
@@ -146,7 +147,7 @@ data:extend({
 	minimum_value = 0,
 	maximum_value = 80,
 	order = "c3"
-  }, 
+  },]] 
    
   {
     type = "int-setting",
@@ -174,7 +175,7 @@ data:extend({
     type = "int-setting",
     name = "bm-spidertron-chance",
     setting_type = "runtime-global",
-	default_value = 30,
+	default_value = 18,
 	minimum_value = 0,
 	maximum_value = 80,
 	order = "c5b"
@@ -185,12 +186,21 @@ data:extend({
     type = "int-setting",
     name = "bm-volcano-chance",
     setting_type = "runtime-global",
-	default_value = 20,
+	default_value = 15,
 	minimum_value = 0,
 	maximum_value = 80,
 	order = "c6"
   },   
   
+{
+	type = "double-setting",
+	name = "bm-flying-saucer-chance",
+	setting_type = "runtime-global",
+	default_value = 12,
+	minimum_value = 0,
+	maximum_value = 80,
+	order = "c9"
+},
 
   {
     type = "bool-setting",
@@ -309,7 +319,7 @@ data:extend({
 	type = "double-setting",
 	name = "bm-tree-events-chance",
 	setting_type = "runtime-global",
-	default_value = 0.0, --drd
+	default_value = 1.0,
 	minimum_value = 0.0,
 	maximum_value = 100,
 	order = "w"

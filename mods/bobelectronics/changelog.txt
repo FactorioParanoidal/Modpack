@@ -59,7 +59,7 @@ Date: 13. 10. 2019
 Version: 0.17.6
 Date: 08. 08. 2019
   Changes:
-    - Change all recipe enabled = "false" lines to enabled = false
+    - Change all recipe enabled = false lines to enabled = false
     - Moved "Crude oil processing" from advanced-oil-processing to oil-processing to help with the oil changes.
 ---------------------------------------------------------------------------------------------------
 Version: 0.17.5

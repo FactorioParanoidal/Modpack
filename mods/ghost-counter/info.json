@@ -8,6 +8,6 @@
        "base >= 1.1.42"
     ],
     "description": "Generate a list of all ghosts in your selection area or blueprint. Find out what you have in your inventory, and conveniently make one-time logistic requests for everything you need.",
-    "factorio_version": "1.1"
+    "factorio_version": "2.0"
  }
  

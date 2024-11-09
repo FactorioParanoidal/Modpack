@@ -14,8 +14,8 @@ bobmods.lib.tech.add_prerequisite("worker-robots-storage-1", "bob-robots-1")
 if not mods["bobequipment"] then
   bobmods.lib.tech.add_prerequisite("personal-roboport-equipment", "chemical-science-pack")
 end
-bobmods.lib.tech.add_prerequisite("construction-robotics", "advanced-electronics")
-bobmods.lib.tech.add_prerequisite("logistic-robotics", "advanced-electronics")
+bobmods.lib.tech.add_prerequisite("construction-robotics", "advanced-circuit")
+bobmods.lib.tech.add_prerequisite("logistic-robotics", "advanced-circuit")
 
 bobmods.lib.tech.replace_prerequisite("lubricant", "advanced-oil-processing", "oil-processing")
 bobmods.lib.tech.remove_science_pack("lubricant", "chemical-science-pack")
@@ -28,8 +28,8 @@ if bobmods.tech and bobmods.tech.advanced_logistic_science then
   bobmods.lib.tech.add_science_pack("logistics-5", "advanced-logistic-science-pack", 1)
   bobmods.lib.tech.add_prerequisite("logistics-5", "production-science-pack")
 
-  bobmods.lib.tech.replace_science_pack("stack-inserter-2", "production-science-pack", "advanced-logistic-science-pack")
-  bobmods.lib.tech.replace_prerequisite("stack-inserter-2", "production-science-pack", "advanced-logistic-science-pack")
+  bobmods.lib.tech.replace_science_pack("bulk-inserter-2", "production-science-pack", "advanced-logistic-science-pack")
+  bobmods.lib.tech.replace_prerequisite("bulk-inserter-2", "production-science-pack", "advanced-logistic-science-pack")
 
   if data.raw.technology["bob-robotics-3"] then
     bobmods.lib.tech.replace_science_pack("bob-robotics-3", "utility-science-pack", "advanced-logistic-science-pack")
@@ -147,9 +147,9 @@ bobmods.lib.tech.remove_recipe_unlock("automation", "long-handed-inserter")
 
 if settings.startup["bobmods-logistics-inserteroverhaul"].value == true then
   bobmods.lib.tech.remove_recipe_unlock("fast-inserter", "fast-inserter")
-  bobmods.lib.tech.remove_recipe_unlock("fast-inserter", "filter-inserter")
-  bobmods.lib.tech.remove_recipe_unlock("stack-inserter", "stack-inserter")
-  bobmods.lib.tech.remove_recipe_unlock("stack-inserter", "stack-filter-inserter")
+  bobmods.lib.tech.remove_recipe_unlock("fast-inserter", "fast-inserter")
+  bobmods.lib.tech.remove_recipe_unlock("bulk-inserter", "bulk-inserter")
+  bobmods.lib.tech.remove_recipe_unlock("bulk-inserter", "bulk-inserter")
 
   bobmods.lib.tech.add_recipe_unlock("electronics", "yellow-filter-inserter")
 
@@ -157,11 +157,11 @@ if settings.startup["bobmods-logistics-inserteroverhaul"].value == true then
   bobmods.lib.tech.add_recipe_unlock("fast-inserter", "red-filter-inserter")
   bobmods.lib.tech.add_prerequisite("logistics-2", "electronics")
 
-  bobmods.lib.tech.add_recipe_unlock("stack-inserter", "red-stack-inserter")
-  bobmods.lib.tech.add_recipe_unlock("stack-inserter", "red-stack-filter-inserter")
+  bobmods.lib.tech.add_recipe_unlock("bulk-inserter", "red-bulk-inserter")
+  bobmods.lib.tech.add_recipe_unlock("bulk-inserter", "red-stack-filter-inserter")
 
   bobmods.lib.tech.add_recipe_unlock("express-inserters", "fast-inserter")
-  bobmods.lib.tech.add_recipe_unlock("express-inserters", "filter-inserter")
+  bobmods.lib.tech.add_recipe_unlock("express-inserters", "fast-inserter")
 
   bobmods.lib.tech.add_recipe_unlock("turbo-inserter", "turbo-inserter")
   bobmods.lib.tech.add_recipe_unlock("turbo-inserter", "turbo-filter-inserter")
@@ -174,11 +174,11 @@ if settings.startup["bobmods-logistics-inserteroverhaul"].value == true then
     bobmods.lib.tech.replace_science_pack("turbo-inserter", "production-science-pack", "advanced-logistic-science-pack")
     bobmods.lib.tech.add_science_pack("ultimate-inserter", "advanced-logistic-science-pack", 1)
     bobmods.lib.tech.replace_science_pack(
-      "stack-inserter-3",
+      "bulk-inserter-3",
       "production-science-pack",
       "advanced-logistic-science-pack"
     )
-    bobmods.lib.tech.add_science_pack("stack-inserter-4", "advanced-logistic-science-pack", 1)
+    bobmods.lib.tech.add_science_pack("bulk-inserter-4", "advanced-logistic-science-pack", 1)
   end
   bobmods.lib.tech.set_science_pack_count("logistics-2", 70)
   bobmods.lib.tech.set_science_pack_count("logistics-3", 150)
@@ -208,18 +208,18 @@ end
 
 if data.raw.technology["bob-robotics-3"] then
   bobmods.lib.tech.add_prerequisite("bob-robots-2", "bob-robotics-3")
-  bobmods.lib.tech.add_prerequisite("bob-robotics-3", "advanced-electronics-2")
+  bobmods.lib.tech.add_prerequisite("bob-robotics-3", "processing-unit")
   if data.raw.technology["titanium-processing"] then
     bobmods.lib.tech.add_prerequisite("bob-robotics-3", "titanium-processing")
   end
 else
-  bobmods.lib.tech.add_prerequisite("bob-robots-2", "advanced-electronics-2")
+  bobmods.lib.tech.add_prerequisite("bob-robots-2", "processing-unit")
   if data.raw.technology["titanium-processing"] then
     bobmods.lib.tech.add_prerequisite("bob-robots-2", "titanium-processing")
   end
 end
 
-bobmods.lib.tech.add_prerequisite("bob-robo-modular-3", "advanced-electronics-2")
+bobmods.lib.tech.add_prerequisite("bob-robo-modular-3", "processing-unit")
 
 if data.raw.item["lithium-ion-battery"] and data.raw.technology["battery-2"] then
   if data.raw.technology["bob-robotics-3"] then
@@ -337,7 +337,7 @@ remove_inserter_stack_size_bonus("inserter-capacity-bonus-7")
 for i = 1, 7 do
   if data.raw.technology["inserter-capacity-bonus-" .. i] then
     data.raw.technology["inserter-capacity-bonus-" .. i].icon =
-      "__boblogistics__/graphics/icons/technology/stack-inserter-capacity.png"
+      "__boblogistics__/graphics/icons/technology/bulk-inserter-capacity.png"
     data.raw.technology["inserter-capacity-bonus-" .. i].icon_size = 128
   end
 end
@@ -352,10 +352,10 @@ if settings.startup["bobmods-logistics-disableroboports"].value == true then
 end
 
 -- Chest ballancing.
-bobmods.lib.tech.remove_recipe_unlock("construction-robotics", "logistic-chest-passive-provider")
-bobmods.lib.tech.add_recipe_unlock("logistic-robotics", "logistic-chest-requester")
-bobmods.lib.tech.remove_recipe_unlock("logistic-robotics", "logistic-chest-storage")
-bobmods.lib.tech.remove_recipe_unlock("logistic-system", "logistic-chest-requester")
+bobmods.lib.tech.remove_recipe_unlock("construction-robotics", "passive-provider-chest")
+bobmods.lib.tech.add_recipe_unlock("logistic-robotics", "requester-chest")
+bobmods.lib.tech.remove_recipe_unlock("logistic-robotics", "storage-chest")
+bobmods.lib.tech.remove_recipe_unlock("logistic-system", "requester-chest")
 
 -- Old DyTech compatibillity bullshit
 if data.raw.technology["lava-smelting-05"] then

@@ -10,14 +10,14 @@
 		-- subgroup = "angels-tungsten-casting",
 		-- normal =
 		-- {
-			-- enabled = "false",
+			-- enabled = false,
 			-- energy_required = 6,
 			-- ingredients ={{type="item", name="angels-plate-tungsten", amount=4}},
 			-- results={{type="fluid",name="liquid-molten-tungsten", amount=35}},
 		-- },
 		-- expensive =
 		-- {
-			-- enabled = "false",
+			-- enabled = false,
 			-- energy_required = 6,
 			-- ingredients ={{type="item", name="angels-plate-tungsten", amount=5 * intermediatemulti}},
 			-- results={{type="fluid",name="liquid-molten-tungsten", amount=40}},

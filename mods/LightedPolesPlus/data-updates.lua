@@ -150,7 +150,7 @@ for _, item in pairs (data.raw["item"]) do
       {
         type = "recipe",
         name = newName,
-        enabled = "false",
+        enabled = false,
         ingredients =
         {
           {item.name, 1},

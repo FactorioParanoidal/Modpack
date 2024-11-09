@@ -161,15 +161,15 @@ bobmods.lib.recipe.add_new_ingredient ("bob-laser-turret-4", {type="item", name=
 bobmods.lib.recipe.remove_ingredient ("bob-laser-turret-5", "bob-laser-turret-4")
 bobmods.lib.recipe.add_new_ingredient ("bob-laser-turret-5", {type="item", name="bob-laser-turret-4", amount=2})
 
-bobmods.lib.recipe.add_new_ingredient ("logistic-chest-passive-provider-2", {type="item", name="logistic-chest-passive-provider", amount=1})
+bobmods.lib.recipe.add_new_ingredient ("logistic-chest-passive-provider-2", {type="item", name="passive-provider-chest", amount=1})
 bobmods.lib.recipe.add_new_ingredient ("logistic-chest-passive-provider-3", {type="item", name="logistic-chest-passive-provider-2", amount=1})
-bobmods.lib.recipe.add_new_ingredient ("logistic-chest-active-provider-2", {type="item", name="logistic-chest-active-provider", amount=1})
+bobmods.lib.recipe.add_new_ingredient ("logistic-chest-active-provider-2", {type="item", name="active-provider-chest", amount=1})
 bobmods.lib.recipe.add_new_ingredient ("logistic-chest-active-provider-3", {type="item", name="logistic-chest-active-provider-2", amount=1})
-bobmods.lib.recipe.add_new_ingredient ("logistic-chest-buffer-2", {type="item", name="logistic-chest-buffer", amount=1})
+bobmods.lib.recipe.add_new_ingredient ("logistic-chest-buffer-2", {type="item", name="buffer-chest", amount=1})
 bobmods.lib.recipe.add_new_ingredient ("logistic-chest-buffer-3", {type="item", name="logistic-chest-buffer-2", amount=1})
-bobmods.lib.recipe.add_new_ingredient ("logistic-chest-requester-2", {type="item", name="logistic-chest-requester", amount=1})
+bobmods.lib.recipe.add_new_ingredient ("logistic-chest-requester-2", {type="item", name="requester-chest", amount=1})
 bobmods.lib.recipe.add_new_ingredient ("logistic-chest-requester-3", {type="item", name="logistic-chest-requester-2", amount=1})
-bobmods.lib.recipe.add_new_ingredient ("logistic-chest-storage-2", {type="item", name="logistic-chest-storage", amount=1})
+bobmods.lib.recipe.add_new_ingredient ("logistic-chest-storage-2", {type="item", name="storage-chest", amount=1})
 bobmods.lib.recipe.add_new_ingredient ("logistic-chest-storage-3", {type="item", name="logistic-chest-storage-2", amount=1})
 
 --ANGELS

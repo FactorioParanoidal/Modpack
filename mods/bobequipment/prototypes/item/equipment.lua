@@ -1,4 +1,4 @@
-data.raw.item["fusion-reactor-equipment"].order = "a[energy-source]-b[fusion-reactor-1]"
+data.raw.item["fission-reactor-equipment"].order = "a[energy-source]-b[fusion-reactor-1]"
 data.raw.item["night-vision-equipment"].order = "f[night-vision]-a[night-vision-equipment-1]"
 data.raw.item["solar-panel-equipment"].order = "a[energy-source]-a[solar-panel-1]"
 data.raw.item["personal-laser-defense-equipment"].order = "d[active-defense]-a[personal-laser-defense-equipment-1]"
@@ -113,10 +113,10 @@ data:extend({
   },
 })
 
-data.raw.item["fusion-reactor-equipment"].icon =
+data.raw.item["fission-reactor-equipment"].icon =
   "__bobequipment__/graphics/icons/technology/fusion-reactor-equipment-1.png"
-data.raw.item["fusion-reactor-equipment"].icon_size = 128
-data.raw.item["fusion-reactor-equipment"].icon_mipmaps = nil
+data.raw.item["fission-reactor-equipment"].icon_size = 128
+data.raw.item["fission-reactor-equipment"].icon_mipmaps = nil
 
 data:extend({
   {

@@ -9,7 +9,7 @@ data:extend({
 		category = "advanced-chemistry",
 		subgroup = "petrochem-solids",
 		energy_required =3 ,
-		enabled = "false",
+		enabled = false,
 		ingredients ={
 			{type="fluid", name="gas-butadiene", amount=20},
 			{type="fluid", name="liquid-styrene", amount=50},
@@ -41,7 +41,7 @@ data:extend({
 		category = "chemistry",
 		subgroup = "petrochem-solids",
 		energy_required = 2,
-		enabled = "false",
+		enabled = false,
 		ingredients ={
 			{type="item", name="solid-pc", amount=1},
 		},
@@ -65,7 +65,7 @@ data:extend({
 		category = "chemistry",
 		subgroup = "petrochem-solids",
 		energy_required =2 ,
-		enabled = "false",
+		enabled = false,
 		ingredients ={
 			{type="fluid", name="liquid-naphtha", amount=5},
 			{type="fluid", name="gas-vinyl-chloride", amount=30},
@@ -95,7 +95,7 @@ data:extend({
 		category = "chemistry",
 		subgroup = "petrochem-solids",
 		energy_required = 1,
-		enabled = "false",
+		enabled = false,
 		ingredients ={
 			{type="fluid", name="liquid-methyl-methacrylate", amount=20},
 		},
@@ -114,7 +114,7 @@ data:extend({
 		category = "chemistry",
 		subgroup = "petrochem-solids",
 		energy_required = 1,
-		enabled = "false",
+		enabled = false,
 		ingredients ={
 			{type="fluid", name="liquid-bisphenol-a", amount=10},
 			{type="fluid", name="gas-phosgene", amount=10},
@@ -134,7 +134,7 @@ data:extend({
 		category = "chemistry",
 		subgroup = "petrochem-nitrogen",
 		energy_required = 2,
-		enabled = "false",
+		enabled = false,
 		ingredients ={
 			{type="fluid", name="gas-propene", amount=100},
 			{type="fluid", name="gas-ammonia", amount=100},
@@ -155,7 +155,7 @@ data:extend({
 		category = "chemistry",
 		subgroup = "petrochem-chlorine",
 		energy_required = 2,
-		enabled = "false",
+		enabled = false,
 		ingredients ={
 			{type="fluid", name="gas-ethylene", amount=150},
 			{type="fluid", name="gas-chlorine", amount=75},
@@ -177,7 +177,7 @@ data:extend({
 		category = "chemistry",
 		subgroup = "petrochem-nitrogen",
 		energy_required = 2,
-		enabled = "false",
+		enabled = false,
 		ingredients ={
 			{type="fluid", name="gas-acetone", amount=50},
 			{type="fluid", name="gas-hydrogen-cyanide", amount=50},
@@ -196,7 +196,7 @@ data:extend({
 		category = "advanced-chemistry",
 		subgroup = "petrochem-chemistry",
 		energy_required = 2,
-		enabled = "false",
+		enabled = false,
 		ingredients ={
 			{type="fluid", name="liquid-acetone-cyanohydrin", amount=50},
 			{type="fluid", name="gas-methanol", amount=100},
@@ -217,7 +217,7 @@ data:extend({
 		category = "chemistry",
 		subgroup = "petrochem-chlorine",
 		energy_required = 2,
-		enabled = "false",
+		enabled = false,
 		ingredients ={
 			{type="fluid", name="gas-carbon-monoxide", amount=50},
 			{type="fluid", name="gas-chlorine", amount=50},
@@ -236,7 +236,7 @@ data:extend({
 		category = "advanced-chemistry",
 		subgroup = "petrochem-nitrogen",
 		energy_required = 2,
-		enabled = "false",
+		enabled = false,
 		ingredients ={
 			{type="fluid", name="gas-urea", amount=50},
 			{type="fluid", name="liquid-nitric-acid", amount=20},
@@ -259,7 +259,7 @@ data:extend({
 		category = "chemistry",
 		subgroup = "petrochem-nitrogen",
 		energy_required = 2,
-		enabled = "false",
+		enabled = false,
 		ingredients ={
 			{type="item", name="solid-ammonium-sulphate", amount=5},
 			{type="item", name="solid-sodium-nitrate", amount=5},
@@ -278,7 +278,7 @@ data:extend({
 		category = "liquifying",
 		subgroup = "petrochem-basics",
 		energy_required = 2,
-		enabled = "false",
+		enabled = false,
 		ingredients ={
 			{type="item", name="solid-sodium-hydroxide", amount=5},
 			{type="fluid", name="liquid-nitric-acid", amount=50},
@@ -296,7 +296,7 @@ data:extend({
 		category = "advanced-chemistry",
 		subgroup = "petrochem-nitrogen",
 		energy_required = 1,
-		enabled = "false",
+		enabled = false,
 		ingredients ={
 			{type="fluid", name="gas-methane", amount=20},
 			{type="fluid", name="gas-ammonia", amount=20},
@@ -317,7 +317,7 @@ data:extend({
 		category = "chemistry",
 		subgroup = "petrochem-solids",
 		energy_required = 2,
-		enabled = "false",
+		enabled = false,
 		ingredients ={
 			{type="item", name="solid-pmma", amount=1},
 		},
@@ -347,7 +347,7 @@ data:extend({
 		category = "crafting",
 		subgroup = "petrochem-catalysts",
 		energy_required = 2,
-		enabled = "false",
+		enabled = false,
 		ingredients ={
 			{type="item", name="iron-plate", amount=1},
 			{type="item", name="copper-plate", amount=1},
@@ -366,7 +366,7 @@ data:extend({
 		category = "advanced-chemistry",
 		subgroup = "petrochem-carbon-oil-feed",
 		energy_required = 6,
-		enabled = "false",
+		enabled = false,
 		ingredients ={
 			{type="fluid", name="gas-nitrous-oxide", amount=20},
 			{type="fluid", name="liquid-cupric-chloride-solution", amount=30},
@@ -388,7 +388,7 @@ data:extend({
     category = "chemistry",
 	subgroup = "petrochem-solids",
     energy_required = 3,
-	enabled = "false",
+	enabled = false,
     ingredients ={
 		{type="fluid", name="gas-formaldehyde", amount=20},
 		{type="fluid", name="liquid-phenol", amount=20},

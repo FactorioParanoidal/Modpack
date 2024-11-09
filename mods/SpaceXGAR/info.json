@@ -4,6 +4,6 @@
 	"version":"0.17.0",
 	"title":"SpaceX Get a Room",
 	"description":"Puts SpaceX items in their own tab where they belong",
-	"factorio_version":"1.1",
+	"factorio_version":"2.0",
 	"dependencies": ["base", "SpaceMod", "? ShinyIcons"]
 }

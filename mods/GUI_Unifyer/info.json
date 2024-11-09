@@ -5,7 +5,7 @@
 	"description": "Forces mod buttons to look uniform and aligned, harminizes icons, and adds visual options for buttons.\n\nSupports about 116 mods with buttons (= most of them): Factory Planner, Helmod, Module Inserter, Placeables, Bob's mods, Pyanodon, Schall's mods, Todo List, Creative Mod, BeastFinder, Bob's mods, Blueprint-request, CleanMap, Death Counter, FJEI, 248k, Hive Mind, Outpost Planner, Silo Stats, Attila Zoom, Zoom, Auto Trash, Homeworld, Teleportation, RPG, Trashcan, Kuxynator's mods, Factorissimo2...",
 	"author": "snouz",
 	"homepage": "https://mods.factorio.com/mod/GUI_Unifyer",
-	"factorio_version": "1.1",
+	"factorio_version": "2.0",
 	"dependencies": [
 		"base >= 1.1.0",
 		"?Bluegistics",

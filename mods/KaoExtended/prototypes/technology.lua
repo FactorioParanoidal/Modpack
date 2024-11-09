@@ -15,29 +15,29 @@ bobmods.lib.tech.add_recipe_unlock("angels-sulfur-processing-1", "condensator2")
 bobmods.lib.tech.add_recipe_unlock("angels-aluminium-smelting-1", "condensator3")
 
 bobmods.lib.tech.add_recipe_unlock("electronics", "simple-io")
-bobmods.lib.tech.add_recipe_unlock("advanced-electronics", "standart-io")
-bobmods.lib.tech.add_recipe_unlock("advanced-electronics-2", "advanced-io")
+bobmods.lib.tech.add_recipe_unlock("advanced-circuit", "standart-io")
+bobmods.lib.tech.add_recipe_unlock("processing-unit", "advanced-io")
 bobmods.lib.tech.add_recipe_unlock("advanced-electronics-3", "predictive-io")
 bobmods.lib.tech.add_recipe_unlock("advanced-electronics-3", "intelligent-io")
 
 bobmods.lib.tech.add_recipe_unlock("logistic-science-pack", "sci-component-2")
 bobmods.lib.tech.add_recipe_unlock("chemical-science-pack", "sci-component-3")
---bobmods.lib.tech.add_recipe_unlock("advanced-electronics", "sci-component-4")
+--bobmods.lib.tech.add_recipe_unlock("advanced-circuit", "sci-component-4")
 
 bobmods.lib.tech.add_recipe_unlock("production-science-pack", "sci-component-5")
 bobmods.lib.tech.add_recipe_unlock("utility-science-pack", "sci-component-4")
 
 bobmods.lib.tech.add_recipe_unlock("military-science-pack", "sci-component-m")
 bobmods.lib.tech.add_recipe_unlock("advanced-logistic-science-pack", "sci-component-l")
-bobmods.lib.tech.add_recipe_unlock("advanced-electronics", "sci-component-o")
+bobmods.lib.tech.add_recipe_unlock("advanced-circuit", "sci-component-o")
 
---было
+--пїЅпїЅпїЅпїЅ
 --bobmods.lib.tech.add_recipe_unlock("advanced-electronics-3", "advsci-component-3")
 --bobmods.lib.tech.add_recipe_unlock("advanced-electronics-4", "advsci-component-4")
 
--- стало
-bobmods.lib.tech.add_recipe_unlock("advanced-electronics", "advsci-component-3")
-bobmods.lib.tech.add_recipe_unlock("advanced-electronics-2", "advsci-component-4")
+-- пїЅпїЅпїЅпїЅпїЅ
+bobmods.lib.tech.add_recipe_unlock("advanced-circuit", "advsci-component-3")
+bobmods.lib.tech.add_recipe_unlock("processing-unit", "advsci-component-4")
 
 --[[
   data.raw.technology["water-miner-1"] = nil

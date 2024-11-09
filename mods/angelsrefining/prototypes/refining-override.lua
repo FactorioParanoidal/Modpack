@@ -63,7 +63,7 @@ if mods["bobplates"] then
       {
         name = "empty-canister",
         ingredients = {
-          { name = "empty-barrel", amount = 5 },
+          { name = "barrel", amount = 5 },
         },
         subgroup = "angels-fluid-control",
         order = "i",

@@ -5,6 +5,6 @@
   "author": "Optera",
   "homepage": "",
   "description": "Logistics and Cargo Bots are not minable. Includes mod settings to disable every aspect separately.",
-  "factorio_version": "1.1",
+  "factorio_version": "2.0",
   "dependencies": ["base", "?ReStack"]
 }

@@ -4,7 +4,7 @@ data:extend({
         name = "satellite-radar",
         category = "satellite-crafting",
         energy_required = 100,
-        enabled = "false",
+        enabled = false,
         ingredients = 
         {
             {"electric-engine-unit", 10},

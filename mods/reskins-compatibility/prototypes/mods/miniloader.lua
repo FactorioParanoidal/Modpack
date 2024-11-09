@@ -91,7 +91,7 @@ for name, map in pairs(tier_map) do
 
     -- Retint the mask
     if map.is_inserter then
-        local base_path = map.is_filter and "filter-inserter" or "inserter"
+        local base_path = map.is_filter and "fast-inserter" or "inserter"
 
         entity.corpse = "small-remnants"
         entity.platform_picture.sheets = {

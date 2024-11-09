@@ -17,8 +17,8 @@ local inputs = {
 }
 
 -- Determine inserter permutations
-local stack_inserter_icon_name = reskins.lib.setting("reskins-bobs-flip-stack-inserter-icons") and "flipped-stack-inserter" or "stack-inserter"
-local stack_inserter_type = "stack-inserter"
+local stack_inserter_icon_name = reskins.lib.setting("reskins-bobs-flip-bulk-inserter-icons") and "flipped-bulk-inserter" or "bulk-inserter"
+local stack_inserter_type = "bulk-inserter"
 
 local inserter_icon_name = "inserter"
 local inserter_type = (mods["bobsinserters"] or reskins.lib.setting("bobmods-logistics-inserteroverhaul")) and "long-inserter" or "inserter"
@@ -36,19 +36,19 @@ local inserter_map = {
     -- Filter inserters
     ["yellow-filter-inserter"] = {tier = 1, is_filter = true, type = inserter_type, icon_name = "filter-"..inserter_icon_name},
     ["red-filter-inserter"] = {tier = 2, is_filter = true, type = inserter_type, icon_name = "filter-"..inserter_icon_name},
-    ["filter-inserter"] = {tier = 3, is_filter = true, type = inserter_type, icon_name = "filter-"..inserter_icon_name},
+    ["fast-inserter"] = {tier = 3, is_filter = true, type = inserter_type, icon_name = "filter-"..inserter_icon_name},
     ["turbo-filter-inserter"] = {tier = 4, is_filter = true, type = inserter_type, icon_name = "filter-"..inserter_icon_name},
     ["express-filter-inserter"] = {tier = 5, is_filter = true, type = inserter_type, icon_name = "filter-"..inserter_icon_name},
 
     -- Stack inserters
-    ["red-stack-inserter"] = {tier = 2, is_stack_inserter = true, type = stack_inserter_type, icon_name = stack_inserter_icon_name},
-    ["stack-inserter"] = {tier = 3, is_stack_inserter = true, type = stack_inserter_type, icon_name = stack_inserter_icon_name},
-    ["turbo-stack-inserter"] = {tier = 4, is_stack_inserter = true, type = stack_inserter_type, icon_name = stack_inserter_icon_name},
-    ["express-stack-inserter"] = {tier = 5, is_stack_inserter = true, type = stack_inserter_type, icon_name = stack_inserter_icon_name},
+    ["red-bulk-inserter"] = {tier = 2, is_stack_inserter = true, type = stack_inserter_type, icon_name = stack_inserter_icon_name},
+    ["bulk-inserter"] = {tier = 3, is_stack_inserter = true, type = stack_inserter_type, icon_name = stack_inserter_icon_name},
+    ["turbo-bulk-inserter"] = {tier = 4, is_stack_inserter = true, type = stack_inserter_type, icon_name = stack_inserter_icon_name},
+    ["express-bulk-inserter"] = {tier = 5, is_stack_inserter = true, type = stack_inserter_type, icon_name = stack_inserter_icon_name},
 
     -- Stack filter inserters
     ["red-stack-filter-inserter"] = {tier = 2, is_filter = true, is_stack_inserter = true, type = stack_inserter_type, icon_name = "filter-"..stack_inserter_icon_name},
-    ["stack-filter-inserter"] = {tier = 3, is_filter = true, is_stack_inserter = true, type = stack_inserter_type, icon_name = "filter-"..stack_inserter_icon_name},
+    ["bulk-inserter"] = {tier = 3, is_filter = true, is_stack_inserter = true, type = stack_inserter_type, icon_name = "filter-"..stack_inserter_icon_name},
     ["turbo-stack-filter-inserter"] = {tier = 4, is_filter = true, is_stack_inserter = true, type = stack_inserter_type, icon_name = "filter-"..stack_inserter_icon_name},
     ["express-stack-filter-inserter"] = {tier = 5, is_filter = true, is_stack_inserter = true, type = stack_inserter_type, icon_name = "filter-"..stack_inserter_icon_name},
 }
@@ -463,7 +463,7 @@ for name, map in pairs(inserter_map) do
 
     -- Construct input properties from map properties
     inputs.platform_tint = map.is_filter and util.color("bfbfbf") or inputs.tint -- Whiteish for filter inserters
-    inputs.base_entity_name = map.is_stack_inserter and "stack-inserter" or "inserter"
+    inputs.base_entity_name = map.is_stack_inserter and "bulk-inserter" or "inserter"
     inputs.icon_name = map.icon_name
     inputs.icon_extras = map.is_filter and filter_icon_symbol(inputs.tint)
 

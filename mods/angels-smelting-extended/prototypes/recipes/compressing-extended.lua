@@ -25,7 +25,7 @@ for metal,properties in pairs(ASE.tables.coil_metals) do
       category = "strand-casting",
       subgroup = sgrp,
       energy_required = 4,
-      enabled = "false",
+      enabled = false,
       localised_name = {"recipe-name.casting", {"lookup."..metal}},
       icons = angelsmods.functions.add_number_icon_layer({
         {
@@ -50,7 +50,7 @@ for metal,properties in pairs(ASE.tables.coil_metals) do
       category = "advanced-crafting",
       subgroup = sgrp,
       energy_required = 0.5,
-      enabled = "false",
+      enabled = false,
       ingredients = {
         {type = "item", name = "angels-roll-"..metal, amount = 1}
       },
@@ -79,7 +79,7 @@ for metal,properties in pairs(ASE.tables.coil_metals) do
       category = "strand-casting",
       subgroup = sgrp,
       energy_required = 2,
-      enabled = "false",
+      enabled = false,
       localised_name = {"recipe-name.casting", {"lookup."..metal}},
       ingredients = {
         ing_2,

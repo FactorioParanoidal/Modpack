@@ -261,7 +261,7 @@ if mods["bobplates"] then
       OV.add_prereq("circuit-network", "bio-wood-processing")
     end
     OV.add_prereq("rubbers", "circuit-network")
-    OV.add_prereq("advanced-electronics-2", "rubbers")
+    OV.add_prereq("processing-unit", "rubbers")
   end
 end
 
@@ -271,7 +271,7 @@ end
 if mods["bobplates"] then
   -- bob electronics
   if mods["bobelectronics"] then --check if it exists first
-    OV.add_prereq("advanced-electronics", "resins")
+    OV.add_prereq("advanced-circuit", "resins")
   end
 end
 

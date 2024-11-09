@@ -5,7 +5,7 @@
     "author": "Xorimuth",
     "homepage": "https://discord.gg/pkJc4v9nfT",
     "description": "Search your factory for items, fluids, entities, signals, tags and more with Shift + F. Displays a list of matching buildings: clicking on a result opens it in the map. Supports Space Exploration (works across all surfaces).\nControl + Shift + Click on almost anything (e.g. built entity, inventory item, recipe) to open the search with that item selected.\nSimilar to BeastFinder and Where is it Made?",
-    "factorio_version": "1.1",
+    "factorio_version": "2.0",
     "dependencies": ["base"],
     "package": {
       "ignore": ["resources/*", "scenarios/*"]

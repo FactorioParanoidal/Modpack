@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Formats.Tar;
 using System.IO;
 using System.Linq;
 using System.Net.Http;
@@ -8,7 +9,7 @@ using System.Threading.Tasks;
 using Nuke.Common;
 using Nuke.Common.IO;
 using Serilog;
-using SharpCompress.Readers;
+using SharpCompress.Compressors.Xz;
 using Process = System.Diagnostics.Process;
 using ProcessStartInfo = System.Diagnostics.ProcessStartInfo;
 
@@ -47,28 +48,24 @@ public static class FactorioLauncher
     {
         var factorioVersionString = factorioVersion.ToString(3);
         var downloadPath = path / factorioVersionString;
+        downloadPath.CreateOrCleanDirectory();
 
-        var factorioDownloadLink =
-            Utils.GetFactorioDownloadLinkForCurrentOs(factorioVersionString, factorioDistribution, factorioOs);
+        var factorioDownloadLink = Utils.GetFactorioDownloadLinkForCurrentOs(factorioVersionString,
+            factorioDistribution, factorioOs);
         Log.Information("Downloading and extracting Factorio archive from {Url}", factorioDownloadLink);
 
         using var responseMessage = await Utils.HttpClient.GetAsync(factorioDownloadLink,
             HttpCompletionOption.ResponseHeadersRead);
         await using var responseStream = await responseMessage.Content.ReadAsStreamAsync();
-        
-        using var reader = ReaderFactory.Open(responseStream);
-        while (reader.MoveToNextEntry())
-        {
-            if (reader.Entry.IsDirectory)
-            {
-                continue;
-            }
-            var fileName = reader.Entry.Key.Replace("factorio/", "");
-            var targetFilePath = downloadPath / fileName;
 
-            targetFilePath.CreateDirectoryForFile();
-            await using var fs = File.Open(targetFilePath, FileMode.Create);
-            reader.WriteEntryTo(fs);
+        await using var xzStream = new XZStream(responseStream);
+        await using var reader = new TarReader(xzStream, true);
+        while (await reader.GetNextEntryAsync() is { } entry)
+        {
+            if (entry.EntryType is TarEntryType.GlobalExtendedAttributes or TarEntryType.Directory) continue;
+            var filePath = downloadPath / entry.Name.Replace("factorio/", "");
+            filePath.CreateDirectoryForFile();
+            await entry.ExtractToFileAsync(filePath, true);
         }
 
         Log.Information("Factorio downloaded");
@@ -78,15 +75,14 @@ public static class FactorioLauncher
     public static async Task<bool> EnsureFactorioServerCanLaunch(AbsolutePath factorioServerLocation,
         string? modsPath = null)
     {
-        Assert.True(OperatingSystem.IsLinux(), "Factorio can be started only on linux");
-
-        (factorioServerLocation / "saves").DeleteDirectory();
-
         var serverFile = factorioServerLocation / "bin/x64/factorio";
         if (!serverFile.Exists())
             return false;
-        Utils.Chmod(serverFile);
-
+        
+        Assert.True(OperatingSystem.IsLinux(), "Factorio can be started only on linux");
+        (factorioServerLocation / "saves").DeleteDirectory();
+        (factorioServerLocation / ".lock").DeleteFile();
+        
         var port = 34197;
         var arguments = $"--start-server-load-scenario base/freeplay --bind 0.0.0.0:{port}";
         if (modsPath is not null)
@@ -102,6 +98,7 @@ public static class FactorioLauncher
             Arguments = arguments,
             RedirectStandardOutput = true,
         };
+        Utils.Chmod(serverFile);
         using var process = Process.Start(processStartInfo).NotNull("Process.Start(processStartInfo) != null")!;
         process.BeginOutputReadLine();
 

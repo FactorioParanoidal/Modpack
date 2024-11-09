@@ -129,22 +129,22 @@ end
 
 bobmods.lib.tech.add_prerequisite("vehicle-fusion-reactor-equipment-2", "speed-module-2")
 bobmods.lib.tech.add_prerequisite("vehicle-fusion-cell-equipment-2", "speed-module-2")
-bobmods.lib.tech.add_prerequisite("vehicle-fusion-reactor-equipment-2", "effectivity-module-2")
-bobmods.lib.tech.add_prerequisite("vehicle-fusion-cell-equipment-2", "effectivity-module-2")
+bobmods.lib.tech.add_prerequisite("vehicle-fusion-reactor-equipment-2", "efficiency-module-2")
+bobmods.lib.tech.add_prerequisite("vehicle-fusion-cell-equipment-2", "efficiency-module-2")
 bobmods.lib.tech.add_prerequisite("vehicle-fusion-reactor-equipment-2", "productivity-module-2")
 bobmods.lib.tech.add_prerequisite("vehicle-fusion-cell-equipment-2", "productivity-module-2")
 
 bobmods.lib.tech.add_prerequisite("vehicle-fusion-reactor-equipment-3", "speed-module-3")
 bobmods.lib.tech.add_prerequisite("vehicle-fusion-cell-equipment-3", "speed-module-3")
-bobmods.lib.tech.add_prerequisite("vehicle-fusion-reactor-equipment-3", "effectivity-module-3")
-bobmods.lib.tech.add_prerequisite("vehicle-fusion-cell-equipment-3", "effectivity-module-3")
+bobmods.lib.tech.add_prerequisite("vehicle-fusion-reactor-equipment-3", "efficiency-module-3")
+bobmods.lib.tech.add_prerequisite("vehicle-fusion-cell-equipment-3", "efficiency-module-3")
 bobmods.lib.tech.add_prerequisite("vehicle-fusion-reactor-equipment-3", "productivity-module-3")
 bobmods.lib.tech.add_prerequisite("vehicle-fusion-cell-equipment-3", "productivity-module-3")
 
 if data.raw.technology["effectivity-module-4"] then
   bobmods.lib.tech.add_prerequisite("vehicle-energy-shield-equipment-4", "effectivity-module-4")
 else
-  bobmods.lib.tech.add_prerequisite("vehicle-energy-shield-equipment-4", "effectivity-module-3")
+  bobmods.lib.tech.add_prerequisite("vehicle-energy-shield-equipment-4", "efficiency-module-3")
 end
 
 if data.raw.technology["productivity-module-4"] then

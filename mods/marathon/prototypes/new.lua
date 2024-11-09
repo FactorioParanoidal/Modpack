@@ -28,7 +28,7 @@ data:extend(
     category = "ore-processing",
     subgroup = "angels-iron",
     energy_required = 2,
-    enabled = "false",
+    enabled = false,
     ingredients =
     {
       {"iron-ore", 4}

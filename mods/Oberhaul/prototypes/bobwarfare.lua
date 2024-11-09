@@ -123,14 +123,14 @@ data:extend({
   {
     type = "recipe",
     name = "ober-portable-solar",
-    enabled = "false",
+    enabled = false,
     energy_required = 10,
     ingredients = 
     {{"solar-panel-equipment-4",16}},
-    result = "fusion-reactor-equipment",   
+    result = "fission-reactor-equipment",   
   }
 })
-bobmods.lib.tech.add_recipe_unlock("fusion-reactor-equipment", "ober-portable-solar")
+bobmods.lib.tech.add_recipe_unlock("fission-reactor-equipment", "ober-portable-solar")
 end
 --[[
 data.raw.technology["power-armor-2"].unit.ingredients = {

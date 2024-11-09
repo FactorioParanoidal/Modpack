@@ -6,6 +6,6 @@
   "contact": "",
   "homepage": "https://github.com/robot256/Robot256Lib",
   "description": "Utilities used in many of my mods bundled into one package.",
-  "factorio_version": "1.1",
+  "factorio_version": "2.0",
   "dependencies": ["base >= 1.1.0"]
 }

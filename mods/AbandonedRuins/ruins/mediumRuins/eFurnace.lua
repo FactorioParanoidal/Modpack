@@ -3,7 +3,7 @@ return
   variables =
   {
     {name = "random-belt", type = "entity-expression", value = {type = "random-of-entity-type", entity_type = "transport-belt"}},
-    {name = "random-inserter", type = "entity-expression", value = {type = "random-from-list", list = {"inserter", "fast-inserter", "stack-inserter", "filter-inserter"}}},
+    {name = "random-inserter", type = "entity-expression", value = {type = "random-from-list", list = {"inserter", "fast-inserter", "bulk-inserter", "fast-inserter"}}},
   },
   entities =
   {

@@ -1,12 +1,12 @@
 if data.raw.item["solder"] then
   bobmods.lib.recipe.add_ingredient("speed-module-2", { "solder", 1 })
-  bobmods.lib.recipe.add_ingredient("effectivity-module-2", { "solder", 1 })
+  bobmods.lib.recipe.add_ingredient("efficiency-module-2", { "solder", 1 })
   bobmods.lib.recipe.add_ingredient("productivity-module-2", { "solder", 1 })
   bobmods.lib.recipe.add_ingredient("pollution-clean-module-2", { "solder", 1 })
   bobmods.lib.recipe.add_ingredient("pollution-create-module-2", { "solder", 1 })
 
   bobmods.lib.recipe.add_ingredient("speed-module-3", { "solder", 2 })
-  bobmods.lib.recipe.add_ingredient("effectivity-module-3", { "solder", 2 })
+  bobmods.lib.recipe.add_ingredient("efficiency-module-3", { "solder", 2 })
   bobmods.lib.recipe.add_ingredient("productivity-module-3", { "solder", 2 })
   bobmods.lib.recipe.add_ingredient("pollution-clean-module-3", { "solder", 2 })
   bobmods.lib.recipe.add_ingredient("pollution-create-module-3", { "solder", 2 })
@@ -42,7 +42,7 @@ if data.raw.item["solder"] then
   bobmods.lib.recipe.add_ingredient("pollution-create-module-8", { "solder", 8 })
 else
   bobmods.lib.recipe.add_ingredient("speed-module-3", { "module-contact", 5 })
-  bobmods.lib.recipe.add_ingredient("effectivity-module-3", { "module-contact", 5 })
+  bobmods.lib.recipe.add_ingredient("efficiency-module-3", { "module-contact", 5 })
   bobmods.lib.recipe.add_ingredient("productivity-module-3", { "module-contact", 5 })
   bobmods.lib.recipe.add_ingredient("pollution-clean-module-3", { "module-contact", 5 })
   bobmods.lib.recipe.add_ingredient("pollution-create-module-3", { "module-contact", 5 })
@@ -50,7 +50,7 @@ end
 
 if data.raw.item["electronic-components"] then
   bobmods.lib.recipe.replace_ingredient("speed-module-3", "advanced-circuit", "electronic-components")
-  bobmods.lib.recipe.replace_ingredient("effectivity-module-3", "advanced-circuit", "electronic-components")
+  bobmods.lib.recipe.replace_ingredient("efficiency-module-3", "advanced-circuit", "electronic-components")
   bobmods.lib.recipe.replace_ingredient("productivity-module-3", "advanced-circuit", "electronic-components")
   bobmods.lib.recipe.replace_ingredient("pollution-clean-module-3", "advanced-circuit", "electronic-components")
   bobmods.lib.recipe.replace_ingredient("pollution-create-module-3", "advanced-circuit", "electronic-components")

@@ -326,7 +326,7 @@ if settings.startup['ed-inserter-stats'].value then
 		    for _, effect in ipairs(technology.effects) do
 			    if effect.type == 'inserter-stack-size-bonus' then
 				    inserter_stack_size = inserter_stack_size + effect.modifier
-			    elseif effect.type == 'stack-inserter-capacity-bonus' then
+			    elseif effect.type == 'bulk-inserter-capacity-bonus' then
 				    stack_inserter_stack_size = stack_inserter_stack_size + effect.modifier
 			    end
 		    end

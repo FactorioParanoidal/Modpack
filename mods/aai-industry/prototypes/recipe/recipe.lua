@@ -14,33 +14,6 @@ data:extend({{
 util.allow_productivity("stone-tablet")
 ]]
 
---- From DrD
-data:extend({{
-    type = "recipe",
-    name = "burner-filter-inserter",
-	category = "crafting",
-	
-	normal = {
-	  enabled = false,
-      energy_required = 1,
-      ingredients = {
-      {type="item", name="burner-inserter", amount=1},
-      {type="item", name="basic-circuit-board", amount=4}
-      },
-    results = { {type="item", name="burner-filter-inserter", amount=1} },
-    },
-	expensive = {
-	  enabled = false,
-      energy_required = 1,
-      ingredients = {
-      {type="item", name="burner-inserter", amount=1},
-      {type="item", name="basic-circuit-board", amount=8}
-      },
-    results = { {type="item", name="burner-filter-inserter", amount=1} },
-    },
-}})
---- END from DrD
-
 data:extend({{
     type = "recipe",
     name = "motor",

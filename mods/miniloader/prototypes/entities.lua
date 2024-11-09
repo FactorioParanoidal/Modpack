@@ -193,7 +193,7 @@ local function create_loaders(prefix, base_underground_name, tint)
   }
 end
 
-local connector_definitions = circuit_connector_definitions.create(
+local connector_definitions = circuit_connector_definitions.create_vector(
   universal_connector_template,
   {
     { variation = 24, main_offset = util.by_pixel(-17, 0), shadow_offset = util.by_pixel(10, -0.5), show_shadow = false },

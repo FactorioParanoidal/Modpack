@@ -16,7 +16,7 @@ data:extend({
 		type = "recipe",
 		name = "big-lab",
 		energy_required = 20,
-		enabled = "false",
+		enabled = false,
 		ingredients =
 		{
 		  {"concrete", 5000},

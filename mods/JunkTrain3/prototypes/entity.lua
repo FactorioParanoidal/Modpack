@@ -276,14 +276,14 @@ data:extend({
         sound_minimum_speed = 0.5;
     },]]
   {
-    type = "straight-rail",
+    type = "legacy-straight-rail",
     name = "straight-scrap-rail",
     icon = "__JunkTrain3__/graphics/icons/rail.png",
     icon_size = 32,
     flags = {"placeable-neutral", "player-creation", "building-direction-8-way"},
     minable = {mining_time = 0.2, result = "scrap-rail"},
     max_health = 10,
-    corpse = "straight-rail-remnants",
+    corpse = "legacy-straight-rail-remnants",
     resistances =
     {
       {
@@ -297,14 +297,14 @@ data:extend({
     pictures = scrap_rail_pictures(),
   },
   {
-    type = "curved-rail",
+    type = "legacy-curved-rail",
     name = "curved-scrap-rail",
     icon = "__JunkTrain3__/graphics/icons/curved-rail.png",
     icon_size = 32,
     flags = {"placeable-neutral", "player-creation", "building-direction-8-way"},
     minable = {mining_time = 0.2, result = "scrap-rail", count = 4},
     max_health = 20,
-    corpse = "curved-rail-remnants",
+    corpse = "legacy-curved-rail-remnants",
     resistances =
     {
       {

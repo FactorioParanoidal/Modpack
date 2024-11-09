@@ -97,7 +97,7 @@ presets["Full PyMods"] = {
 
         {type="group",      name="Utility"},
         {type="item",       name="sc-engine",                     quantity=1},
-        {type="item",       name="fusion-reactor-equipment",      quantity=1},
+        {type="item",       name="fission-reactor-equipment",      quantity=1},
         {type="item",       name="kevlar",                        quantity=1},
         {type="item",       name="volumetric-capacitor",          quantity=1},
         {type="item",       name="hyperelastic-material",         quantity=1},
@@ -298,7 +298,7 @@ presets["Full PyMods (minus Alternative Energy)"] = {
         {type="item",       name="py-science-pack-4",       quantity=1000, next="x10"},
 
         {type="group",      name="Utility"},
-        {type="item",       name="fusion-reactor-equipment",      quantity=1},
+        {type="item",       name="fission-reactor-equipment",      quantity=1},
         {type="item",       name="kevlar",                        quantity=1},
         {type="item",       name="volumetric-capacitor",          quantity=1},
         {type="item",       name="hyperelastic-material",         quantity=1},
@@ -431,7 +431,7 @@ presets["Medium PyMods"] = {
         {type="item",       name="production-science-pack", quantity=1000, next="x10"},
 
         {type="group",      name="Utility"},
-        {type="item",       name="fusion-reactor-equipment",      quantity=1},
+        {type="item",       name="fission-reactor-equipment",      quantity=1},
         {type="item",       name="kevlar",                        quantity=1},
         {type="item",       name="super-alloy",                   quantity=1},
         {type="item",       name="volumetric-capacitor",          quantity=1},
@@ -516,7 +516,7 @@ presets["Short PyMods"] = {
         {type="item",       name="nuclear-fuel",                  quantity=1},
         {type="item",       name="assembling-machine-3",          quantity=1},
         {type="item",       name="destroyer-capsule",             quantity=1},
-        {type="item",       name="fusion-reactor-equipment",      quantity=1},
+        {type="item",       name="fission-reactor-equipment",      quantity=1},
         {type="item",       name="utility-science-pack",          quantity=1},
         {type="item",       name="utility-science-pack",          quantity=1000, next="x10"},
 

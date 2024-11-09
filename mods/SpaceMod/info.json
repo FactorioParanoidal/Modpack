@@ -4,6 +4,6 @@
   "title": "Space Extension Mod",
   "author": "LordKTor",
   "description": "Greatly extend the end game requiring multiple launches and massively increased science. Requires 40+ launches, and of a variety of new components. The goal is to build a vessel capable of getting you off the planet and home safely. Updated graphics courtesy of Steinerrr ",
-  "factorio_version": "1.1",
+  "factorio_version": "2.0",
   "dependencies": ["base", "? boblibrary", "? bobplates", "? bobmodules", "? bobelectronics", "? boblogistics", "? bobtech", "? bobequipment"]
 }

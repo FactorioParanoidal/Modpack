@@ -56,7 +56,7 @@ end
 	bobmods.lib.recipe.add_ingredient("productivity-module-7",{"productivity-processor-3",1})
 	bobmods.lib.recipe.add_ingredient("productivity-module-8",{"productivity-processor-3",1}) 
 	
-	bobmods.lib.recipe.add_ingredient("effectivity-module-3",{"effectivity-processor-2",1})
+	bobmods.lib.recipe.add_ingredient("efficiency-module-3",{"effectivity-processor-2",1})
 	bobmods.lib.recipe.add_ingredient("effectivity-module-4",{"effectivity-processor-2",1})
 	bobmods.lib.recipe.add_ingredient("effectivity-module-5",{"effectivity-processor-2",1})
 	bobmods.lib.recipe.add_ingredient("effectivity-module-6",{"effectivity-processor-3",1})
@@ -81,9 +81,9 @@ bobmods.lib.recipe.add_ingredient("productivity-module-6",{"productivity-module-
 bobmods.lib.recipe.add_ingredient("productivity-module-7",{"productivity-module-6",1})
 bobmods.lib.recipe.add_ingredient("productivity-module-8",{"productivity-module-7",1})
 
-bobmods.lib.recipe.add_ingredient("effectivity-module-2",{"effectivity-module",1})
-bobmods.lib.recipe.add_ingredient("effectivity-module-3",{"effectivity-module-2",1})
-bobmods.lib.recipe.add_ingredient("effectivity-module-4",{"effectivity-module-3",1})
+bobmods.lib.recipe.add_ingredient("efficiency-module-2",{"efficiency-module",1})
+bobmods.lib.recipe.add_ingredient("efficiency-module-3",{"efficiency-module-2",1})
+bobmods.lib.recipe.add_ingredient("effectivity-module-4",{"efficiency-module-3",1})
 bobmods.lib.recipe.add_ingredient("effectivity-module-5",{"effectivity-module-4",1})
 bobmods.lib.recipe.add_ingredient("effectivity-module-6",{"effectivity-module-5",1})
 bobmods.lib.recipe.add_ingredient("effectivity-module-7",{"effectivity-module-6",1})
@@ -92,7 +92,7 @@ bobmods.lib.recipe.add_ingredient("effectivity-module-8",{"effectivity-module-7"
 
 bobmods.lib.recipe.add_ingredient("speed-module-3",{"module-contact",5})
 bobmods.lib.recipe.add_ingredient("productivity-module-3",{"module-contact",5})
-bobmods.lib.recipe.add_ingredient("effectivity-module-3",{"module-contact",5})
+bobmods.lib.recipe.add_ingredient("efficiency-module-3",{"module-contact",5})
 
 bobmods.lib.recipe.replace_ingredient("speed-module-5", "ruby-5", "emerald-5")
 bobmods.lib.recipe.replace_ingredient("productivity-module-5", "ruby-5", "emerald-5")
@@ -121,9 +121,9 @@ data.raw.recipe["productivity-module-6"].energy_required = 80
 data.raw.recipe["productivity-module-7"].energy_required = 120
 data.raw.recipe["productivity-module-8"].energy_required = 160
 
-data.raw.recipe["effectivity-module"].energy_required   = 10
-data.raw.recipe["effectivity-module-2"].energy_required = 20
-data.raw.recipe["effectivity-module-3"].energy_required = 30
+data.raw.recipe["efficiency-module"].energy_required   = 10
+data.raw.recipe["efficiency-module-2"].energy_required = 20
+data.raw.recipe["efficiency-module-3"].energy_required = 30
 data.raw.recipe["effectivity-module-4"].energy_required = 40
 data.raw.recipe["effectivity-module-5"].energy_required = 60
 data.raw.recipe["effectivity-module-6"].energy_required = 80

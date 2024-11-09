@@ -5,6 +5,6 @@
 	"title":"Enhanced Map Colors",
 	"homepage":"https://github.com/osldgoth/Enhanced_Map_Colors/releases",
 	"description":"Changes the map/minimap color of Belts, Power sources, Pipes, Power Poles, Radar, Roboports and more for better contrast. Aids map readability.",
-	"factorio_version": "1.1",
+	"factorio_version": "2.0",
 	"dependencies": ["base >= 0.13.00"]
 }

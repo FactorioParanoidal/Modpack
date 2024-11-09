@@ -293,7 +293,7 @@ data:extend(
             enabled = true,
             hidden = true,
             energy_required = 5,
-            ingredients = {{"empty-barrel", 5}},
+            ingredients = {{"barrel", 5}},
             results = {{"steel-plate", 4}}
         }
     }
@@ -365,7 +365,7 @@ data:extend(
     subgroup = "angels-iron-casting",
     normal =
     {
-      enabled = "false",
+      enabled = false,
       energy_required = 4,
       ingredients ={
         {type="fluid", name="liquid-molten-iron", amount=80},
@@ -375,7 +375,7 @@ data:extend(
     },
     expensive =
     {
-      enabled = "false",
+      enabled = false,
       energy_required = 4,
       ingredients ={
         {type="fluid", name="liquid-molten-iron", amount=100},
@@ -406,7 +406,7 @@ data:extend(
     subgroup = "angels-iron-casting",
     normal =
     {
-      enabled = "false",
+      enabled = false,
       energy_required = 2,
       ingredients ={
         {type="fluid", name="liquid-molten-iron", amount=140},
@@ -420,7 +420,7 @@ data:extend(
     },
     expensive =
     {
-      enabled = "false",
+      enabled = false,
       energy_required = 2,
       ingredients ={
         {type="fluid", name="liquid-molten-iron", amount=180 },
@@ -456,7 +456,7 @@ data:extend(
     subgroup = "angels-steel-casting",
     normal =
     {
-      enabled = "false",
+      enabled = false,
       energy_required = 4,
       ingredients ={
         {type="fluid", name="liquid-molten-steel", amount=80},
@@ -466,7 +466,7 @@ data:extend(
     },
     expensive =
     {
-      enabled = "false",
+      enabled = false,
       energy_required = 4,
       ingredients ={
         {type="fluid", name="liquid-molten-steel", amount=100},
@@ -497,7 +497,7 @@ data:extend(
     subgroup = "angels-steel-casting",
     normal =
     {
-      enabled = "false",
+      enabled = false,
       energy_required = 2,
       ingredients ={
         {type="fluid", name="liquid-molten-steel", amount=140},
@@ -511,7 +511,7 @@ data:extend(
     },
     expensive =
     {
-      enabled = "false",
+      enabled = false,
       energy_required = 2,
       ingredients ={
         {type="fluid", name="liquid-molten-steel", amount=180},
@@ -548,7 +548,7 @@ data:extend(
     subgroup = "angels-iron-casting",
     energy_required = 0.5,
     allow_decomposition = false,
-    enabled = "false",
+    enabled = false,
     ingredients ={
       {type="item", name="angels-iron-gear-wheel-stack", amount=1},
     },
@@ -577,7 +577,7 @@ data:extend(
     category = "advanced-crafting",
 	subgroup = "angels-steel-casting",
     energy_required = 0.5,
-	enabled = "false",
+	enabled = false,
 	allow_decomposition = false,
     ingredients ={
       {type="item", name="angels-steel-gear-wheel-stack", amount=1},

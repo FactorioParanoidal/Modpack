@@ -9,7 +9,7 @@ angelsmods.functions.RB.build({
         name = "hydro-plant-4",
         normal = {
             energy_required = 5,
-            enabled = "false",
+            enabled = false,
             ingredients = {
                 {"hydro-plant-3", 1},
                 {"t5-plate", 4},
@@ -21,7 +21,7 @@ angelsmods.functions.RB.build({
         },
         expensive = {
             energy_required = 5 * buildingtime,
-            enabled = "false",
+            enabled = false,
             ingredients = {
                 {"hydro-plant-3", 1},
                 {"t5-plate", 4 * buildingmulti},
@@ -39,7 +39,7 @@ angelsmods.functions.RB.build({
         name = "salination-plant-3",
         normal = {
             energy_required = 5,
-            enabled = "false",
+            enabled = false,
             ingredients = {
                 {"salination-plant-2", 1},
                 {"t5-plate", 14},
@@ -51,7 +51,7 @@ angelsmods.functions.RB.build({
         },
         expensive = {
             energy_required = 5 * buildingtime,
-            enabled = "false",
+            enabled = false,
             ingredients = {
                 {"salination-plant-2", 1},
                 {"t5-plate", 14 * buildingmulti},
@@ -69,7 +69,7 @@ angelsmods.functions.RB.build({
         name = "washing-plant-3",
         normal = {
             energy_required = 5,
-            enabled = "false",
+            enabled = false,
             ingredients = {
                 {"washing-plant-2", 1},
                 {"t3-plate", 4},
@@ -81,7 +81,7 @@ angelsmods.functions.RB.build({
         },
         expensive = {
             energy_required = 5 * buildingtime,
-            enabled = "false",
+            enabled = false,
             ingredients = {
                 {"washing-plant-2", 1},
                 {"t3-plate", 4 * buildingmulti},
@@ -99,7 +99,7 @@ angelsmods.functions.RB.build({
         name = "washing-plant-4",
         normal = {
             energy_required = 5,
-            enabled = "false",
+            enabled = false,
             ingredients = {
                 {"washing-plant-3", 1},
                 {"t4-plate", 4},
@@ -111,7 +111,7 @@ angelsmods.functions.RB.build({
         },
         expensive = {
             energy_required = 5 * buildingtime,
-            enabled = "false",
+            enabled = false,
             ingredients = {
                 {"washing-plant-2", 1},
                 {"t4-plate", 4 * buildingmulti},
@@ -129,7 +129,7 @@ angelsmods.functions.RB.build({
         name = "ore-crusher-4",
         normal = {
             energy_required = 5,
-            enabled = "false",
+            enabled = false,
             ingredients = {
                 {"ore-crusher-3", 1},
                 {"t4-plate", 3},
@@ -140,7 +140,7 @@ angelsmods.functions.RB.build({
         },
         expensive = {
             energy_required = 5 * buildingtime,
-            enabled = "false",
+            enabled = false,
             ingredients = {
                 {"ore-crusher-3", 1},
                 {"t4-plate", 3 * buildingmulti},
@@ -158,7 +158,7 @@ angelsmods.functions.RB.build({
         name = "ore-floatation-cell-4",
         normal = {
             energy_required = 5,
-            enabled = "false",
+            enabled = false,
             ingredients = {
                 {"ore-floatation-cell-3", 1},
                 {"t5-plate", 4},
@@ -170,7 +170,7 @@ angelsmods.functions.RB.build({
         },
         expensive = {
             energy_required = 5 * buildingtime,
-            enabled = "false",
+            enabled = false,
             ingredients = {
                 {"ore-floatation-cell-3", 1},
                 {"t5-plate", 4 * buildingmulti},
@@ -189,7 +189,7 @@ angelsmods.functions.RB.build({
         name = "ore-leaching-plant-4",
         normal = {
             energy_required = 5,
-            enabled = "false",
+            enabled = false,
             ingredients = {
                 {"ore-leaching-plant-3", 1},
                 {"t6-plate", 4},
@@ -201,7 +201,7 @@ angelsmods.functions.RB.build({
         },
         expensive = {
             energy_required = 5 * buildingtime,
-            enabled = "false",
+            enabled = false,
             ingredients = {
                 {"ore-leaching-plant-3", 1},
                 {"t6-plate", 4 * buildingmulti},
@@ -221,7 +221,7 @@ angelsmods.functions.RB.build({
         name = "ore-refinery-3",
         normal = {
             energy_required = 5,
-            enabled = "false",
+            enabled = false,
             ingredients = {
                 {"ore-refinery-2", 1},
                 {"t6-plate", 12},
@@ -232,7 +232,7 @@ angelsmods.functions.RB.build({
         },
         expensive = {
             energy_required = 5 * buildingtime,
-            enabled = "false",
+            enabled = false,
             ingredients = {
                 {"ore-refinery-2", 1},
                 {"t6-plate", 12 * buildingmulti},
@@ -250,7 +250,7 @@ angelsmods.functions.RB.build({
     --     name = "crystallizer-3",
     --     normal = {
     --     energy_required = 5,
-    --     enabled = "false",
+    --     enabled = false,
     --     ingredients = {
     --         {"crystallizer-2", 1},
     --         {"t5-plate", 10},
@@ -262,7 +262,7 @@ angelsmods.functions.RB.build({
     --     },
     --     expensive = {
     --     energy_required = 5 * buildingtime,
-    --     enabled = "false",
+    --     enabled = false,
     --     ingredients = {
     --         {"crystallizer-2", 1},
     --         {"t5-plate", 10 * buildingmulti},
@@ -280,7 +280,7 @@ angelsmods.functions.RB.build({
     --     name = "filtration-unit-3",
     --     normal = {
     --         energy_required = 5,
-    --         enabled = "false",
+    --         enabled = false,
     --         ingredients = {
     --             {"filtration-unit-2", 1},
     --             {"t5-plate", 2},
@@ -292,7 +292,7 @@ angelsmods.functions.RB.build({
     --     },
     --     expensive = {
     --         energy_required = 5 * buildingtime,
-    --         enabled = "false",
+    --         enabled = false,
     --         ingredients = {
     --             {"filtration-unit-2", 1},
     --             {"t5-plate", 2 * buildingmulti},

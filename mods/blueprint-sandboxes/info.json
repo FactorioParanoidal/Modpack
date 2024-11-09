@@ -1,7 +1,7 @@
 {
   "name": "blueprint-sandboxes",
   "version": "1.17.1",
-  "factorio_version": "1.1",
+  "factorio_version": "2.0",
   "title": "Blueprint Sandboxes",
   "author": "somethingtohide",
   "description": "Temporary Editor-lite permissions in Lab-like environments for designing and experimenting.",

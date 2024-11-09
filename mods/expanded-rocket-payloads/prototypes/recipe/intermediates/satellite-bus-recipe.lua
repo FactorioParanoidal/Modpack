@@ -3,7 +3,7 @@ data:extend({
         type = "recipe",
         name = "satellite-bus",
         energy_required = 100,
-        enabled = "false",
+        enabled = false,
         category = "satellite-crafting",
         ingredients = 
         {

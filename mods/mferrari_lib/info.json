@@ -1,0 +1,11 @@
+{
+    "name": "mferrari_lib",
+    "version": "0.0.3",
+    "title": "MFerrari lib",
+    "author":"MFerrari",
+	"homepage":"https://discord.gg/vDfm5tNEqK",
+	"contact": "Discord: MFerrari#6561",
+    "factorio_version": "2.0",
+    "dependencies": ["base >= 2.0.0"],
+    "description": "My custom functions required by my mods."
+}

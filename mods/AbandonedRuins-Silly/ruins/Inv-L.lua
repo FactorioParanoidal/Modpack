@@ -33,7 +33,7 @@ return
     {"stone-wall", {x = -9.5, y = -2}, {}},
     {"big-electric-pole-remnants", {x = -5, y = -1.5}, {dir = "east", }},
     {"steel-chest", {x = -2.5, y = -1}, {dead = 0.5, items = {["personal-laser-defense-equipment"] = 1}, }},
-    {"steel-chest", {x = -3.5, y = -1}, {dead = 0.9, items = {["fusion-reactor-equipment"] = 1}, }},
+    {"steel-chest", {x = -3.5, y = -1}, {dead = 0.9, items = {["fission-reactor-equipment"] = 1}, }},
     {"steel-chest", {x = -2.5, y = -2}, {items = {["solar-panel-equipment"] = {type = "random", min = 2, max = 8}}, }},
     {"steel-chest", {x = -3.5, y = -2}, {dead = 0.75, items = {["power-armor"] = 1}, }},
     {"steel-chest", {x = -0.5, y = -2}, {dead = 0.67, items = {["exoskeleton-equipment"] = {type = "random", min = 1, max = 2}}, }},

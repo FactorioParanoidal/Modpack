@@ -1,8 +1,8 @@
-data.raw.item["logistic-chest-passive-provider"].order = "b[storage]-[logistic-chest-passive-provider-1]"
-data.raw.item["logistic-chest-active-provider"].order = "b[storage]-[logistic-chest-active-provider-1]"
-data.raw.item["logistic-chest-storage"].order = "b[storage]-[logistic-chest-storage-1]"
-data.raw.item["logistic-chest-buffer"].order = "b[storage]-[logistic-chest-buffer-1]"
-data.raw.item["logistic-chest-requester"].order = "b[storage]-[logistic-chest-requester-1]"
+data.raw.item["passive-provider-chest"].order = "b[storage]-[logistic-chest-passive-provider-1]"
+data.raw.item["active-provider-chest"].order = "b[storage]-[logistic-chest-active-provider-1]"
+data.raw.item["storage-chest"].order = "b[storage]-[logistic-chest-storage-1]"
+data.raw.item["buffer-chest"].order = "b[storage]-[logistic-chest-buffer-1]"
+data.raw.item["requester-chest"].order = "b[storage]-[logistic-chest-requester-1]"
 
 data:extend({
   {

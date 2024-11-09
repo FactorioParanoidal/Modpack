@@ -710,7 +710,7 @@ if settings.startup["bobmods-mining-pumpjacks"].value == true then
       order = "d-a-c-2",
       prerequisites = {
         "bob-pumpjacks-1",
-        "advanced-electronics",
+        "advanced-circuit",
       },
       unit = {
         count = 75,
@@ -736,7 +736,7 @@ if settings.startup["bobmods-mining-pumpjacks"].value == true then
       order = "d-a-c-3",
       prerequisites = {
         "bob-pumpjacks-2",
-        "advanced-electronics-2",
+        "processing-unit",
       },
       unit = {
         count = 100,

@@ -29,7 +29,7 @@ data:extend({
 if bobmods.modules.EnableGodModules == true then
   -- assembly-robot
   bobmods.lib.recipe.replace_ingredient ("assembly-robot", "speed-module-3", "god-module-5")
-  bobmods.lib.recipe.replace_ingredient ("assembly-robot", "effectivity-module-3", "god-module-5")  
+  bobmods.lib.recipe.replace_ingredient ("assembly-robot", "efficiency-module-3", "god-module-5")  
   bobmods.lib.recipe.replace_ingredient ("assembly-robot", "construction-robot", "bob-construction-robot-4")    
 --  data.raw.recipe["assembly-robot"].ingredients = {{"god-module-5",2},{"bob-construction-robot-4",5},{"low-density-structure",5}}
   -- space-thruster
@@ -44,7 +44,7 @@ if bobmods.modules.EnableGodModules == true then
 --  data.raw.recipe["life-support"].ingredients = {{"god-module-5",50},{"titanium-pipe",200},{"advanced-processing-unit",100},{"low-density-structure",100}}
   -- command
   bobmods.lib.recipe.replace_ingredient ("command", "speed-module-3", "god-module-5")
-  bobmods.lib.recipe.replace_ingredient ("command", "effectivity-module-3", "god-module-5")  
+  bobmods.lib.recipe.replace_ingredient ("command", "efficiency-module-3", "god-module-5")  
   bobmods.lib.recipe.replace_ingredient ("command", "productivity-module-3", "god-module-5")
   bobmods.lib.recipe.replace_ingredient ("command", "processing-unit", "advanced-processing-unit")   
 --  data.raw.recipe["command"].ingredients = {{"god-module-5",150},{"advanced-processing-unit",100},{"plastic-bar", 200},{"low-density-structure",100}}
@@ -54,14 +54,14 @@ if bobmods.modules.EnableGodModules == true then
 --  data.raw.recipe["astrometrics"].ingredients = {{"god-module-5",50},{"advanced-processing-unit",300},{"low-density-structure",100}}
   -- ftl-drive
   bobmods.lib.recipe.replace_ingredient ("ftl-drive", "speed-module-3", "god-module-5")
-  bobmods.lib.recipe.replace_ingredient ("ftl-drive", "effectivity-module-3", "god-module-5")  
+  bobmods.lib.recipe.replace_ingredient ("ftl-drive", "efficiency-module-3", "god-module-5")  
   bobmods.lib.recipe.replace_ingredient ("ftl-drive", "productivity-module-3", "god-module-5")
   bobmods.lib.recipe.replace_ingredient ("ftl-drive", "processing-unit", "advanced-processing-unit")    
 --  data.raw.recipe["ftl-drive"].ingredients = {{"god-module-5",1500},{"advanced-processing-unit",500},{"low-density-structure",100}}
 else
   -- assembly-robot
   bobmods.lib.recipe.replace_ingredient ("assembly-robot", "speed-module-3", "speed-module-8")
-  bobmods.lib.recipe.replace_ingredient ("assembly-robot", "effectivity-module-3", "effectivity-module-8")  
+  bobmods.lib.recipe.replace_ingredient ("assembly-robot", "efficiency-module-3", "effectivity-module-8")  
   bobmods.lib.recipe.replace_ingredient ("assembly-robot", "construction-robot", "bob-construction-robot-4")  
   -- space-thruster
   bobmods.lib.recipe.replace_ingredient ("space-thruster", "speed-module-3", "speed-module-8")
@@ -78,7 +78,7 @@ else
 --  data.raw.recipe["life-support"].ingredients = {{"productivity-module-8",50},{"titanium-pipe",200},{"advanced-processing-unit",100},{"low-density-structure",100}}
   -- command
   bobmods.lib.recipe.replace_ingredient ("command", "speed-module-3", "speed-module-8")
-  bobmods.lib.recipe.replace_ingredient ("command", "effectivity-module-3", "effectivity-module-8")  
+  bobmods.lib.recipe.replace_ingredient ("command", "efficiency-module-3", "effectivity-module-8")  
   bobmods.lib.recipe.replace_ingredient ("command", "productivity-module-3", "productivity-module-8")
   bobmods.lib.recipe.replace_ingredient ("command", "processing-unit", "advanced-processing-unit") 
   
@@ -90,7 +90,7 @@ else
 --  data.raw.recipe["astrometrics"].ingredients = {{"speed-module-8",50},{"advanced-processing-unit",300},{"low-density-structure",100}}
   -- ftl-drive
   bobmods.lib.recipe.replace_ingredient ("ftl-drive", "speed-module-3", "speed-module-8")
-  bobmods.lib.recipe.replace_ingredient ("ftl-drive", "effectivity-module-3", "effectivity-module-8")  
+  bobmods.lib.recipe.replace_ingredient ("ftl-drive", "efficiency-module-3", "effectivity-module-8")  
   bobmods.lib.recipe.replace_ingredient ("ftl-drive", "productivity-module-3", "productivity-module-8")
   bobmods.lib.recipe.replace_ingredient ("ftl-drive", "processing-unit", "advanced-processing-unit")   
 --  data.raw.recipe["ftl-drive"].ingredients = {{"speed-module-8",500},{"effectivity-module-8",500},{"productivity-module-8", 500},{"advanced-processing-unit",500},{"low-density-structure",100}}
@@ -102,7 +102,7 @@ end
   bobmods.lib.recipe.replace_ingredient ("drydock-assembly", "processing-unit", "advanced-processing-unit")   
 -- data.raw.recipe["drydock-assembly"].ingredients = {{"assembly-robot",50},{"bob-roboport-4",10},{"advanced-processing-unit",200},{"solar-panel-large-3",200},{"low-density-structure", 100}}
   -- fusion-reactor
-  bobmods.lib.recipe.replace_ingredient ("fusion-reactor", "fusion-reactor-equipment", "fusion-reactor-equipment-4")    
+  bobmods.lib.recipe.replace_ingredient ("fusion-reactor", "fission-reactor-equipment", "fusion-reactor-equipment-4")    
 --data.raw.recipe["fusion-reactor"].ingredients = {{"fusion-reactor-equipment-4",100}}
   -- hull-component
   bobmods.lib.recipe.replace_ingredient ("hull-component", "steel-plate", "titanium-plate")   

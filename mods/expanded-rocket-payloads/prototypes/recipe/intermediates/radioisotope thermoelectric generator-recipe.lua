@@ -3,7 +3,7 @@ data:extend({
         type = "recipe",
         name = "radioisotope-thermoelectric-generator",
         energy_required = 150,
-        enabled = "false",
+        enabled = false,
         ingredients = 
         {
             {"rocket-control-unit", 100},

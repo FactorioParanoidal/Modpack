@@ -52,18 +52,5 @@ data:extend({
     place_result = "burner-turbine",
     stack_size = 10
   },
-  
-  -- Burner filter Inserter  ---From DRD
-  {
-    type = "item",
-    name = "burner-filter-inserter",
-    icon = "__aai-industry__/graphics/icons/burner-filter-inserter.png",
-    icon_size = 64, icon_mipmaps = 1,
-    --flags = {},
-	subgroup = "bob-logistic-tier-0",
-    order = "d[inserter]-1[burner-filter-inserter]",
-    place_result = "burner-filter-inserter",
-    stack_size = 50
-  },
 })
 data.raw.item["assembling-machine-1"].order = data.raw.item["assembling-machine-1"].order .. "-b"

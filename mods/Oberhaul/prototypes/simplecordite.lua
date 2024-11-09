@@ -11,7 +11,7 @@ data:extend(
     name = "nitroglycerin",
     category = "chemistry",
 	subgroup = "petrochem-solids-2",	--DrD
-    enabled = "false",
+    enabled = false,
     energy_required = 1.5,
     ingredients =
     {

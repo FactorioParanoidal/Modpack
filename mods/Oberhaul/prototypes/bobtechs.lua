@@ -4,7 +4,7 @@ data:extend(
     type = "recipe",
     name = "stone-pipe", --DrD
 	minable = {hardness = 0.1, mining_time = 0.3, result = "pipe"},
-	enabled = "false", --DrD
+	enabled = false, --DrD
 	hidden = true,
     ingredients =
     {
@@ -17,7 +17,7 @@ data:extend(
     type = "recipe",
     name = "stone-pipe-to-ground",
 	minable = {hardness = 0.1, mining_time = 0.3, result = "pipe-to-ground"},
-	enabled = "false", --DrD
+	enabled = false, --DrD
 	hidden = true, --DrD
     ingredients =
     {

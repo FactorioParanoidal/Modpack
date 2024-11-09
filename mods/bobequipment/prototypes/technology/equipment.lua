@@ -261,12 +261,12 @@ data:extend({
   },
 })
 
-data.raw["technology"]["fusion-reactor-equipment"].icons = bobmods.equipment.technology_icon_constant_equipment({
+data.raw["technology"]["fission-reactor-equipment"].icons = bobmods.equipment.technology_icon_constant_equipment({
   icon = "__bobequipment__/graphics/icons/technology/fusion-reactor-equipment-1.png",
   icon_size = 128,
 })
-bobmods.lib.tech.remove_science_pack("fusion-reactor-equipment", "military-science-pack")
-bobmods.lib.tech.remove_prerequisite("fusion-reactor-equipment", "military-science-pack")
+bobmods.lib.tech.remove_science_pack("fission-reactor-equipment", "military-science-pack")
+bobmods.lib.tech.remove_prerequisite("fission-reactor-equipment", "military-science-pack")
 
 data:extend({
   {
@@ -278,7 +278,7 @@ data:extend({
     }),
     order = "g-l-b",
     prerequisites = {
-      "fusion-reactor-equipment",
+      "fission-reactor-equipment",
       "production-science-pack",
     },
     effects = {
@@ -375,7 +375,7 @@ data:extend({
     order = "g-g-b",
     prerequisites = {
       "night-vision-equipment",
-      "advanced-electronics-2",
+      "processing-unit",
     },
     effects = {
       {
@@ -466,7 +466,7 @@ data:extend({
     order = "g-k-c",
     prerequisites = {
       "solar-panel-equipment-2",
-      "advanced-electronics-2",
+      "processing-unit",
     },
     effects = {
       {
@@ -690,7 +690,7 @@ data:extend({
     order = "g-h-b",
     prerequisites = {
       "exoskeleton-equipment",
-      "advanced-electronics-2",
+      "processing-unit",
     },
     effects = {
       {

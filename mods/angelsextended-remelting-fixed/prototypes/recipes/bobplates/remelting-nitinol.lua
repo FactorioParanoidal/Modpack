@@ -12,14 +12,14 @@ data:extend(
 		-- Not sure why, is it applied to some other process earlier in production chain?
 		normal =
 		{
-			enabled = "false",
+			enabled = false,
 			energy_required = 6,
 			ingredients ={{type="item", name="nitinol-alloy", amount=4}},
 			results={{type="fluid",name="liquid-molten-nitinol", amount=35}},
 		},
 		expensive =
 		{
-			enabled = "false",
+			enabled = false,
 			energy_required = 6,
 			ingredients ={{type="item", name="nitinol-alloy", amount=5 * intermediatemulti}},
 			results={{type="fluid",name="liquid-molten-nitinol", amount=40}},
@@ -45,7 +45,7 @@ data:extend(
 		name = "molten-nitinol-alloy-mixing-1",
 		category = "molten-alloy-mixing",
 		subgroup = "aragas-nitinol-alloy-mixing",
-		enabled = "false",
+		enabled = false,
 		energy_required = 4,
 		ingredients ={
 			{type="fluid", name="liquid-molten-titanium", amount=240},

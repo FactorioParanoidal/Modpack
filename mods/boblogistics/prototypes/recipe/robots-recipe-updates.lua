@@ -457,8 +457,8 @@ for i, robot in ipairs({ "bob-logistic-robot-5", "bob-construction-robot-5" }) d
     bobmods.lib.recipe.add_ingredient(robot, { "vehicle-fusion-cell-1", 1 })
     bobmods.lib.tech.add_prerequisite("bob-robots-4", "vehicle-fusion-cell-equipment-1")
   else
-    bobmods.lib.recipe.add_ingredient(robot, { "fusion-reactor-equipment", 1 })
-    bobmods.lib.tech.add_prerequisite("bob-robots-4", "fusion-reactor-equipment")
+    bobmods.lib.recipe.add_ingredient(robot, { "fission-reactor-equipment", 1 })
+    bobmods.lib.tech.add_prerequisite("bob-robots-4", "fission-reactor-equipment")
   end
 end
 

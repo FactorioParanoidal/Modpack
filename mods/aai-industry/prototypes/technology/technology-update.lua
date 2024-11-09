@@ -160,7 +160,6 @@ util.tech_lock_recipes(
         "inserter",
         --"small-electric-pole",
         --"small-iron-electric-pole"
-		"burner-filter-inserter"
 		})
 
 if data.raw.recipe["basic-circuit-board"] then -- bobs
@@ -179,7 +178,7 @@ end
 
 util.tech_lock_recipes(
     "filter-inserters",  {
-      "filter-inserter"})
+      "fast-inserter"})
 
 util.tech_lock_recipes(
     "radar",  {

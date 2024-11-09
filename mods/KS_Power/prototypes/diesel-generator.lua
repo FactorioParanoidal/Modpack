@@ -15,7 +15,7 @@ data:extend(
       type = "recipe",
       name = "petroleum-generator",
       energy_required = 15,
-      enabled = "false",
+      enabled = false,
       ingredients = {
         {"steel-plate", 15},
         {"engine-unit", 8},

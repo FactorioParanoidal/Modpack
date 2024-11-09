@@ -7,7 +7,7 @@ return
     {"crash-site-spaceship-wreck-small-3", {x = -1.25, y = -4.76}, {}},
     {"small-remnants", {x = 1.5, y = -4.5}, {dir = "east", }},
     {"crash-site-spaceship-wreck-big-1", {x = 2.07, y = -4.2}, {items = {stone = {type = "random", min = 25, max = 90}}, }},
-    {"sand-rock-big", {x = 4.27, y = -3.81}, {}},
+    {"big-sand-rock", {x = 4.27, y = -3.81}, {}},
     {"crash-site-spaceship-wreck-medium-1", {x = -3.45, y = -1.33}, {items = {explosives = {type = "random", min = 7, max = 23}}, }},
     {"tree-02-stump", {x = -0.58, y = -1.61}, {}},
     {"crash-site-spaceship-wreck-big-2", {x = 4.91, y = -0.53}, {items = {["processing-unit"] = {type = "random", min = 0, max = 5}}, }},

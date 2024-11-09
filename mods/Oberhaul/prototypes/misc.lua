@@ -84,7 +84,7 @@ data:extend({
   {
     type = "recipe",
     name = "ober-belt-immunity-equipment",
-    enabled = "false",
+    enabled = false,
     energy_required = 10,
     ingredients = 
     {{"turbo-transport-belt",20},{"exoskeleton-equipment",2}},

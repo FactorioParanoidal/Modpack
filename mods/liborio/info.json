@@ -5,7 +5,7 @@
   "author": "PixelWhipped",
   "contact": "",
   "homepage": "https://www.patreon.com/user?u=15367757",
-  "factorio_version": "1.1",
+  "factorio_version": "2.0",
   "description": "Common library for various factorio mods",
   "dependencies": [
     "base >= 1.1.0"

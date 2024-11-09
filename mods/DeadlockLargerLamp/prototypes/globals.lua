@@ -6,7 +6,7 @@ local DLL = {
 	entity_path = "__DeadlockLargerLamp__/graphics/entities",
 	glow_colour = { r = 1.0, g = 1.0, b = 0.75 },
 	tint_colour = { r = 1.0, g = 1.0, b = 0.95 },
-	technology = "optics",
+	technology =  "lamp",
 }
 
 return DLL

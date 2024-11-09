@@ -184,7 +184,7 @@ data:extend({
     },
     prerequisites = {
       "personal-roboport-mk2-equipment",
-      "advanced-electronics-2",
+      "processing-unit",
       "utility-science-pack",
     },
     unit = {

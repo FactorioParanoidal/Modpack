@@ -66,7 +66,7 @@ ltnc_recipe.name = "ltn-combinator"
 ltnc_recipe.icon = "__LTN_Combinator_Fix__/graphics/ltn-combinator-item.png"
 ltnc_recipe.icon_size = 64
 ltnc_recipe.icon_mipmaps = 4
-ltnc_recipe.enabled = "false"
+ltnc_recipe.enabled = false
 ltnc_recipe.ingredients = {{"constant-combinator", 1}, {"electronic-circuit", 1}}
 ltnc_recipe.result = "ltn-combinator"
 

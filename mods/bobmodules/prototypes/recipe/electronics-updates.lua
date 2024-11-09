@@ -191,15 +191,15 @@ if bobmods.modules.ModulesLab then
   bobmods.lib.tech.add_recipe_unlock("modules", "pollution-create-processor")
 else
   bobmods.lib.tech.add_recipe_unlock("speed-module", "speed-processor")
-  bobmods.lib.tech.add_recipe_unlock("effectivity-module", "effectivity-processor")
+  bobmods.lib.tech.add_recipe_unlock("efficiency-module", "effectivity-processor")
   bobmods.lib.tech.add_recipe_unlock("productivity-module", "productivity-processor")
   bobmods.lib.tech.add_recipe_unlock("pollution-clean-module-1", "pollution-clean-processor")
   bobmods.lib.tech.add_recipe_unlock("pollution-create-module-1", "pollution-create-processor")
 end
-bobmods.lib.tech.add_recipe_unlock("advanced-electronics-2", "module-processor-board-2")
+bobmods.lib.tech.add_recipe_unlock("processing-unit", "module-processor-board-2")
 
 if data.raw.technology["advanced-electronics-3"] then
   bobmods.lib.tech.add_recipe_unlock("advanced-electronics-3", "module-processor-board-3")
 else
-  bobmods.lib.tech.add_recipe_unlock("advanced-electronics-2", "module-processor-board-3")
+  bobmods.lib.tech.add_recipe_unlock("processing-unit", "module-processor-board-3")
 end

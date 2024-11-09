@@ -1608,10 +1608,10 @@ local function onModSettingsChange(event)
                          "safeBuildings",
                          settings.global["rampantFixed--safeBuildings"].value)
     upgrade.compareTable(universe.safeEntities,
-                         "curved-rail",
+                         "legacy-curved-rail",
                          settings.global["rampantFixed--safeBuildings-curvedRail"].value)
     upgrade.compareTable(universe.safeEntities,
-                         "straight-rail",
+                         "legacy-straight-rail",
                          settings.global["rampantFixed--safeBuildings-straightRail"].value)
     upgrade.compareTable(universe.safeEntities,
                          "rail-signal",

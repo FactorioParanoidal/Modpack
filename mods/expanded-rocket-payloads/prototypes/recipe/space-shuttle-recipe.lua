@@ -5,7 +5,7 @@ data:extend({
         category = "satellite-crafting",
         energy_required = 480,
         subgroup = "Space-Shuttles",
-        enabled = "false",
+        enabled = false,
         ingredients = 
         {
             {"satellite-thruster", 20},
@@ -19,7 +19,7 @@ data:extend({
         name = "spy-shuttle",
         category = "satellite-crafting",
         energy_required = 480,
-        enabled = "false",
+        enabled = false,
         subgroup = "Space-Shuttles",
         ingredients = 
         {

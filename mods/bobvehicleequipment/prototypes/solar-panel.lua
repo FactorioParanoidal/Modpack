@@ -58,7 +58,7 @@ data:extend({
     prerequisites = {
       "logistics-2",
       "engine",
-      "optics",
+       "lamp",
       "electronics",
     },
     unit = {
@@ -138,7 +138,7 @@ data:extend({
     order = "v-g-k-b",
     prerequisites = {
       "vehicle-solar-panel-equipment-1",
-      "advanced-electronics",
+      "advanced-circuit",
     },
     unit = {
       count = 75,
@@ -217,7 +217,7 @@ data:extend({
     order = "v-g-k-c",
     prerequisites = {
       "vehicle-solar-panel-equipment-2",
-      "advanced-electronics-2",
+      "processing-unit",
     },
     unit = {
       count = 90,

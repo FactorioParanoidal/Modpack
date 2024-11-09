@@ -272,7 +272,7 @@ data:extend(
    {
     type = "recipe",
     name = "electric-steel-furnace",
-    enabled = "false",
+    enabled = false,
     ingredients =
     {
       {"steel-furnace", 1},

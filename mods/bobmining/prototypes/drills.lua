@@ -194,7 +194,7 @@ if settings.startup["bobmods-mining-miningdrills"].value == true then
       order = "d-a-a-2",
       prerequisites = {
         "bob-drills-1",
-        "advanced-electronics",
+        "advanced-circuit",
       },
       unit = {
         count = 75,
@@ -220,7 +220,7 @@ if settings.startup["bobmods-mining-miningdrills"].value == true then
       order = "d-a-a-3",
       prerequisites = {
         "bob-drills-2",
-        "advanced-electronics-2",
+        "processing-unit",
       },
       unit = {
         count = 100,

@@ -703,7 +703,7 @@ table.insert(data.raw.furnace["electric-furnace"].animation.layers, 2, {
 })
 
 circuit_connector_definitions["bob-small-storage-tank"] =
-  circuit_connector_definitions.create(universal_connector_template, {
+  circuit_connector_definitions.create_vector(universal_connector_template, {
     {
       variation = 27,
       main_offset = util.by_pixel(10, -18),

@@ -4,7 +4,7 @@ data:extend({
         name = "advanced-probe",
         category = "satellite-crafting",
         energy_required = 200,
-        enabled = "false",
+        enabled = false,
         ingredients = 
         {
             {"radioisotope-thermoelectric-generator", 1},

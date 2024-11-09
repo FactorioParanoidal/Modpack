@@ -1,17 +1,20 @@
 #nullable enable
 using System;
+using System.Collections.Immutable;
 using System.Diagnostics.CodeAnalysis;
 using System.IO;
 using System.Linq;
-using System.Text.Json;
 using System.Threading.Tasks;
 using FactorioParanoidal.FactorioMods;
+using FactorioParanoidal.FactorioMods.ModLists;
 using FactorioParanoidal.FactorioMods.Mods;
 using FactorioParanoidal.ModSettingsDat;
+using Newtonsoft.Json;
 using Nuke.Common;
 using Nuke.Common.Git;
 using Nuke.Common.IO;
 using Serilog;
+using JsonSerializer = System.Text.Json.JsonSerializer;
 
 [SuppressMessage("ReSharper", "AllUnderscoreLocalParameterName")]
 partial class Build : NukeBuild
@@ -124,6 +127,16 @@ partial class Build : NukeBuild
             var paranoidalMod = await FolderFactorioMod.LoadFromDirectory(RootDirectory / "mods" / "zzzparanoidal");
             var requiredFactorioVersion = paranoidalMod.GetBaseGameRequiredVersion();
             var factorioServerLocation = AbsolutePath.Create("factorio_headless") / requiredFactorioVersion.ToString(3);
+
+            var disabledMods = paranoidalMod.Info.Dependencies
+                .Where(dependency => dependency.IsIncompatible)
+                .Select(dependency => new FactorioModListItem { Name = dependency.Name, Enabled = false })
+                .ToArray();
+            var factorioModList = new FactorioModList { Mods = disabledMods };
+            var modListContent = JsonSerializer.Serialize(factorioModList);
+            Log.Information("Generating mod-list.json that exclude unsupported mods {UnsupportedMods}", 
+                disabledMods.Select(m => m.Name));
+            File.WriteAllText(RootDirectory / "mods" / "mod-list.json", modListContent);
 
             Log.Information("Testing PARANOIDAL launchability");
             if (!await FactorioLauncher.EnsureFactorioServerCanLaunch(factorioServerLocation, RootDirectory / "mods"))

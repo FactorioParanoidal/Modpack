@@ -55,7 +55,7 @@ data:extend({
     order = "v-g-l-a",
     prerequisites = {
       "vehicle-solar-panel-equipment-1",
-      "advanced-electronics-2",
+      "processing-unit",
     },
     unit = {
       count = 200,
@@ -96,7 +96,7 @@ data:extend({
     ingredients = {
       { "vehicle-fusion-reactor-1", 1 },
       { "processing-unit", 50 },
-      { "effectivity-module-2", 2 },
+      { "efficiency-module-2", 2 },
       { "speed-module-2", 2 },
       { "productivity-module-2", 2 },
     },
@@ -178,7 +178,7 @@ data:extend({
     ingredients = {
       { "vehicle-fusion-reactor-2", 1 },
       { "processing-unit", 50 },
-      { "effectivity-module-3", 2 },
+      { "efficiency-module-3", 2 },
       { "speed-module-3", 2 },
       { "productivity-module-3", 2 },
     },
@@ -261,7 +261,7 @@ data:extend({
     ingredients = {
       { "vehicle-fusion-reactor-3", 1 },
       { "processing-unit", 50 },
-      { "effectivity-module-3", 2 },
+      { "efficiency-module-3", 2 },
       { "speed-module-3", 2 },
       { "productivity-module-3", 2 },
     },
@@ -343,7 +343,7 @@ data:extend({
     ingredients = {
       { "vehicle-fusion-reactor-4", 1 },
       { "processing-unit", 50 },
-      { "effectivity-module-3", 2 },
+      { "efficiency-module-3", 2 },
       { "speed-module-3", 2 },
       { "productivity-module-3", 2 },
     },
@@ -425,7 +425,7 @@ data:extend({
     ingredients = {
       { "vehicle-fusion-reactor-5", 1 },
       { "processing-unit", 50 },
-      { "effectivity-module-3", 2 },
+      { "efficiency-module-3", 2 },
       { "speed-module-3", 2 },
       { "productivity-module-3", 2 },
     },

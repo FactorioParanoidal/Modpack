@@ -5,7 +5,7 @@
   "author": "Jason Miles and many others from the community",
   "contact": "jonasjurczok+factorio@gmail.com",
   "homepage": "https://github.com/JonasJurczok/factorio-todo-list",
-  "factorio_version": "1.1",
+  "factorio_version": "2.0",
   "dependencies": [
     "base >= 1.1.0"
   ],

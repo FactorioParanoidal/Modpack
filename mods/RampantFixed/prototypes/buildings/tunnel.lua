@@ -10,7 +10,7 @@ data:extend({
     collision_box = {{-1.3, -1.3}, {1.3, 1.3}},
     selection_box = {{-1.5, -1.5}, {1.5, 1.5}},
     render_layer = "remnants",
-    destructible = "false",
+    destructible = false,
     max_health = 1,
     pictures =
     {

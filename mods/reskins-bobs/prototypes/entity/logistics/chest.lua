@@ -23,11 +23,11 @@ local material_tints = {
 }
 
 local logistic_map = {
-    ["logistic-chest-active-provider"] = {1, 2},
-    ["logistic-chest-passive-provider"] = {1, 2},
-    ["logistic-chest-storage"] = {1, 2},
-    ["logistic-chest-buffer"] = {1, 2},
-    ["logistic-chest-requester"] = {1, 2},
+    ["active-provider-chest"] = {1, 2},
+    ["passive-provider-chest"] = {1, 2},
+    ["storage-chest"] = {1, 2},
+    ["buffer-chest"] = {1, 2},
+    ["requester-chest"] = {1, 2},
     ["logistic-chest-active-provider-2"] = {2, 3, "brass", "active-provider"},
     ["logistic-chest-passive-provider-2"] = {2, 3, "brass", "passive-provider"},
     ["logistic-chest-storage-2"] = {2, 3, "brass", "storage"},

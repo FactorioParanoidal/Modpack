@@ -53,7 +53,7 @@ local technologies = {
     ["personal-laser-defense-equipment-6"] = {icon_name = "laser-defense", tier = 5},
 
     -- Fusion Reactors
-    ["fusion-reactor-equipment"] = {icon_name = "fusion-reactor", tier = 1, prog_tier = 2},
+    ["fission-reactor-equipment"] = {icon_name = "fusion-reactor", tier = 1, prog_tier = 2},
     ["fusion-reactor-equipment-2"] = {icon_name = "fusion-reactor", tier = 2, prog_tier = 3},
     ["fusion-reactor-equipment-3"] = {icon_name = "fusion-reactor", tier = 3, prog_tier = 4},
     ["fusion-reactor-equipment-4"] = {icon_name = "fusion-reactor", tier = 4, prog_tier = 5},

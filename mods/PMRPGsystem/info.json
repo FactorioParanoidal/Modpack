@@ -5,7 +5,7 @@
     "title": "PM RPG System",
     "homepage":"https://projectmakers.de",
     "contact": "",
-    "factorio_version": "1.1",
+    "factorio_version": "2.0",
     "dependencies": ["base >= 1.1.0"],
     "description": "Modded Version from MFerrari's RPGsystem. This mod adds a basic RPG system to the game (XP, level-up and skills)"
 }

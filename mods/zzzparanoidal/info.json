@@ -2,13 +2,13 @@
   "name": "zzzparanoidal",
   "version": "8.0.0",
   "title": "!_Paranoidal",
-  "factorio_version": "1.1",
+  "factorio_version": "2.0",
   "author": "Sovigod",
   "contact": "https://discord.gg/MnXGAmC",
   "homepage": "https://discord.gg/MnXGAmC",
   "description": "PARANOIDAL 8. Core mod for PARANOIDAL\n2024.09",
   "dependencies": [
-    "base >= 1.1.100",
+    "base >= 2.0.7",
     "boblibrary", 
     "boblibrary",
     "BatteryElectricTrain",
@@ -27,6 +27,9 @@
     "AtomicArtillery",
     "Bio_Industries",
     "marathon",
-    "RU-locale"
+    "RU-locale",
+    "! elevated-rails",
+    "! quality",
+    "! space-age"
     ]
 }

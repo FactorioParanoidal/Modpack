@@ -46,7 +46,7 @@ data:extend({
 		category = "chemistry",
 		subgroup = "petrochem-nitrogen",
 		energy_required = 2,
-		enabled = "false",
+		enabled = false,
 		ingredients ={
 			{type="fluid", name="gas-ammonia", amount=60},
 			{type="fluid", name="gas-oxygen", amount=40},

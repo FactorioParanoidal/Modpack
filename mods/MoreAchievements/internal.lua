@@ -84,7 +84,7 @@ data:extend{
         type = "produce-achievement",
         name = "ecosystem-oriented",
         order = "d",
-        item_product = "effectivity-module-3",
+        item_product = "efficiency-module-3",
         icon = "__MoreAchievements__/graphics/ecosystem-oriented.png",
         icon_size = 128,
         limited_to_one_game=false,

@@ -7,5 +7,5 @@
   "homepage": "https://github.com/Helfima/helmod",
   "description": "Assistant for planning your factory. Can calculate required ingredients, products, machines, modules, and beacons. Can also calculate power production / consumption.",
   "dependencies": ["base >= 1.1.57"],
-  "factorio_version": "1.1"
+  "factorio_version": "2.0"
 }

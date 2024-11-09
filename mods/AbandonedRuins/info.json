@@ -4,7 +4,7 @@
   "title": "The Ruins Mod",
   "author": "Gangsir, Bilka",
   "homepage": "https://github.com/Bilka2/AbandonedRuins",
-  "factorio_version": "1.1",
+  "factorio_version": "2.0",
   "description": "The Ruins Mod adds randomly spawns ruins in the world. These ruins are destroyed fragments of bases, forts, small oases, and more.\n\nExplore them for loot, adventure, or entertainment, but beware, some still have running defenses from the last player that landed on the planet, with more successful colonies having better defenses.",
   "package":
   { 

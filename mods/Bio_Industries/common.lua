@@ -141,7 +141,7 @@ return function (mod_name)
   -- spamming real users.
   -- If the "_debug" dummy mod is active, debugging will always be on. If you don't
   -- have this dummy mod but want to turn on logging anyway, set the default value
-  -- to "true"!
+  -- to true!
   local default = false
 
   common.is_debug = ( (mods and mods["_debug"]) or
@@ -671,7 +671,7 @@ common.writeDebug("\"Easy gardens\": Compiling list of poles they can connect to
         {filter = "name", name = {
             -- Poles named here will be ignored!
             "bi-bio-garden-hidden-pole"
-            }, invert = "true", mode = "and"
+            }, invert = true, mode = "and"
         }
       })
       for p, pole in pairs(poles) do

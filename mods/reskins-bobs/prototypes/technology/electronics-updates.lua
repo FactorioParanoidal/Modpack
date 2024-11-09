@@ -17,7 +17,7 @@ local inputs = {
 }
 
 local technologies = {
-    ["advanced-electronics-2"] = {technology_icon_filename = "__base__/graphics/technology/electronics.png"}, -- Use "electronics.png" from base
+    ["processing-unit"] = {technology_icon_filename = "__base__/graphics/technology/electronics.png"}, -- Use "electronics.png" from base
 }
 
 reskins.lib.create_icons_from_list(technologies, inputs)

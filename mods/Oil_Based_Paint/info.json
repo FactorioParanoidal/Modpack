@@ -4,7 +4,7 @@
 	"title": "Oil-Based Paint",
 	"author": "Preston Lee ℭole",
 	"description": "Improves paint color and maximum saturation on all entities that can be painted, so: The Engineer, Cars, Locomotives, Trainstops, Gun Turrets etc... Great for color-coding trains! Mod support for AAI Ironclad, Warden, Flame & Laser Tanks, and One more Hovercraft. AAI Warden retextured to match lighting and contrast of other vehicles. Compatible with FactorioHD!  To color your vehicles individually, install DMV - Directionally Moving Vehicles!",
-	"factorio_version": "1.1",
+	"factorio_version": "2.0",
     "dependencies": [
         "base",
 		"(?) factoriohd_base",

@@ -5,7 +5,7 @@ if mods["IndustrialRevolution"] then
       type = "recipe",
       name = "duct-small",
       energy_required = 2.0,
-      enabled = "false",
+      enabled = false,
       ingredients = {
         { type = "item", name = "pipe", amount = 4 },
       },
@@ -17,7 +17,7 @@ if mods["IndustrialRevolution"] then
       type = "recipe",
       name = "duct-t-junction",
       energy_required = 2.0,
-      enabled = "false",
+      enabled = false,
       ingredients = {
         { type = "item", name = "pipe", amount = 8 },
       },
@@ -29,7 +29,7 @@ if mods["IndustrialRevolution"] then
       type = "recipe",
       name = "duct-curve",
       energy_required = 2.0,
-      enabled = "false",
+      enabled = false,
       ingredients = {
         { type = "item", name = "pipe", amount = 8 },
       },
@@ -41,7 +41,7 @@ if mods["IndustrialRevolution"] then
       type = "recipe",
       name = "duct-cross",
       energy_required = 2.0,
-      enabled = "false",
+      enabled = false,
       ingredients = {
         { type = "item", name = "pipe", amount = 8 },
       },
@@ -53,7 +53,7 @@ if mods["IndustrialRevolution"] then
       type = "recipe",
       name = "duct-underground",
       energy_required = 6.0,
-      enabled = "false",
+      enabled = false,
       ingredients = {
         { type = "item", name = "pipe", amount = 60 },
       },
@@ -65,7 +65,7 @@ if mods["IndustrialRevolution"] then
       type = "recipe",
       name = "non-return-duct",
       energy_required = 2.0,
-      enabled = "false",
+      enabled = false,
       ingredients = {
         { type = "item", name = "pipe", amount = 8 },
         { type = "item", name = "iron-gear-wheel", amount = 4 },
@@ -78,7 +78,7 @@ if mods["IndustrialRevolution"] then
       type = "recipe",
       name = "duct-end-point-intake",
       energy_required = 2.0,
-      enabled = "false",
+      enabled = false,
       ingredients = {
         { type = "item", name = "electronic-circuit", amount = 2 },
         { type = "item", name = "iron-motor", amount = 6 },
@@ -93,7 +93,7 @@ if mods["IndustrialRevolution"] then
       type = "recipe",
       name = "duct-end-point-outtake",
       energy_required = 2.0,
-      enabled = "false",
+      enabled = false,
       ingredients = {
         { type = "item", name = "electronic-circuit", amount = 2 },
         { type = "item", name = "iron-motor", amount = 6 },
@@ -112,7 +112,7 @@ if mods["IndustrialRevolution"] then
         type = "recipe",
         name = "duct",
         energy_required = 2.0,
-        enabled = "false",
+        enabled = false,
         ingredients = {
           { type = "item", name = "pipe", amount = 8 },
         },
@@ -124,7 +124,7 @@ if mods["IndustrialRevolution"] then
         type = "recipe",
         name = "duct-long",
         energy_required = 2.0,
-        enabled = "false",
+        enabled = false,
         ingredients = {
           { type = "item", name = "pipe", amount = 16 },
         },

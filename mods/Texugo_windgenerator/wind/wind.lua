@@ -808,7 +808,7 @@ data:extend({
         name = "texugo-wind-turbine3",
         icon = "__Texugo_windgenerator__/graphics/windh_tec.png",
         icon_size = 128,
-        prerequisites = {"robotics", "advanced-electronics-2", "texugo-wind-turbine2"},
+        prerequisites = {"robotics", "processing-unit", "texugo-wind-turbine2"},
         effects = {
             {
                 type = "unlock-recipe",

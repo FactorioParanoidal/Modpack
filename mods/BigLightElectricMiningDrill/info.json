@@ -4,7 +4,7 @@
   "title": "BIG LIGHT for Electric Mining Drill",
   "author": "Ritn",
   "description": "Change light size from 1x to 5x (default: 3x)\n-----\nChange la taille de la lumière de 1x à 5x (par défaut : 3x)",
-  "factorio_version": "1.1",
+  "factorio_version": "2.0",
   "dependencies":[
     "base >= 1.0",
     "? ev-mining-drills",

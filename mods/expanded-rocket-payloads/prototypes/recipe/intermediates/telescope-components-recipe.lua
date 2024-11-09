@@ -4,7 +4,7 @@ data:extend({
         name = "telescope-components",
         category = "satellite-crafting",
         energy_required = 100,
-        enabled = "false",
+        enabled = false,
         ingredients = 
         {
             {"electric-engine-unit", 50},

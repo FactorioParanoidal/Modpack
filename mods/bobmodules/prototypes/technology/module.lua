@@ -184,35 +184,35 @@ data:extend({
   },
 })
 
-data.raw["technology"]["effectivity-module"].icon = "__bobmodules__/graphics/icons/yellow-module-1.png"
-data.raw["technology"]["effectivity-module-2"].icon = "__bobmodules__/graphics/icons/yellow-module-2.png"
-data.raw["technology"]["effectivity-module-3"].icon = "__bobmodules__/graphics/icons/yellow-module-3.png"
+data.raw["technology"]["efficiency-module"].icon = "__bobmodules__/graphics/icons/yellow-module-1.png"
+data.raw["technology"]["efficiency-module-2"].icon = "__bobmodules__/graphics/icons/yellow-module-2.png"
+data.raw["technology"]["efficiency-module-3"].icon = "__bobmodules__/graphics/icons/yellow-module-3.png"
 
-data.raw["technology"]["effectivity-module"].icon_size = 32
-data.raw["technology"]["effectivity-module-2"].icon_size = 32
-data.raw["technology"]["effectivity-module-3"].icon_size = 32
+data.raw["technology"]["efficiency-module"].icon_size = 32
+data.raw["technology"]["efficiency-module-2"].icon_size = 32
+data.raw["technology"]["efficiency-module-3"].icon_size = 32
 
-data.raw["technology"]["effectivity-module"].icon_mipmaps = 0
-data.raw["technology"]["effectivity-module-2"].icon_mipmaps = 0
-data.raw["technology"]["effectivity-module-3"].icon_mipmaps = 0
+data.raw["technology"]["efficiency-module"].icon_mipmaps = 0
+data.raw["technology"]["efficiency-module-2"].icon_mipmaps = 0
+data.raw["technology"]["efficiency-module-3"].icon_mipmaps = 0
 
 if bobmods.modules.ModulesLab then
-  data.raw["technology"]["effectivity-module"].unit =
+  data.raw["technology"]["efficiency-module"].unit =
     { count = 25, ingredients = { { "effectivity-processor", 1 } }, time = 30 }
-  data.raw["technology"]["effectivity-module-2"].unit =
+  data.raw["technology"]["efficiency-module-2"].unit =
     { count = 50, ingredients = { { "effectivity-processor", 1 } }, time = 30 }
-  data.raw["technology"]["effectivity-module-3"].unit =
+  data.raw["technology"]["efficiency-module-3"].unit =
     { count = 50, ingredients = { { "effectivity-processor", 2 }, { "module-circuit-board", 1 } }, time = 60 }
 else
-  bobmods.lib.tech.remove_science_pack("effectivity-module-2", "chemical-science-pack")
-  bobmods.lib.tech.remove_science_pack("effectivity-module-3", "production-science-pack")
-  bobmods.lib.tech.set_science_pack_count("effectivity-module-2", 100)
-  bobmods.lib.tech.set_science_pack_count("effectivity-module-3", 150)
+  bobmods.lib.tech.remove_science_pack("efficiency-module-2", "chemical-science-pack")
+  bobmods.lib.tech.remove_science_pack("efficiency-module-3", "production-science-pack")
+  bobmods.lib.tech.set_science_pack_count("efficiency-module-2", 100)
+  bobmods.lib.tech.set_science_pack_count("efficiency-module-3", 150)
 end
 
-data.raw["technology"]["effectivity-module"].upgrade = false
-data.raw["technology"]["effectivity-module-2"].upgrade = false
-data.raw["technology"]["effectivity-module-3"].upgrade = false
+data.raw["technology"]["efficiency-module"].upgrade = false
+data.raw["technology"]["efficiency-module-2"].upgrade = false
+data.raw["technology"]["efficiency-module-3"].upgrade = false
 
 data:extend({
   {
@@ -226,7 +226,7 @@ data:extend({
         recipe = "effectivity-module-4",
       },
     },
-    prerequisites = { "effectivity-module-3" },
+    prerequisites = { "efficiency-module-3" },
     unit = bobmods.modules.ModulesLab and {
       count = 50,
       ingredients = {
@@ -1058,7 +1058,7 @@ data:extend({
 
 table.insert(data.raw.technology["speed-module-3"].effects, { type = "unlock-recipe", recipe = "speed-processor-2" })
 table.insert(
-  data.raw.technology["effectivity-module-3"].effects,
+  data.raw.technology["efficiency-module-3"].effects,
   { type = "unlock-recipe", recipe = "effectivity-processor-2" }
 )
 table.insert(
@@ -1092,11 +1092,11 @@ table.insert(
   { type = "unlock-recipe", recipe = "pollution-create-processor-3" }
 )
 
-table.insert(data.raw.technology["speed-module-3"].prerequisites, "advanced-electronics-2")
-table.insert(data.raw.technology["effectivity-module-3"].prerequisites, "advanced-electronics-2")
-table.insert(data.raw.technology["productivity-module-3"].prerequisites, "advanced-electronics-2")
-table.insert(data.raw.technology["pollution-clean-module-3"].prerequisites, "advanced-electronics-2")
-table.insert(data.raw.technology["pollution-create-module-3"].prerequisites, "advanced-electronics-2")
+table.insert(data.raw.technology["speed-module-3"].prerequisites, "processing-unit")
+table.insert(data.raw.technology["efficiency-module-3"].prerequisites, "processing-unit")
+table.insert(data.raw.technology["productivity-module-3"].prerequisites, "processing-unit")
+table.insert(data.raw.technology["pollution-clean-module-3"].prerequisites, "processing-unit")
+table.insert(data.raw.technology["pollution-create-module-3"].prerequisites, "processing-unit")
 
 if data.raw.technology["advanced-electronics-3"] then
   table.insert(data.raw.technology["speed-module-6"].prerequisites, "advanced-electronics-3")

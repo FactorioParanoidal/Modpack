@@ -2,7 +2,7 @@ if mods["boblogistics"] then
   -- Bob's Logistics mod removes blue science from Electric engine and Robotics
 
   bobmods.lib.tech.remove_science_pack("exoskeleton-equipment", "chemical-science-pack")
-  bobmods.lib.tech.remove_prerequisite("exoskeleton-equipment", "advanced-electronics-2")
+  bobmods.lib.tech.remove_prerequisite("exoskeleton-equipment", "processing-unit")
 
   bobmods.lib.tech.remove_prerequisite("personal-roboport-equipment", "chemical-science-pack")
   bobmods.lib.tech.remove_science_pack("personal-roboport-equipment", "chemical-science-pack")
@@ -100,8 +100,8 @@ if data.raw.technology["effectivity-module-4"] then
   bobmods.lib.tech.add_prerequisite("bob-energy-shield-equipment-4", "effectivity-module-4")
   bobmods.lib.tech.add_prerequisite("fusion-reactor-equipment-2", "effectivity-module-4")
 else
-  bobmods.lib.tech.add_prerequisite("bob-energy-shield-equipment-4", "effectivity-module-3")
-  bobmods.lib.tech.add_prerequisite("fusion-reactor-equipment-2", "effectivity-module-3")
+  bobmods.lib.tech.add_prerequisite("bob-energy-shield-equipment-4", "efficiency-module-3")
+  bobmods.lib.tech.add_prerequisite("fusion-reactor-equipment-2", "efficiency-module-3")
 end
 
 if data.raw.technology["productivity-module-4"] then

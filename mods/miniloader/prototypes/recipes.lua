@@ -25,7 +25,7 @@ local ingredient_sets = {
     {
       {"miniloader", 1},
       {"fast-underground-belt", 1},
-      {"stack-inserter", 4},
+      {"bulk-inserter", 4},
     },
   },
   -- 628 I, 384 C, 174 O
@@ -38,7 +38,7 @@ local ingredient_sets = {
     {
       {"fast-miniloader", 1},
       {"express-underground-belt", 1},
-      {"stack-inserter", 2},
+      {"bulk-inserter", 2},
     },
   },
 
@@ -59,14 +59,14 @@ local ingredient_sets = {
     {
       {"express-miniloader", 1},
       {"turbo-underground-belt", 1},
-      {"express-stack-inserter", 4},
+      {"express-bulk-inserter", 4},
     },
   },
   ["ultimate-miniloader"] = {
     {
       {"turbo-miniloader", 1},
       {"ultimate-underground-belt", 1},
-      {"express-stack-inserter", 2},
+      {"express-bulk-inserter", 2},
     },
   },
 
@@ -75,14 +75,14 @@ local ingredient_sets = {
     {
       {"express-miniloader", 1},
       {"rapid-transport-belt-to-ground-mk1", 1},
-      {"stack-inserter-mk2", 4},
+      {"bulk-inserter-mk2", 4},
     },
   },
   ["rapid-mk2-miniloader"] = {
     {
       {"rapid-mk1-miniloader", 1},
       {"rapid-transport-belt-to-ground-mk2", 1},
-      {"stack-inserter-mk2", 2},
+      {"bulk-inserter-mk2", 2},
     },
   },
 
@@ -91,7 +91,7 @@ local ingredient_sets = {
     {
       {"express-miniloader", 1},
       {"k-underground-belt", 1},
-      {"stack-inserter", 2},
+      {"bulk-inserter", 2},
     },
   },
 
@@ -100,7 +100,7 @@ local ingredient_sets = {
     {
       {"express-miniloader", 1},
       {"kr-advanced-underground-belt", 1},
-      {"stack-inserter", 2},
+      {"bulk-inserter", 2},
     },
   },
   ["kr-superior-miniloader"] = {
@@ -116,35 +116,35 @@ local ingredient_sets = {
     {
       {"express-miniloader", 1},
       {"ultra-fast-underground-belt", 1},
-      {"stack-inserter", 6},
+      {"bulk-inserter", 6},
     },
   },
   ["ub-extreme-fast-miniloader"] = {
     {
       {"ub-ultra-fast-miniloader", 1},
       {"extreme-fast-underground-belt", 1},
-      {"stack-inserter", 6},
+      {"bulk-inserter", 6},
     },
   },
   ["ub-ultra-express-miniloader"] = {
     {
       {"ub-extreme-fast-miniloader", 1},
       {"ultra-express-underground-belt", 1},
-      {"stack-inserter", 6},
+      {"bulk-inserter", 6},
     },
   },
   ["ub-extreme-express-miniloader"] = {
     {
       {"ub-ultra-express-miniloader", 1},
       {"extreme-express-underground-belt", 1},
-      {"stack-inserter", 6},
+      {"bulk-inserter", 6},
     },
   },
   ["ub-ultimate-miniloader"] = {
     {
       {"ub-extreme-express-miniloader", 1},
       {"original-ultimate-underground-belt", 1},
-      {"stack-inserter", 6},
+      {"bulk-inserter", 6},
     },
   },
 
@@ -161,13 +161,13 @@ local ingredient_sets = {
   ["space-miniloader"] = {
     {
       {"se-space-underground-belt", 1},
-      {"stack-inserter", 4},
+      {"bulk-inserter", 4},
     },
   },
   ["deep-space-miniloader"] = {
     {
       {"se-deep-space-underground-belt-black", 1},
-      {"stack-inserter", 6},
+      {"bulk-inserter", 6},
     },
   },
 
@@ -176,14 +176,14 @@ local ingredient_sets = {
     {
       {"nuclear-underground-belt", 1},
       {"express-miniloader", 1},
-      {"nuclear-stack-inserter", 4}
+      {"nuclear-bulk-inserter", 4}
     }  
   },
   ["plutonium-miniloader"] = {
     {
       {"plutonium-underground-belt", 1},
       {"nuclear-miniloader", 1},
-      {"plutonium-stack-inserter", 4}
+      {"plutonium-bulk-inserter", 4}
     }
   }
 }
@@ -241,9 +241,9 @@ if data.raw.item["expedited-transport-belt"] then
 end
 
 local filter_inserters = {
-  ["fast-inserter"] = "filter-inserter",
-  ["stack-inserter"] = "stack-filter-inserter",
-  ["express-stack-inserter"] = "express-stack-filter-inserter",
+  ["fast-inserter"] = "fast-inserter",
+  ["bulk-inserter"] = "bulk-inserter",
+  ["express-bulk-inserter"] = "express-stack-filter-inserter",
 
   -- boblogistics overhaul
   ["inserter"] = "yellow-filter-inserter",
@@ -252,14 +252,14 @@ local filter_inserters = {
   ["express-inserter"] = "express-filter-inserter",
 
   -- FactorioExtended-Plus-Transport
-  ["stack-inserter-mk2"] = "stack-filter-inserter-mk2",
+  ["bulk-inserter-mk2"] = "stack-filter-inserter-mk2",
 
   -- Krastorio2
   ["kr-superior-inserter"] = "kr-superior-filter-inserter",
 
   -- Random Factorio Things
-  ["nuclear-stack-inserter"] = "nuclear-stack-filter-inserter",
-  ["plutonium-stack-inserter"] = "nuclear-stack-filter-inserter"
+  ["nuclear-bulk-inserter"] = "nuclear-stack-filter-inserter",
+  ["plutonium-bulk-inserter"] = "nuclear-stack-filter-inserter"
 }
 
 -- apply recipe changes due to settings

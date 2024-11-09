@@ -829,10 +829,10 @@ data:extend({
     {
       "military-4",
       "exoskeleton-equipment",
-      "fusion-reactor-equipment",
+      "fission-reactor-equipment",
       "rocketry",
       "rocket-control-unit",
-      "effectivity-module-3"
+      "efficiency-module-3"
     },
     unit =
     {

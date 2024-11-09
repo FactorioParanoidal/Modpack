@@ -520,7 +520,7 @@ data:extend({
     icon_size = 64,
     prerequisites = {
       "geode-processing-3",
-      "advanced-electronics-2",
+      "processing-unit",
       "production-science-pack",
     },
     effects = {
@@ -651,7 +651,7 @@ data:extend({
     prerequisites = {
       "ore-floatation",
       "advanced-ore-refining-1",
-      "advanced-electronics",
+      "advanced-circuit",
       "chemical-science-pack",
     },
     effects = {
@@ -826,7 +826,7 @@ data:extend({
     prerequisites = {
       "ore-leaching",
       "advanced-ore-refining-2",
-      "advanced-electronics-2",
+      "processing-unit",
       "production-science-pack",
     },
     effects = {

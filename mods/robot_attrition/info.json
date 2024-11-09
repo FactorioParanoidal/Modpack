@@ -7,7 +7,7 @@
 		"base >= 1.1.0"
 	],
 	"description": "Very occasionally if you have heavy logistic bot congestion a logistic bot will crash. The crash rate is configurable (down to near-zero). A construction bot will automatically retrieve the dropped cargo, it is not lost. This means logistic bots are best used for higher value items like engines or power poles, using them for low value items like ore and copper wire is OK but less resource efficient. Bot-based item malls are totally fine. 100% bot-factories are still viable but need maybe 1% extra resources (if that). Bot-train ore unloading is viable but not ideal. Bots carrying ore from distant lands when you should be using trains is where things can become unsustainable unless you reduce the crash rate.",
-	"factorio_version": "1.1",
+	"factorio_version": "2.0",
   "package": {
     "ignore": ["**"],
     "extra": [

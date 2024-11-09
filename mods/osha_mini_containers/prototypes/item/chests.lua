@@ -1,43 +1,43 @@
 
-local chests = { 
-    { 
-        name = 'steel-chest', 
-        technology = 'steel-processing', 
+local chests = {
+    {
+        name = 'steel-chest',
+        technology = 'steel-processing',
         entity_type = 'container',
         order = "a",
         ingredients = {{"steel-plate", 2}},
     },
-    { 
-        name = 'logistic-chest-passive-provider', 
-        technology = 'construction-robotics', 
+    {
+        name = 'passive-provider-chest',
+        technology = 'construction-robotics',
         entity_type = 'logistic-container',
         order = "b",
         ingredients = {{"mini-steel-chest", 1},{"electronic-circuit", 3},{"advanced-circuit", 1}}
     },
-    { 
-        name = 'logistic-chest-storage', 
-        technology = 'construction-robotics', 
+    {
+        name = 'storage-chest',
+        technology = 'construction-robotics',
         entity_type = 'logistic-container',
         order = "d",
         ingredients = {{"mini-steel-chest", 1},{"electronic-circuit", 3},{"advanced-circuit", 1}}
     },
-    { 
-        name = 'logistic-chest-active-provider', 
-        technology = 'logistic-system', 
+    {
+        name = 'active-provider-chest',
+        technology = 'logistic-system',
         entity_type = 'logistic-container',
         order = "c",
         ingredients = {{"mini-steel-chest", 1},{"electronic-circuit", 3},{"advanced-circuit", 1}}
     },
-    {   
-        name = 'logistic-chest-buffer', 
-        technology = 'logistic-system', 
+    {
+        name = 'buffer-chest',
+        technology = 'logistic-system',
         entity_type = 'logistic-container',
         order = "e",
         ingredients = {{"mini-steel-chest", 1},{"electronic-circuit", 3},{"advanced-circuit", 1}}
     },
-    { 
-        name = 'logistic-chest-requester', 
-        technology = 'logistic-system', 
+    {
+        name = 'requester-chest',
+        technology = 'logistic-system',
         entity_type = 'logistic-container',
         order = "f",
         ingredients = {{"mini-steel-chest", 1},{"electronic-circuit", 3},{"advanced-circuit", 1}}

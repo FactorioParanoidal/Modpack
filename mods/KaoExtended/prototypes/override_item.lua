@@ -100,7 +100,7 @@ bobmods.lib.recipe.add_new_ingredient ("module-processor-board-3", {type="item",
 --[[
   bobmods.lib.recipe.replace_ingredient("speed-module-3", "processing-unit", "standart-io")
   bobmods.lib.recipe.replace_ingredient("productivity-module-3", "processing-unit", "standart-io")
-  bobmods.lib.recipe.replace_ingredient("effectivity-module-3", "processing-unit", "standart-io")
+  bobmods.lib.recipe.replace_ingredient("efficiency-module-3", "processing-unit", "standart-io")
   
   bobmods.lib.recipe.replace_ingredient("speed-module-4", "processing-unit", "advanced-io")
   bobmods.lib.recipe.replace_ingredient("productivity-module-4", "processing-unit", "advanced-io")
@@ -146,7 +146,7 @@ for name, item in pairs(data.raw.module) do
       }
     end
 
-    if subgroup == "effectivity-module" then
+    if subgroup == "efficiency-module" then
       item.effect = {
         speed = {bonus = -0.04 * level},
         consumption = {bonus = -0.1 * level}

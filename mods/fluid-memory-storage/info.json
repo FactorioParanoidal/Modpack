@@ -4,6 +4,6 @@
 	"title": "Fluid Memory Storage",
 	"author": "notnotmelon",
 	"description": "The Fluid Memory Unit can store an infinite amount of any liquid or gas. The more fluid you store, the more power it will require!",
-	"factorio_version": "1.1",
+	"factorio_version": "2.0",
 	"dependencies": ["base", "? deep-storage-unit", "(?) PickerDollies", "! logistic-memory-units"]
 }

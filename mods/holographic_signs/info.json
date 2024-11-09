@@ -5,7 +5,7 @@
 	"author":"MFerrari",
 	"dependencies": ["base >= 1.1.0" ,"(?) space-exploration" ,"(?) shield-projector"],
 	"description": "This mod adds holographic signs to show configurable icon and text.",
-	"factorio_version": "1.1",
+	"factorio_version": "2.0",
 	"homepage":"https://discord.gg/vDfm5tNEqK",
 	"contact": "Discord: MFerrari#6561"
 }

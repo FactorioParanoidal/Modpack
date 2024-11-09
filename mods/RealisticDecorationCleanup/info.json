@@ -6,5 +6,5 @@
     "homepage": "https://git.somenet.org/factorio/RealisticDecorationCleanup.git",
     "description": "Remove decorations prior to placing entities or tiles. Normally you would not build a house/road and leave the bushes below it.",
     "dependencies": ["base>=1.1.0"],
-    "factorio_version": "1.1"
+    "factorio_version": "2.0"
 }

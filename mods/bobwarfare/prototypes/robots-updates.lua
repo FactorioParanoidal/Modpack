@@ -65,7 +65,7 @@ if settings.startup["bobmods-warfare-robotupdate"].value == true then
       bobmods.lib.recipe.add_ingredient("destroyer-robot", { "steel-plate", 1 })
     end
     bobmods.lib.recipe.add_ingredient("destroyer-robot", { "processing-unit", 1 })
-    bobmods.lib.tech.add_prerequisite("destroyer", "advanced-electronics-2")
+    bobmods.lib.tech.add_prerequisite("destroyer", "processing-unit")
     if data.raw.item["titanium-gear-wheel"] then
       bobmods.lib.recipe.add_ingredient("destroyer-robot", { "titanium-gear-wheel", 3 })
     else

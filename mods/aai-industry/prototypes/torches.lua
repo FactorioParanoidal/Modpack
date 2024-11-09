@@ -84,7 +84,7 @@ data:extend{
   {
     type = "recipe",
     name = "torch",
-    enabled = "true",
+    enabled = true,
     ingredients =
     {
       {"wood", 3},

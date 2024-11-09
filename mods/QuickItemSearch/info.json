@@ -6,7 +6,7 @@
   "author": "raiguard",
   "contact": "https://github.com/raiguard/QuickItemSearch",
   "homepage": "https://github.com/raiguard/QuickItemSearch",
-  "factorio_version": "1.1",
+  "factorio_version": "2.0",
   "dependencies": [
     "? base >= 1.1.20",
     "flib >= 0.7.0",

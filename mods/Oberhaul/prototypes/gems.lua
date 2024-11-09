@@ -25,7 +25,7 @@ data:extend({
     subgroup = "bob-gems-ore",
     order = "a-0",
     category = "ore-sorting",
-    enabled = "false",
+    enabled = false,
 },
 {
     type = "recipe",
@@ -48,7 +48,7 @@ data:extend({
     subgroup = "bob-gems-ore",
     order = "b-0",
     category = "ore-sorting",
-    enabled = "false",
+    enabled = false,
 },
 {
     type = "recipe",
@@ -71,7 +71,7 @@ data:extend({
     subgroup = "bob-gems-ore",
     order = "c-0",
     category = "ore-sorting",
-    enabled = "false",
+    enabled = false,
 },
 {
     type = "recipe",
@@ -94,7 +94,7 @@ data:extend({
     subgroup = "bob-gems-ore",
     order = "d-0",
     category = "ore-sorting",
-    enabled = "false",
+    enabled = false,
 },
 {
     type = "recipe",
@@ -117,7 +117,7 @@ data:extend({
     subgroup = "bob-gems-ore",
     order = "e-0",
     category = "ore-sorting",
-    enabled = "false",
+    enabled = false,
 },
 {
     type = "recipe",
@@ -140,7 +140,7 @@ data:extend({
     subgroup = "bob-gems-ore",
     order = "f-0",
     category = "ore-sorting",
-    enabled = "false",
+    enabled = false,
 },
 })
 bobmods.lib.tech.add_recipe_unlock("geode-processing-2", "ober-liquify-ruby")

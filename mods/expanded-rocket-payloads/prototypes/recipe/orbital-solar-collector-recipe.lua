@@ -4,7 +4,7 @@ data:extend({
         name = "orbital-solar-collector",
         category = "satellite-crafting",
         energy_required = 100,
-        enabled = "false",
+        enabled = false,
         ingredients = 
         {
             {"satellite-battery", 20},

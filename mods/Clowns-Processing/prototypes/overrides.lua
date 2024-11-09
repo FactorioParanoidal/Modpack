@@ -87,7 +87,7 @@ if settings.startup["equipment-group"].value then
 
 	data.raw.item["solar-panel-equipment"].subgroup = "power"
 
-	data.raw.item["fusion-reactor-equipment"].subgroup = "power"
+	data.raw.item["fission-reactor-equipment"].subgroup = "power"
 
 	data.raw.item["night-vision-equipment"].subgroup = "misc1"
 

@@ -6,6 +6,6 @@
   "contact": "https://forums.factorio.com/memberlist.php?mode=viewprofile&u=21729",
   "homepage": "",
   "description": "Adds infinite technologies for bot battery, bot cargo capacity, player logistics slots and inserter capacity.\nNormalizes infinite technologies to 60s and exponential 2^N formula, either can be disabled in startup settings.",
-  "factorio_version": "1.1",
+  "factorio_version": "2.0",
   "dependencies": ["base", "(?)boblogistics", "(?)BigBags"]
 }

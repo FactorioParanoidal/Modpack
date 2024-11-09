@@ -26,9 +26,9 @@ data.raw.module["productivity-module-7"].module_effects.speed = {bonus = -7 * 0.
 data.raw.module["productivity-module-8"].module_effects.speed = {bonus = -8 * 0.15}
 
 --Buff Efficiency Modules
-data.raw.module["effectivity-module"].module_effects =   {consumption = {bonus = -1*0.3}}
-data.raw.module["effectivity-module-2"].module_effects = {consumption = {bonus = -2*0.3}}
-data.raw.module["effectivity-module-3"].module_effects = {consumption = {bonus = -3*0.4}}
+data.raw.module["efficiency-module"].module_effects =   {consumption = {bonus = -1*0.3}}
+data.raw.module["efficiency-module-2"].module_effects = {consumption = {bonus = -2*0.3}}
+data.raw.module["efficiency-module-3"].module_effects = {consumption = {bonus = -3*0.4}}
 data.raw.module["effectivity-module-4"].module_effects = {consumption = {bonus = -4*1}}
 data.raw.module["effectivity-module-5"].module_effects = {consumption = {bonus = -5*1}}
 data.raw.module["effectivity-module-6"].module_effects = {consumption = {bonus = -6*1}}

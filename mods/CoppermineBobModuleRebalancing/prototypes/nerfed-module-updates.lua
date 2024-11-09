@@ -17,7 +17,7 @@ if settings.startup["coppermine-bob-module-nerfed-modules"].value then
       }
     end
 
-    if subgroup == "effectivity-module" then
+    if subgroup == "efficiency-module" then
       item.effect = {
         speed = {bonus = -0.04 * level},
         consumption = {bonus = -0.1 * level}

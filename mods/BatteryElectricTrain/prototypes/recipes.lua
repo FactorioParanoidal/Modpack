@@ -17,7 +17,7 @@ local battery_capacity = 4000000
 local ingr_advc = {"advanced-circuit",      1}
 local ingr_proc = {"processing-unit",       1}
 local ingr_lowd = {"low-density-structure", 1}
-local ingr_effm = {"effectivity-module-3",  1}
+local ingr_effm = {"efficiency-module-3",  1}
 
 local function MakeBatteryRecipe(name)
 	local level = tonumber(name:sub(-1))

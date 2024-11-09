@@ -26,7 +26,7 @@ data:extend({
     name = "express-filter-inserter",
     enabled = false,
     ingredients = {
-      { "filter-inserter", 1 },
+      { "fast-inserter", 1 },
       { "iron-gear-wheel", 2 },
       { "advanced-circuit", 4 },
     },
@@ -35,14 +35,14 @@ data:extend({
   },
   {
     type = "recipe",
-    name = "express-stack-inserter",
+    name = "express-bulk-inserter",
     enabled = false,
     ingredients = {
-      { "stack-inserter", 1 },
+      { "bulk-inserter", 1 },
       { "iron-gear-wheel", 15 },
       { "advanced-circuit", 5 },
     },
-    result = "express-stack-inserter",
+    result = "express-bulk-inserter",
     requester_paste_multiplier = 4,
   },
   {
@@ -50,7 +50,7 @@ data:extend({
     name = "express-stack-filter-inserter",
     enabled = false,
     ingredients = {
-      { "stack-filter-inserter", 1 },
+      { "bulk-inserter", 1 },
       { "iron-gear-wheel", 15 },
       { "advanced-circuit", 5 },
     },
@@ -73,21 +73,21 @@ if settings.startup["bobmods-logistics-inserteroverhaul"].value == true then
     },
     {
       type = "recipe",
-      name = "red-stack-inserter", --fast
+      name = "red-bulk-inserter", --fast
       enabled = false,
       ingredients = {
         { "long-handed-inserter", 1 },
         { "steel-plate", 3 },
         { "iron-gear-wheel", 5 }, -- replace brass -- add in steel bearings if they and brass exist
       },
-      result = "red-stack-inserter",
+      result = "red-bulk-inserter",
     },
     {
       type = "recipe",
       name = "red-stack-filter-inserter", --fast
       enabled = false,
       ingredients = {
-        { "red-stack-inserter", 1 },
+        { "red-bulk-inserter", 1 },
         { "electronic-circuit", 5 },
       },
       result = "red-stack-filter-inserter",
@@ -135,7 +135,7 @@ if settings.startup["bobmods-logistics-inserteroverhaul"].value == true then
       },
       {
         type = "recipe",
-        name = "filter-inserter", --express
+        name = "fast-inserter", --express
         enabled = false,
         ingredients = {
           { "red-filter-inserter", 1 },
@@ -143,23 +143,23 @@ if settings.startup["bobmods-logistics-inserteroverhaul"].value == true then
           { "iron-gear-wheel", 1 }, -- replace brass -- add steel bearings, or brass if it exists.
           { "advanced-circuit", 5 },
         },
-        result = "filter-inserter",
+        result = "fast-inserter",
       },
       {
         type = "recipe",
-        name = "stack-inserter", --express
+        name = "bulk-inserter", --express
         enabled = false,
         ingredients = {
-          { "red-stack-inserter", 1 },
+          { "red-bulk-inserter", 1 },
           { "steel-plate", 4 }, -- replace aluminium
           { "iron-gear-wheel", 6 }, -- replace brass -- add steel bearings, or brass if it exists.
           { "advanced-circuit", 1 },
         },
-        result = "stack-inserter",
+        result = "bulk-inserter",
       },
       {
         type = "recipe",
-        name = "stack-filter-inserter", --express
+        name = "bulk-inserter", --express
         enabled = false,
         ingredients = {
           { "red-stack-filter-inserter", 1 },
@@ -167,7 +167,7 @@ if settings.startup["bobmods-logistics-inserteroverhaul"].value == true then
           { "iron-gear-wheel", 6 }, -- replace brass -- add steel bearings, or brass if it exists.
           { "advanced-circuit", 6 },
         },
-        result = "stack-filter-inserter",
+        result = "bulk-inserter",
       },
 
       {
@@ -188,7 +188,7 @@ if settings.startup["bobmods-logistics-inserteroverhaul"].value == true then
         name = "turbo-filter-inserter", --turbo
         enabled = false,
         ingredients = {
-          { "filter-inserter", 1 },
+          { "fast-inserter", 1 },
           { "steel-plate", 1 }, -- replace titanium
           { "iron-gear-wheel", 1 }, -- replace titanium -- add titanium bearing
           { "processing-unit", 5 },
@@ -199,15 +199,15 @@ if settings.startup["bobmods-logistics-inserteroverhaul"].value == true then
 
       {
         type = "recipe",
-        name = "turbo-stack-inserter", --turbo
+        name = "turbo-bulk-inserter", --turbo
         enabled = false,
         ingredients = {
-          { "stack-inserter", 1 },
+          { "bulk-inserter", 1 },
           { "steel-plate", 4 }, -- replace titanium
           { "iron-gear-wheel", 6 }, -- replace titanium--add titanium bearing
           { "processing-unit", 1 },
         },
-        result = "turbo-stack-inserter",
+        result = "turbo-bulk-inserter",
         requester_paste_multiplier = 4,
       },
       {
@@ -215,7 +215,7 @@ if settings.startup["bobmods-logistics-inserteroverhaul"].value == true then
         name = "turbo-stack-filter-inserter", --turbo
         enabled = false,
         ingredients = {
-          { "stack-filter-inserter", 1 },
+          { "bulk-inserter", 1 },
           { "steel-plate", 4 }, -- replace titanium
           { "iron-gear-wheel", 6 }, -- replace titanium--add titanium bearing
           { "processing-unit", 6 },
@@ -253,15 +253,15 @@ if settings.startup["bobmods-logistics-inserteroverhaul"].value == true then
 
       {
         type = "recipe",
-        name = "express-stack-inserter", --ultimate
+        name = "express-bulk-inserter", --ultimate
         enabled = false,
         ingredients = {
-          { "turbo-stack-inserter", 1 },
+          { "turbo-bulk-inserter", 1 },
           { "steel-plate", 4 }, -- replace nitinol
           { "iron-gear-wheel", 6 }, -- replace nitinol -- add nitinol bearing
           { "processing-unit", 1 }, --replace advanced processing unit
         },
-        result = "express-stack-inserter",
+        result = "express-bulk-inserter",
         requester_paste_multiplier = 4,
       },
       {
@@ -315,34 +315,34 @@ if settings.startup["bobmods-logistics-inserteroverhaul"].value == true then
       },
       {
         type = "recipe",
-        name = "filter-inserter", --express
+        name = "fast-inserter", --express
         enabled = false,
         ingredients = {
           { "fast-inserter", 1 },
           { "advanced-circuit", 4 },
         },
-        result = "filter-inserter",
+        result = "fast-inserter",
       },
       {
         type = "recipe",
-        name = "stack-inserter", --express
+        name = "bulk-inserter", --express
         enabled = false,
         ingredients = {
           { "fast-inserter", 1 },
           { "steel-plate", 3 }, -- replace aluminium
           { "iron-gear-wheel", 5 }, -- replace brass -- add steel bearings, or brass if it exists.
         },
-        result = "stack-inserter",
+        result = "bulk-inserter",
       },
       {
         type = "recipe",
-        name = "stack-filter-inserter", --express
+        name = "bulk-inserter", --express
         enabled = false,
         ingredients = {
-          { "stack-inserter", 1 },
+          { "bulk-inserter", 1 },
           { "advanced-circuit", 5 },
         },
-        result = "stack-filter-inserter",
+        result = "bulk-inserter",
       },
 
       {
@@ -371,14 +371,14 @@ if settings.startup["bobmods-logistics-inserteroverhaul"].value == true then
 
       {
         type = "recipe",
-        name = "turbo-stack-inserter", --turbo
+        name = "turbo-bulk-inserter", --turbo
         enabled = false,
         ingredients = {
           { "turbo-inserter", 1 },
           { "steel-plate", 3 }, -- replace titanium
           { "iron-gear-wheel", 5 }, -- replace titanium--add titanium bearing
         },
-        result = "turbo-stack-inserter",
+        result = "turbo-bulk-inserter",
         requester_paste_multiplier = 4,
       },
       {
@@ -386,7 +386,7 @@ if settings.startup["bobmods-logistics-inserteroverhaul"].value == true then
         name = "turbo-stack-filter-inserter", --turbo
         enabled = false,
         ingredients = {
-          { "turbo-stack-inserter", 1 },
+          { "turbo-bulk-inserter", 1 },
           { "processing-unit", 5 },
         },
         result = "turbo-stack-filter-inserter",
@@ -419,14 +419,14 @@ if settings.startup["bobmods-logistics-inserteroverhaul"].value == true then
 
       {
         type = "recipe",
-        name = "express-stack-inserter", --ultimate
+        name = "express-bulk-inserter", --ultimate
         enabled = false,
         ingredients = {
           { "express-inserter", 1 },
           { "steel-plate", 3 }, -- replace nitinol
           { "iron-gear-wheel", 5 }, -- replace nitinol -- add nitinol bearing
         },
-        result = "express-stack-inserter",
+        result = "express-bulk-inserter",
         requester_paste_multiplier = 4,
       },
       {
@@ -434,7 +434,7 @@ if settings.startup["bobmods-logistics-inserteroverhaul"].value == true then
         name = "express-stack-filter-inserter", --ultimate
         enabled = false,
         ingredients = {
-          { "express-stack-inserter", 1 },
+          { "express-bulk-inserter", 1 },
           { "processing-unit", 5 }, --replace advanced processing unit
         },
         result = "express-stack-filter-inserter",

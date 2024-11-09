@@ -4,7 +4,7 @@
     "title": "More Achievements",
     "author": "SerhiiS, Gangsir, Bilka",
     "homepage": "https://github.com/Carbonify/Achiever",
-    "factorio_version": "1.1",
+    "factorio_version": "2.0",
     "dependencies": ["base >= 1.1.0"],
     "description": "Adds many more achievements for players that feel there aren't enough, ranging from progression based to challenge based. See the mod portal page for a full list."
 }

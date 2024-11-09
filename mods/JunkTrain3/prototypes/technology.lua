@@ -52,7 +52,7 @@ data:extend({
                 recipe = "rail-chain-signal-scrap"
             }
     },
-    prerequisites = {"JunkTrain_tech","optics"},
+    prerequisites = {"JunkTrain_tech", "lamp"},
     unit =
     {
       count = 50,

@@ -178,7 +178,7 @@ data:extend({
   },
   {
     type = "int-setting",
-    name = "ReStack-inserter",
+    name = "Rebulk-inserter",
     order = "ee",
     setting_type = "startup",
     default_value = 0,

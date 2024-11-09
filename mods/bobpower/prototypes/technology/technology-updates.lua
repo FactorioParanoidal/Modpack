@@ -40,7 +40,7 @@ elseif mods["aai-industry"] then
   -- Skip as this will be handle by AAI Industry
 else
   bobmods.lib.tech.add_prerequisite("automation", "steam-power")
-  bobmods.lib.tech.add_prerequisite("optics", "steam-power")
+  bobmods.lib.tech.add_prerequisite( "lamp", "steam-power")
 
   if data.raw.technology["electrolysis-1"] then
     bobmods.lib.tech.add_prerequisite("electrolysis-1", "steam-power")

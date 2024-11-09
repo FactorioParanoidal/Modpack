@@ -38,8 +38,8 @@ function set_tint_to_rails (rails_entities, tint)
   local sheet_path_ties = "__Bio_Industries__/graphics/entities/wood_products/rails/ties/"
   local rails_entities = rails_entities or  -- or vanilla
     {
-      data.raw["straight-rail"]["straight-rail"],
-      data.raw["curved-rail"]["curved-rail"]
+      data.raw["legacy-straight-rail"]["legacy-straight-rail"],
+      data.raw["legacy-curved-rail"]["legacy-curved-rail"]
     }
   global = global or {}
   global["rails"] = {}
@@ -69,8 +69,8 @@ function set_tint_to_remnants(remnants_entities, tint)  -- tha same function, ac
 --~ local tint = tint
 local sheet_path_ties = "__Bio_Industries__/graphics/entities/wood_products/rails/ties/"
 local remnants_entities = remnants_entities or {  -- or vanilla  {
-  data.raw["rail-remnants"]["straight-rail-remnants"],
-  data.raw["rail-remnants"]["curved-rail-remnants"]
+  data.raw["rail-remnants"]["legacy-straight-rail-remnants"],
+  data.raw["rail-remnants"]["legacy-curved-rail-remnants"]
 }
 global = global or {}
 global["remnants"] = {}

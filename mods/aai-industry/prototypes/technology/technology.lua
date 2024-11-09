@@ -9,7 +9,7 @@ data.raw.technology["automation"].prerequisites = {"basic-automation", "electric
 data.raw.technology["automation-2"].prerequisites = {"automation"}
 data.raw.technology["automation-2"].unit.count = 150
 
-data.raw.technology["optics"].prerequisites = {"electricity"}
+data.raw.technology[ "lamp"].prerequisites = {"electricity"}
 data.raw.technology["gun-turret"].prerequisites = {"basic-automation", "military"}
 
 data.raw.technology["logistics"].unit.count = 10
@@ -89,7 +89,7 @@ data:extend{
         icon = "__aai-industry__/graphics/technology/radar.png",
         icon_size = 128,
         order = "a",
-        prerequisites = {"optics"},
+        prerequisites = { "lamp"},
         unit = {
             count = 40,
             ingredients = {
@@ -134,7 +134,7 @@ data:extend{
         icon = "__aai-industry__/graphics/technology/electric-lab.png",
         icon_size = 128,
         order = "a",
-        prerequisites = {"electricity", "optics"},
+        prerequisites = {"electricity",  "lamp"},
         unit = {
             count = 100,
             ingredients = {

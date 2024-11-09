@@ -19,7 +19,7 @@ local particles = {}
 -- []-chest
 -- construction-robot
 -- fluid-wagon
--- stack-inserter
+-- bulk-inserter
 -- inserter
 -- locomotive
 -- logistic-robot

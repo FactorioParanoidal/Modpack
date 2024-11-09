@@ -291,7 +291,7 @@ data:extend({
 		name = "w93-modular-gun-tlaser",
 		enabled = false,
 		energy_required = 10,
-		ingredients = {{"plastic-bar", 8},{"steel-plate", 2}, {"processing-unit", 2}, {"battery", 10}, {"effectivity-module", 1}},
+		ingredients = {{"plastic-bar", 8},{"steel-plate", 2}, {"processing-unit", 2}, {"battery", 10}, {"efficiency-module", 1}},
     		results = {{type="item", name="w93-modular-gun-tlaser", amount=1}},
 		icon = "__scattergun_turret__/graphics/icons/modular-gun-tlaser.png",
     		icon_size = 64,

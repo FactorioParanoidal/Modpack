@@ -4,7 +4,7 @@ data:extend({
         name = "iron-dropship-unboxing",
         category = "satellite-crafting",
         energy_required = 5,
-        enabled = "false",
+        enabled = false,
         ingredients = 
         {
             {"iron-dropship", 1},

@@ -25,7 +25,7 @@ data:extend{{
     stack_size = 1
 }}
 
-local mi_proxy = copyPrototype("logistic-container","logistic-chest-active-provider","module_inserter_pickup")
+local mi_proxy = copyPrototype("logistic-container","active-provider-chest","module_inserter_pickup")
 
 mi_proxy.max_health = 100
 mi_proxy.corpse = "small-remnants"

@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "title": "The Ruins Mod - Silly extension",
   "author": "Silly_Warlock",
-  "factorio_version": "1.1",
+  "factorio_version": "2.0",
   "description": "Adds some ruins to 'The Ruins Mod'",
   "dependencies": ["AbandonedRuins >= 1.0.0", "? angelsrefining >= 0.11.21", "? Aircraft >= 1.7.0", "? robotarmy >= 0.4.8", "? angelspetrochem >= 0.9.18", "? angelssmelting >= 0.6.16", "? RPGsystem >= 1.1.6"]
 }

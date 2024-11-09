@@ -26,7 +26,7 @@ bobmods.lib.recipe.add_result("platinum-ore-processing", (type="item", name="sla
     category = "ore-processing",
 	subgroup = "angels-iron",
     energy_required = 2,
-	enabled = "false",
+	enabled = false,
     ingredients ={{"iron-ore", 4}},
     results=
     {

@@ -58,7 +58,7 @@ data.raw.recipe["rocket-control-unit"].ingredients = {
 }
 if mods.bobtech then
 data.raw.recipe["lab-2"].ingredients = {
-    {"turbo-stack-inserter", 10},
+    {"turbo-bulk-inserter", 10},
     {"turbo-transport-belt", 10},
     {"processing-unit", 25},
     {"lab", 2}
@@ -167,15 +167,15 @@ data.raw.lab["lab-module"].energy_usage = "3500kW"
 --data.raw.lab["big-lab"].energy_usage = "250MW"
 
 --Reorder the dependancies of science packs
--- bobmods.lib.tech.add_recipe_unlock("advanced-electronics-2", "production-science-pack")
+-- bobmods.lib.tech.add_recipe_unlock("processing-unit", "production-science-pack")
 -- bobmods.lib.tech.add_recipe_unlock("advanced-electronics-3", "utility-science-pack")
--- bobmods.lib.tech.remove_recipe_unlock("advanced-electronics-2","utility-science-pack")
+-- bobmods.lib.tech.remove_recipe_unlock("processing-unit","utility-science-pack")
 -- bobmods.lib.tech.remove_recipe_unlock("advanced-material-processing-2","production-science-pack")
 
--- data.raw.technology["advanced-research"].prerequisites = {"advanced-electronics-2","bob-logistics-4"}
+-- data.raw.technology["advanced-research"].prerequisites = {"processing-unit","bob-logistics-4"}
 -- bobmods.lib.tech.add_new_science_pack("advanced-research","production-science-pack",1)
 -- bobmods.lib.tech.add_new_science_pack("advanced-research","logistic-science-pack",1)
--- data.raw.technology["advanced-electronics-3"].prerequisites = {"advanced-electronics-2","advanced-research"}
+-- data.raw.technology["advanced-electronics-3"].prerequisites = {"processing-unit","advanced-research"}
 
 if mods.SpaceMod then
 bobmods.lib.tech.add_new_science_pack("spaceship-command","military-science-pack",1)

@@ -20,7 +20,7 @@ if mods["bobplates"] then
           category = "induction-smelting",
           subgroup = "angels-steel-casting",
           energy_required = 6,
-          enabled = "false",
+          enabled = false,
           ingredients = {
             {type="item", name="ingot-iron", amount=40},
             {type="item", name="solid-coke", amount=6},
@@ -41,7 +41,7 @@ if mods["bobplates"] then
           category = "induction-smelting",
           subgroup = "angels-steel-casting",
           energy_required = 6,
-          enabled = "false",
+          enabled = false,
           ingredients = {
             {type="item", name="ingot-iron", amount=40},
             {type="item", name="solid-coke", amount=6},
@@ -62,7 +62,7 @@ if mods["bobplates"] then
           category = "induction-smelting",
           subgroup = "angels-steel-casting",
           energy_required = 6,
-          enabled = "false",
+          enabled = false,
           ingredients = {
             {type="item", name="ingot-iron", amount=42},
             {type="item", name="solid-coke", amount=6},
@@ -84,7 +84,7 @@ if mods["bobplates"] then
           category = "induction-smelting",
           subgroup = "angels-steel-casting",
           energy_required = 6,
-          enabled = "false",
+          enabled = false,
           ingredients = {
             {type="item", name="ingot-iron", amount=42},
             {type="item", name="solid-coke", amount=6},
@@ -108,7 +108,7 @@ if mods["bobplates"] then
           category = "induction-smelting",
           subgroup = "angels-invar-casting",
           energy_required = 6,
-          enabled = "false",
+          enabled = false,
           ingredients = {
             {type="item", name="ingot-iron", amount=46},
             {type="item", name="solid-coke", amount=1},
@@ -134,7 +134,7 @@ if mods["bobplates"] then
       category = "induction-smelting",
     subgroup = "angels-alloys-casting",
       energy_required = 4,
-    enabled = "false",
+    enabled = false,
       ingredients ={
         {type="item", name="ingot-nickel", amount=24},
         {type="item", name="ingot-titanium", amount=12},
@@ -151,7 +151,7 @@ if mods["bobplates"] then
       category = "casting",
     subgroup = "angels-alloys-casting",
       energy_required = 15,
-    enabled = "false",
+    enabled = false,
       ingredients ={
         {type="fluid", name="liquid-molten-nitinol", amount=40},
     },
@@ -167,7 +167,7 @@ if mods["bobplates"] then
       category = "casting",
     subgroup = "angels-cobalt-steel-casting",
       energy_required = 30,
-    enabled = "false",
+    enabled = false,
       ingredients ={
         {type="fluid", name="liquid-molten-iron", amount=140},
         {type="fluid", name="liquid-molten-cobalt", amount=10},
@@ -184,7 +184,7 @@ if mods["bobplates"] then
       category = "casting",
     subgroup = "angels-cobalt-steel-casting",
       energy_required = 30,
-    enabled = "false",
+    enabled = false,
       ingredients ={
         {type="fluid", name="liquid-molten-steel", amount=35},
         {type="fluid", name="liquid-molten-cobalt", amount=10},

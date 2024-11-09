@@ -7,7 +7,7 @@ local pt_enabled = (mods["angelssmelting"] and angelsmods.trigger.smelting_produ
 if mods["bobmodules"] then
   OV.add_prereq(
     "modules",
-    mods["angelssmelting"] and "advanced-electronics" or (mods["bobplates"] and "lead-processing" or "plastics")
+    mods["angelssmelting"] and "advanced-circuit" or (mods["bobplates"] and "lead-processing" or "plastics")
   ) --bobs silver smelting is avail from the start, but silver from lead gets unlocked here...
   OV.remove_prereq("modules", "gold-processing")
   if pt_enabled == true and mods["bobplates"] then

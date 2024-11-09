@@ -15,7 +15,7 @@ data:extend({
     {
       {"construction-robot", 5},
       {"speed-module-3", 1},
-      {"effectivity-module-3", 1 },
+      {"efficiency-module-3", 1 },
 	  {"low-density-structure", 5}
     },
     result = "assembly-robot"
@@ -53,7 +53,7 @@ data:extend({
 	energy_required = 100,
     ingredients =
     {
-	  {"fusion-reactor-equipment", 100 * productionCost}
+	  {"fission-reactor-equipment", 100 * productionCost}
     },
     result = "fusion-reactor"
   },
@@ -145,7 +145,7 @@ data:extend({
     ingredients =
     {
       {"speed-module-3", 50 * productionCost},
-	  {"effectivity-module-3", 50 * productionCost},
+	  {"efficiency-module-3", 50 * productionCost},
 	  {"productivity-module-3", 50 * productionCost},
       {"plastic-bar", 200 * productionCost},
       {"processing-unit", 100 * productionCost},
@@ -175,7 +175,7 @@ data:extend({
     {
       {"productivity-module-3", 500 * productionCost},
       {"speed-module-3", 500 * productionCost},
-      {"effectivity-module-3", 500 * productionCost},
+      {"efficiency-module-3", 500 * productionCost},
 	  {"low-density-structure", 100 * productionCost},
 	  {"processing-unit", 500 * productionCost}
     },
@@ -200,6 +200,6 @@ local fix = data.raw.recipe["fusion-reactor"]
 if cheapFusion == true then
 	fix.ingredients =
 		{
-		{"fusion-reactor-equipment", 40*productionCost}
+		{"fission-reactor-equipment", 40*productionCost}
 		}
 end

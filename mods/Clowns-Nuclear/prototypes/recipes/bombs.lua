@@ -57,13 +57,13 @@ if mods["bobmodules"] then
 else
 	table.insert(data.raw["recipe"]["thermonuclear-bomb"].ingredients, {"speed-module-3", 3})
 	table.insert(data.raw["recipe"]["thermonuclear-bomb"].ingredients, {"productivity-module-3", 3})
-	table.insert(data.raw["recipe"]["thermonuclear-bomb"].ingredients, {"effectivity-module-3", 3})
+	table.insert(data.raw["recipe"]["thermonuclear-bomb"].ingredients, {"efficiency-module-3", 3})
 end
 
 if data.raw.item["fusion-reactor-equipment-2"] then
 	table.insert(data.raw["recipe"]["thermonuclear-bomb"].ingredients, {"fusion-reactor-equipment-2", 1})
 else
-	table.insert(data.raw["recipe"]["thermonuclear-bomb"].ingredients, {"fusion-reactor-equipment", 1})
+	table.insert(data.raw["recipe"]["thermonuclear-bomb"].ingredients, {"fission-reactor-equipment", 1})
 end
 
 if data.raw.item["advanced-processing-unit"] then

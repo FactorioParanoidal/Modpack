@@ -415,7 +415,7 @@ data:extend({
       "air-compressor-1",
       "steel-processing",
       "alloy-processing",
-      "advanced-electronics",
+      "advanced-circuit",
     },
     effects = {
       {
@@ -443,7 +443,7 @@ data:extend({
       "air-compressor-2",
       "zinc-processing",
       "titanium-processing",
-      "advanced-electronics-2",
+      "processing-unit",
     },
     effects = {
       {
@@ -526,7 +526,7 @@ data:extend({
       "water-bore-1",
       "steel-processing",
       "alloy-processing",
-      "advanced-electronics",
+      "advanced-circuit",
     },
     effects = {
       {
@@ -555,7 +555,7 @@ data:extend({
       "water-bore-2",
       "zinc-processing",
       "titanium-processing",
-      "advanced-electronics-2",
+      "processing-unit",
     },
     effects = {
       {
@@ -646,7 +646,7 @@ data:extend({
     effects = {
       {
         type = "unlock-recipe",
-        recipe = "empty-barrel",
+        recipe = "barrel",
       },
     },
     unit = {
@@ -870,7 +870,7 @@ data:extend({
     icon = "__bobplates__/graphics/icons/technology/advanced-electronics-3.png",
     icon_size = 128,
     prerequisites = {
-      "advanced-electronics-2",
+      "processing-unit",
       "production-science-pack",
     },
     effects = {

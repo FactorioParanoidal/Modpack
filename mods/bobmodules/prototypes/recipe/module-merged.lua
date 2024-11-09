@@ -132,7 +132,7 @@ if settings.startup["bobmods-modules-enablerawspeedmodules"].value == true then
       enabled = false,
       ingredients = {
         { "speed-module", 1 },
-        { "effectivity-module", 1 },
+        { "efficiency-module", 1 },
       },
       energy_required = 15,
       allow_as_intermediate = false,
@@ -146,7 +146,7 @@ if settings.startup["bobmods-modules-enablerawspeedmodules"].value == true then
       enabled = false,
       ingredients = {
         { "speed-module-2", 1 },
-        { "effectivity-module-2", 1 },
+        { "efficiency-module-2", 1 },
       },
       energy_required = 30,
       allow_as_intermediate = false,
@@ -160,7 +160,7 @@ if settings.startup["bobmods-modules-enablerawspeedmodules"].value == true then
       enabled = false,
       ingredients = {
         { "speed-module-3", 1 },
-        { "effectivity-module-3", 1 },
+        { "efficiency-module-3", 1 },
       },
       energy_required = 45,
       allow_as_intermediate = false,
@@ -372,7 +372,7 @@ if settings.startup["bobmods-modules-enablegreenmodules"].value == true then
       subgroup = "green-module-combine",
       enabled = false,
       ingredients = {
-        { "effectivity-module", 1 },
+        { "efficiency-module", 1 },
         { "pollution-clean-module-1", 1 },
       },
       energy_required = 15,
@@ -386,7 +386,7 @@ if settings.startup["bobmods-modules-enablegreenmodules"].value == true then
       subgroup = "green-module-combine",
       enabled = false,
       ingredients = {
-        { "effectivity-module-2", 1 },
+        { "efficiency-module-2", 1 },
         { "pollution-clean-module-2", 1 },
       },
       energy_required = 30,
@@ -400,7 +400,7 @@ if settings.startup["bobmods-modules-enablegreenmodules"].value == true then
       subgroup = "green-module-combine",
       enabled = false,
       ingredients = {
-        { "effectivity-module-3", 1 },
+        { "efficiency-module-3", 1 },
         { "pollution-clean-module-3", 1 },
       },
       energy_required = 45,
@@ -622,7 +622,7 @@ if settings.startup["bobmods-modules-enablerawproductivitymodules"].value == tru
       enabled = false,
       ingredients = {
         { "productivity-module", 1 },
-        { "effectivity-module", 1 },
+        { "efficiency-module", 1 },
         { "pollution-clean-module-1", 1 },
       },
       energy_required = 15,
@@ -637,7 +637,7 @@ if settings.startup["bobmods-modules-enablerawproductivitymodules"].value == tru
       enabled = false,
       ingredients = {
         { "productivity-module-2", 1 },
-        { "effectivity-module-2", 1 },
+        { "efficiency-module-2", 1 },
         { "pollution-clean-module-2", 1 },
       },
       energy_required = 30,
@@ -652,7 +652,7 @@ if settings.startup["bobmods-modules-enablerawproductivitymodules"].value == tru
       enabled = false,
       ingredients = {
         { "productivity-module-3", 1 },
-        { "effectivity-module-3", 1 },
+        { "efficiency-module-3", 1 },
         { "pollution-clean-module-3", 1 },
       },
       energy_required = 45,

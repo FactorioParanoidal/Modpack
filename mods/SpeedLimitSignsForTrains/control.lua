@@ -15,7 +15,7 @@ function onConfigurationChanged(data)
 
     -- enable recipes if tech is already researched
     for k, v in pairs(game.forces) do
-        if v.technologies["rail-signals"].researched then
+        if v.technologies["automated-rail-transportation"].researched then
             v.recipes["electronic-train-limit"].enabled = true
             v.recipes["electronic-train-unlimit"].enabled = true
         end

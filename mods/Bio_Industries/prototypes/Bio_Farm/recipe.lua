@@ -977,7 +977,7 @@ data:extend({
     {
       {"electric-furnace", 1},
       {"productivity-module", 1},
-      {"effectivity-module", 1},
+      {"efficiency-module", 1},
       {"speed-module", 1},
     },
     result_count = 2,

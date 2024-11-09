@@ -110,7 +110,7 @@ data:extend(
   {
     type = "recipe",
     name = "assembling-machine-7",
-    enabled = "false",
+    enabled = false,
     ingredients =
     {
       {"assembling-machine-6", 2},
@@ -151,7 +151,7 @@ data:extend(
   {
     type = "recipe",
     name = "assembling-machine-8",
-    enabled = "false",
+    enabled = false,
     ingredients =
     {
       {"assembling-machine-7", 2},
@@ -192,7 +192,7 @@ data:extend(
   {
     type = "recipe",
     name = "assembling-machine-9",
-    enabled = "false",
+    enabled = false,
     ingredients =
     {
       {"assembling-machine-8", 2},
@@ -232,7 +232,7 @@ data:extend(
   {
     type = "recipe",
     name = "assembling-machine-10",
-    enabled = "false",
+    enabled = false,
     ingredients =
     {
       {"assembling-machine-9", 1},

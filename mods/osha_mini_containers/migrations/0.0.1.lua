@@ -7,8 +7,8 @@ for i, force in pairs(game.forces) do
         force.recipes["mini-logistic-chest-storage"].enabled = true
     end
     if force.technologies["logistic-system"].researched then 
-        force.recipes["logistic-chest-active-provider"].enabled = true
-        force.recipes["logistic-chest-buffer"].enabled = true
-        force.recipes["logistic-chest-requester"].enabled = true
+        force.recipes["active-provider-chest"].enabled = true
+        force.recipes["buffer-chest"].enabled = true
+        force.recipes["requester-chest"].enabled = true
     end
 end

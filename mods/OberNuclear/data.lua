@@ -73,7 +73,7 @@ data:extend({
   category = "oil-processing",
   subgroup = "fluid-recipes",
   energy_required = 5,
-  enabled = "false",
+  enabled = false,
   ingredients = {
     {type="fluid",name="steam",amount=50,minimum_temperature=500},
     {type="fluid",name="crude-oil",amount=100},

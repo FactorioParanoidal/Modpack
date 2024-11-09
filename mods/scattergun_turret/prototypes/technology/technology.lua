@@ -250,7 +250,7 @@ data:extend(
 		{
 			"w93-modular-turrets-plaser",
 			"military-4",
-			"effectivity-module",
+			"efficiency-module",
 		},
 		unit =
 		{
@@ -336,7 +336,7 @@ data:extend(
 		prerequisites =
 		{
 			"w93-modular-turrets",
-			"advanced-electronics",
+			"advanced-circuit",
 		},
 		unit =
 		{

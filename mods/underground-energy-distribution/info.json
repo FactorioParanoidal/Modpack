@@ -5,7 +5,7 @@
   "author": "George Broughton",
   "contact": "https://github.com/GeorgeBroughton/underground-energy-distribution/issues",
   "homepage": "https://github.com/GeorgeBroughton/underground-energy-distribution",
-  "factorio_version": "1.1",
+  "factorio_version": "2.0",
   "description": "Bury all of your cables, and free up valuable factory floor space!",
   "dependencies": [
     "base >= 1.1"

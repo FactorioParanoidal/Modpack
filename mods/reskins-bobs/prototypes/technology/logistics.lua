@@ -16,7 +16,7 @@ local inputs = {
 }
 
 -- Filenames and effect overlays
-local stack_inserter_icon = "__base__/graphics/technology/stack-inserter.png"
+local stack_inserter_icon = "__base__/graphics/technology/bulk-inserter.png"
 local inserter_icon = "__base__/graphics/technology/inserter-capacity.png"
 local toolbelt_icon = "__base__/graphics/technology/toolbelt.png"
 local constant_capacity = reskins.lib.return_technology_effect_icon("capacity")
@@ -122,19 +122,19 @@ if reskins.lib.setting("bobmods-logistics-inserteroverhaul") == true then
     technologies["ultimate-inserter"] = {icon_name = "inserter", tier = 5}
 
     -- Stack inserters
-    technologies["stack-inserter"] = {icon_name = "stack-inserter", tier = 2}
-    technologies["stack-inserter-2"] = {icon_name = "stack-inserter", tier = 3}
-    technologies["stack-inserter-3"] = {icon_name = "stack-inserter", tier = 4}
-    technologies["stack-inserter-4"] = {icon_name = "stack-inserter", tier = 5}
+    technologies["bulk-inserter"] = {icon_name = "bulk-inserter", tier = 2}
+    technologies["bulk-inserter-2"] = {icon_name = "bulk-inserter", tier = 3}
+    technologies["bulk-inserter-3"] = {icon_name = "bulk-inserter", tier = 4}
+    technologies["bulk-inserter-4"] = {icon_name = "bulk-inserter", tier = 5}
 else
     technologies["long-inserters-1"] = {flat_icon = true}
     -- technologies["fast-inserter"] = {} -- fine as-is
     technologies["express-inserters"] = {flat_icon = true} -- green/pink
-    technologies["stack-inserter"] = {flat_icon = true} -- green/white
-    technologies["stack-inserter-2"] = {flat_icon = true} -- rich green/gray
+    technologies["bulk-inserter"] = {flat_icon = true} -- green/white
+    technologies["bulk-inserter-2"] = {flat_icon = true} -- rich green/gray
 end
 
 reskins.lib.create_icons_from_list(technologies, inputs)
 
 -- Overwrite icons for technology effects
-data.raw["utility-sprites"].default.stack_inserter_capacity_bonus_modifier_icon.filename = reskins.bobs.directory.."/graphics/icons/logistics/inserter/stack-inserter-technology-effect-icon.png"
+data.raw["utility-sprites"].default.stack_inserter_capacity_bonus_modifier_icon.filename = reskins.bobs.directory.."/graphics/icons/logistics/inserter/bulk-inserter-technology-effect-icon.png"

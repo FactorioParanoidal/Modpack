@@ -158,7 +158,7 @@ local function make_ruin_set()
 
   if global.angelsrefining then
     -- Replace rocks with trees, otherwise Angel replaces them with larger rocks- blocking chest placement.
-    replace_entity_name_in_all_ruins(base_ruins, "rock-big", "tree-04")
+    replace_entity_name_in_all_ruins(base_ruins, "big-rock", "tree-04")
   end
 
   -- Provide the extended and modified ruin set as the "silly" set.

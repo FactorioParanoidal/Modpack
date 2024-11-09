@@ -5,7 +5,7 @@
 	"author": "BiusArt",
 	"homepage": "",
 	"description": "Just changes the standart Combinators prite.\nПросто заменяет стандартный спрайт комбинаторов.",
-	"factorio_version": "1.1",
+	"factorio_version": "2.0",
 	"dependencies": ["base >= 1.1"
                     ]
 }

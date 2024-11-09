@@ -311,7 +311,7 @@ data:extend({
     },
     prerequisites = {
       "automation-4",
-      "advanced-electronics-2",
+      "processing-unit",
       "production-science-pack",
     },
     unit = {

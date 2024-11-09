@@ -16,7 +16,7 @@ data:extend({
     ingredients = {{"stone-brick",100},{"stone-wall",100}},
     result = "zcs-trash-landfill",
     result_count = 1,
-    enabled = "false"
+    enabled = false
   },
   
   {

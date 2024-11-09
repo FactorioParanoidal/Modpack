@@ -90,7 +90,7 @@ data:extend({
     icon_size = 160,
     order = "c-a",
     prerequisites = {
-      "optics",
+       "lamp",
       "chemical-science-pack",
     },
     effects = {
@@ -142,7 +142,7 @@ data:extend({
       "bio-nutrient-paste",
       "angels-sulfur-processing-2",
       "angels-nitrogen-processing-2",
-      "advanced-electronics",
+      "advanced-circuit",
       "chlorine-processing-1",
     },
     effects = {

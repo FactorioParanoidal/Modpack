@@ -7,7 +7,7 @@ if data.raw.item["glass"] then
       category = "chemistry",
       subgroup = "petrochem-solids",
       energy_required = 2,
-      enabled = "false",
+      enabled = false,
       ingredients ={
         {type="item", name="solid-pmma", amount=1},
       },
@@ -24,7 +24,7 @@ if data.raw.item["glass"] then
       category = "chemistry",
       subgroup = "petrochem-solids",
       energy_required = 2,
-      enabled = "false",
+      enabled = false,
       ingredients ={
         {type="item", name="solid-pc", amount=1},
       },

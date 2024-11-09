@@ -5,7 +5,7 @@
   "author": "OwnlyMe",
   "contact": "",
   "homepage": "",
-  "factorio_version": "1.1",
+  "factorio_version": "2.0",
   "dependencies": ["base", "?Krastorio", "?Turret_Range_Buff"],
   "description": "Custom colors for laser beams"
 }

@@ -5,7 +5,7 @@
     "author": "Doombox",
     "contact": "https://github.com/sirdoombox/AtomicArtillery",
     "homepage": "https://github.com/sirdoombox/AtomicArtillery",
-    "factorio_version": "1.1",
+    "factorio_version": "2.0",
     "dependencies": ["base >= 1.0"],
     "description": "Adds Artillery Shells with a nuclear payload, a super lategame nuke alternative"
 }
